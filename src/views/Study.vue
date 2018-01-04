@@ -1,91 +1,213 @@
 <template>
     <ui-page name="home">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-12">
-                    <div class="article-box">
-                        <article class="article">
-                            <h2>关于</h2>
-                            <p><a href="http://tool.yunser.com">云设工具</a>是一个在线工具网站。</p>
-                            <p>平时工作、生活或学习中，有时会用到一些小工具。最好无需安装，用完即走。正好我也是也是学编程的，平时学习一些新的框架或库，需要做一些demo练手。于是我做了这个网站，把常用的工具放到网站上，既方便了自己，也方便了网友。后来，应网友的要求，又添加了一些生活小工具。</p>
-                            <p>既然做了，那就干脆把这个网站做好。我给网站定了几个目标：</p>
-                            <ul>
-                                <li>功能尽可能齐全，涵盖生活、学习等各个方面。</li>
-                                <li>界面美观、简洁易用，能提高效率。</li>
-                                <li>逐步把网站相关功能代码开源出去。</li>
-                            </ul>
-                            <p>我会尽可能把常用的一些工具全部集成到这个网站上，省得大家需要某些工具时到处找，浪费时间。希望大家能给我提出宝贵意见。</p>
-                            <p>如果大家觉得这个工具站好用的话，可以添加到收藏夹，或推荐给身边的朋友，谢谢大家。</p>
+            <h2 class="big-title">数学工具</h2>
+            <ul class="tool-list">
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/formula">
+                        <img class="img" src="/static/img/app-formula.png">
+                        <div class="info">
+                            <h3 class="text">公式编辑器</h3>
+                            <div class="desc">可视化公式编辑器</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/parser">
+                        <img class="img" src="/static/img/app-formula.png">
+                        <div class="info">
+                            <h3 class="text">LaTex 解析器</h3>
+                            <div class="desc">LaTex 生成图片</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/calculator">
+                        <img class="img" src="/static/img/app-calculator.png">
+                        <div class="info">
+                            <h3 class="text">计算器</h3>
+                            <div class="desc">功能渣渣的科学计算器</div>
+                        </div>
+                    </a>
+                </li>
+                <!-- <li class="list-item">
+                    <a href="/draw/math.html">
+                        <img class="img" src="/static/img/app-math.png">
+                        <div class="info">
+                            <h3 class="text">数学工具</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li> -->
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/equation">
+                        <img class="img" src="/static/img/app-equation.png">
+                        <div class="info">
+                            <h3 class="text">方程求解</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <!--<li class="list-item">
+                    <a href="/duoxiangshi">
+                        <img class="img" src="/static/img/app-math.png">
+                        <div class="info">
+                            <h3 class="text">多项式运算</h3>
+                            <div class="desc">简易多项式运算</div>
+                        </div>
+                    </a>
+                </li>-->
 
-                            <h2>联系我们</h2>
-                            <p>官方邮箱：admin@yunser.com</p>
-                            <p>站长 QQ：1418503647</p>
-                            <p>官方 QQ 交流群：642481431（粉丝交流、源码分享）</p>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/rand">
+                        <img class="img" src="/static/img/app-rand.png">
+                        <div class="info">
+                            <h3 class="text">随机数生成器</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/prime2">
+                        <img class="img" src="/static/img/app-math.png">
+                        <div class="info">
+                            <h3 class="text">公约数公倍数</h3>
+                            <div class="desc">最大公约数、公倍数</div>
+                        </div>
+                    </a>
+                </li>
 
-                            <h2>意见及建议</h2>
-                            <p>有什么意见或建议，可以在下面留言，或进群讨论。</p>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/math/number">
+                        <img class="img" src="/static/img/app-math.png">
+                        <div class="info">
+                            <h3 class="text">数的性质</h3>
+                            <div class="desc">数论、科学计数法、分解质因数等</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/mathcount">
+                        <img class="img" src="/static/img/app-math.png">
+                        <div class="info">
+                            <h3 class="text">数学统计</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
 
-                            <h2>更新日志</h2>
-                            <table class="table table-bordered">
-                                <tr>
-                                    <th width="100">版本</th>
-                                    <th width="100">时间</th>
-                                    <th>内容</th>
-                                </tr>
-                                <tr>
-                                    <td>v17.5.4</td>
-                                    <td>2017-06-13</td>
-                                    <td>
-
-                                        <ul>
-                                            <li>增加工具若干。</li>
-                                            <li>部分工具手机端浏览优化。</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>v17.5.3</td>
-                                    <td>2017-05-22</td>
-                                    <td>
-                                        <ul>
-                                            <li>增加工具若干。</li>
-                                            <li>部分工具手机端浏览优化。</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>v17.5.2</td>
-                                    <td>2017-05-22</td>
-                                    <td>新增特殊字符搜索、文件MD5查询功能。</td>
-                                </tr>
-                                <tr>
-                                    <td>v17.5.1</td>
-                                    <td>2017-05-21</td>
-                                    <td>新增单位转换、颜文字等 10 个小工具。</td>
-                                </tr>
-
-                                <tr>
-                                    <td>v17.4.5</td>
-                                    <td>2017-05-03</td>
-                                    <td>
-                                        <ul>
-                                            <li>修复画板工具某些bug。</li>
-                                            <li>修复二维码工具某些bug。</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>...</td>
-                                    <td>...</td>
-                                    <td>...</td>
-                                </tr>
-                            </table>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/math/compare">
+                        <img class="img" src="/static/img/app-math.png">
+                        <div class="info">
+                            <h3 class="text">数值大小比较</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/pi">
+                        <img class="img" src="/static/img/app-pi.png">
+                        <div class="info">
+                            <h3 class="text">圆周率</h3>
+                            <div class="desc">圆周率表</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://tool2.yunser.com/prime">
+                        <img class="img" src="/static/img/app-frame.png">
+                        <div class="info">
+                            <h3 class="text">质数</h3>
+                            <div class="desc">质数表</div>
+                        </div>
+                    </a>
+                </li>
+                <!--<li class="list-item">
+                    <a href="/latex">
+                        <img class="img" src="/static/img/app-math.png">
+                        <div class="info">
+                            <h3 class="text">公式编辑器</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>-->
+            </ul>
+            <h2 class="big-title">历史工具</h2>
+            <ul class="tool-list">
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/history">
+                        <img class="img" src="/static/img/app-history.png">
+                        <div class="info">
+                            <h3 class="text">历史朝代表</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://map.yunser.com" target="_blank">
+                        <img class="img" src="/asset/img/app-map.png">
+                        <div class="info">
+                            <h3 class="text">云设地图</h3>
+                            <div class="desc">为地图爱好者而准备</div>
+                        </div>
+                    </a>
+                </li>
+                <!--<li class="list-item">
+                    <a href="/history/today">
+                        <img class="img" src="/static/img/app-history.jpg">
+                        <div class="info">
+                            <h3 class="text">历史上的今天</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>-->
+            </ul>
+            <h2 class="big-title">化学工具</h2>
+            <ul class="tool-list">
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/ptable">
+                        <img class="img" src="/static/img/app-chemistry.png">
+                        <div class="info">
+                            <h3 class="text">元素周期表</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <h2 class="big-title">语文工具</h2>
+            <ul class="tool-list">
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/pinyin">
+                        <img class="img" src="/static/img/app-pinyin.png">
+                        <div class="info">
+                            <h3 class="text">拼音标调工具</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <!--<li class="list-item">
+                    <a href="/dictionary">
+                        <img class="img" src="/static/img/app-word.png">
+                        <div class="info">
+                            <h3 class="text">中文字典</h3>
+                            <div class="desc">功能简单</div>
+                        </div>
+                    </a>
+                </li>-->
+            </ul>
+            <h2 class="big-title">其他工具</h2>
+            <ul class="tool-list">
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/draw/chalk" target="_blank">
+                        <img class="img" src="/static/img/app-black-board.png">
+                        <div class="info">
+                            <h3 class="text">在线黑板</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </div>
     </ui-page>
 </template>

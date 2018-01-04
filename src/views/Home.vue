@@ -45,7 +45,7 @@
             <ul class="tool-list">
 
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//draw">
+                    <a href="http://tool2.yunser.com/draw">
                         <img class="img" src="/static/img/app-draw.png">
                         <div class="info">
                             <h3 class="text">画板</h3>
@@ -55,7 +55,7 @@
                 </li>
 
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//qrcode">
+                    <a href="http://tool2.yunser.com/qrcode">
                         <img class="img" src="/static/img/app-qrcode.png">
                         <div class="info">
                             <h3 class="text">二维码（电脑版）</h3>
@@ -64,7 +64,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//qrcode/mobile">
+                    <a href="http://tool2.yunser.com/qrcode/mobile">
                         <img class="img" src="/static/img/app-qrcode.png">
                         <div class="info">
                             <h3 class="text">二维码（手机版）</h3>
@@ -73,7 +73,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//qrcode/recognition">
+                    <a href="http://tool2.yunser.com/qrcode/recognition">
                         <img class="img" src="/static/img/app-qrcode.png">
                         <div class="info">
                             <h3 class="text">二维码识别</h3>
@@ -83,7 +83,7 @@
                 </li>
 
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//barcode">
+                    <a href="http://tool2.yunser.com/barcode">
                         <img class="img" src="/static/img/app-barcode.png">
                         <div class="info">
                             <h3 class="text">条形码生成工具</h3>
@@ -102,7 +102,7 @@
                 </li>-->
 
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//wordcloud">
+                    <a href="http://tool2.yunser.com/wordcloud">
                         <img class="img" src="/static/img/app-word-cloud.png">
                         <div class="info">
                             <h3 class="text">文字云</h3>
@@ -112,7 +112,7 @@
                 </li>
 
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//shape">
+                    <a href="http://tool2.yunser.com/shape">
                         <img class="img" src="/static/img/app-shape.png">
                         <div class="info">
                             <h3 class="text">图形制作</h3>
@@ -124,7 +124,7 @@
             <h2 class="big-title">便民工具</h2>
             <ul class="tool-list">
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//calculator">
+                    <a href="http://tool2.yunser.com/calculator">
                         <img class="img" src="/static/img/app-calculator.png">
                         <div class="info">
                             <h3 class="text">计算器</h3>
@@ -133,7 +133,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//unit">
+                    <a href="http://tool2.yunser.com/unit">
                         <img class="img" src="/static/img/app-unit.jpg">
                         <div class="info">
                             <h3 class="text">单位转换</h3>
@@ -143,7 +143,7 @@
                 </li>
 
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//relationship">
+                    <a href="http://tool2.yunser.com/relationship">
                         <img class="img" src="/static/img/app-relationship.png">
                         <div class="info">
                             <h3 class="text">三姑六婆计算器</h3>
@@ -152,7 +152,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//sandphoto">
+                    <a href="http://tool2.yunser.com/sandphoto">
                         <img class="img" src="/static/img/app-photo.jpg">
                         <div class="info">
                             <h3 class="text">证件照</h3>
@@ -163,7 +163,7 @@
 
 
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//counter">
+                    <a href="http://tool2.yunser.com/counter">
                         <img class="img" src="/static/img/app-counter.png">
                         <div class="info">
                             <h3 class="text">计数器</h3>
@@ -172,7 +172,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//todo">
+                    <a href="http://tool2.yunser.com/todo">
                         <img class="img" src="/static/img/app-todo.jpg">
                         <div class="info">
                             <h3 class="text">高效TODO</h3>
@@ -181,7 +181,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//ai/qiqiao.html">
+                    <a href="http://tool2.yunser.com/ai/qiqiao.html">
                         <img class="img" src="/static/img/app-qiqiao.jpg">
                         <div class="info">
                             <h3 class="text">在线七巧板</h3>
@@ -191,7 +191,7 @@
                 </li>
 
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//url">
+                    <a href="http://tool2.yunser.com/url">
                         <img class="img" src="/static/img/app-download.png">
                         <div class="info">
                             <h3 class="text">下载地址转换</h3>
@@ -205,7 +205,7 @@
             <h2 class="big-title">便民工具 - 文字工具</h2>
             <ul class="tool-list">
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//ace">
+                    <a href="http://tool2.yunser.com/ace">
                         <img class="img" src="/static/img/app-tool.png">
                         <div class="info">
                             <h3 class="text">文本编辑器</h3>
@@ -214,7 +214,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//md/public/editor.html" target="_blank">
+                    <a href="http://tool2.yunser.com/md/public/editor.html" target="_blank">
                         <img class="img" src="/static/img/app-tool.png">
                         <div class="info">
                             <h3 class="text">Markdown 编辑器</h3>
@@ -223,7 +223,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//text/image" target="_blank">
+                    <a href="http://tool2.yunser.com/text/image" target="_blank">
                         <img class="img" src="/static/img/app-tool.png">
                         <div class="info">
                             <h3 class="text">长微博生成器</h3>
@@ -232,7 +232,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//markdown/md2html">
+                    <a href="http://tool2.yunser.com/markdown/md2html">
                         <img class="img" src="/static/img/app-tool.png">
                         <div class="info">
                             <h3 class="text">Markdown 工具</h3>
@@ -241,7 +241,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//fullhalf">
+                    <a href="http://tool2.yunser.com/fullhalf">
                         <img class="img" src="/static/img/app-tool.png">
                         <div class="info">
                             <h3 class="text">全角半角转换</h3>
@@ -250,7 +250,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//textdiff">
+                    <a href="http://tool2.yunser.com/textdiff">
                         <img class="img" src="/static/img/app-tool.png">
                         <div class="info">
                             <h3 class="text">文本比较工具</h3>
@@ -259,7 +259,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//tongji">
+                    <a href="http://tool2.yunser.com/tongji">
                         <img class="img" src="/static/img/app-word.png">
                         <div class="info">
                             <h3 class="text">文字简单处理</h3>
@@ -268,7 +268,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//textcol">
+                    <a href="http://tool2.yunser.com/textcol">
                         <img class="img" src="/static/img/app-text-col.png">
                         <div class="info">
                             <h3 class="text">文字竖排工具</h3>
@@ -277,7 +277,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//chinese">
+                    <a href="http://tool2.yunser.com/chinese">
                         <img class="img" src="/static/img/app-chinese.png">
                         <div class="info">
                             <h3 class="text">简体繁体转换</h3>
@@ -286,7 +286,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//asc">
+                    <a href="http://tool2.yunser.com/asc">
                         <img class="img" src="/static/img/app-asc.png">
                         <div class="info">
                             <h3 class="text">字符画制作</h3>
@@ -295,7 +295,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//type">
+                    <a href="http://tool2.yunser.com/type">
                         <img class="img" src="/static/img/app-type.png">
                         <div class="info">
                             <h3 class="text">在线打字练习工具</h3>
@@ -304,7 +304,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//type/keyboard">
+                    <a href="http://tool2.yunser.com/type/keyboard">
                         <img class="img" src="/static/img/app-type.png">
                         <div class="info">
                             <h3 class="text">键盘指法练习</h3>
@@ -317,7 +317,7 @@
             <h2 class="big-title">便民工具 - 图片工具</h2>
             <ul class="tool-list">
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//image/compress">
+                    <a href="http://tool2.yunser.com/image/compress">
                         <img class="img" src="/static/img/app-tool.png">
                         <div class="info">
                             <h3 class="text">图片压缩</h3>
@@ -326,7 +326,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//asset/gif/index-m.html">
+                    <a href="http://tool2.yunser.com/asset/gif/index-m.html">
                         <img class="img" src="/static/img/app-tool.png">
                         <div class="info">
                             <h3 class="text">GIF 动态图制作</h3>
@@ -335,7 +335,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//bar">
+                    <a href="http://tool2.yunser.com/bar">
                         <img class="img" src="/static/img/app-tool.png">
                         <div class="info">
                             <h3 class="text">条形图制作</h3>
@@ -348,7 +348,7 @@
             <h2 class="big-title">便民工具 - 查询</h2>
             <ul class="tool-list">
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//fuhao">
+                    <a href="http://tool2.yunser.com/fuhao">
                         <img class="img" src="/static/img/app-fuhao.jpg">
                         <div class="info">
                             <h3 class="text">特殊符号</h3>
@@ -357,7 +357,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//textemoji">
+                    <a href="http://tool2.yunser.com/textemoji">
                         <img class="img" src="/static/img/app-textemoji.jpg">
                         <div class="info">
                             <h3 class="text">颜文字</h3>
@@ -366,7 +366,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//blind">
+                    <a href="http://tool2.yunser.com/blind">
                         <img class="img" src="/static/img/app-blind.png">
                         <div class="info">
                             <h3 class="text">色盲测试</h3>
@@ -379,7 +379,7 @@
             <h2 class="big-title">不知道怎么分类</h2>
             <ul class="tool-list">
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//point24">
+                    <a href="http://tool2.yunser.com/point24">
                         <img class="img" src="/static/img/app-24.jpg">
                         <div class="info">
                             <h3 class="text">24 点游戏答案</h3>
@@ -388,7 +388,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com//seal">
+                    <a href="http://tool2.yunser.com/seal">
                         <img class="img" src="/static/img/app-seal.png">
                         <div class="info">
                             <h3 class="text">印章生成工具</h3>

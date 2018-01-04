@@ -1,91 +1,369 @@
 <template>
     <ui-page name="home">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-12">
-                    <div class="article-box">
-                        <article class="article">
-                            <h2>关于</h2>
-                            <p><a href="http://tool.yunser.com">云设工具</a>是一个在线工具网站。</p>
-                            <p>平时工作、生活或学习中，有时会用到一些小工具。最好无需安装，用完即走。正好我也是也是学编程的，平时学习一些新的框架或库，需要做一些demo练手。于是我做了这个网站，把常用的工具放到网站上，既方便了自己，也方便了网友。后来，应网友的要求，又添加了一些生活小工具。</p>
-                            <p>既然做了，那就干脆把这个网站做好。我给网站定了几个目标：</p>
-                            <ul>
-                                <li>功能尽可能齐全，涵盖生活、学习等各个方面。</li>
-                                <li>界面美观、简洁易用，能提高效率。</li>
-                                <li>逐步把网站相关功能代码开源出去。</li>
-                            </ul>
-                            <p>我会尽可能把常用的一些工具全部集成到这个网站上，省得大家需要某些工具时到处找，浪费时间。希望大家能给我提出宝贵意见。</p>
-                            <p>如果大家觉得这个工具站好用的话，可以添加到收藏夹，或推荐给身边的朋友，谢谢大家。</p>
+            <h2 class="big-title">开发工具</h2>
+            <ul class="tool-list">
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/regex">
+                        <img class="img" src="/static/img/app-regex.png">
+                        <div class="info">
+                            <h3 class="text">正则表达式测试</h3>
+                            <div class="desc">匹配结果高亮显示</div>
+                        </div>
+                    </a>
+                </li>
 
-                            <h2>联系我们</h2>
-                            <p>官方邮箱：admin@yunser.com</p>
-                            <p>站长 QQ：1418503647</p>
-                            <p>官方 QQ 交流群：642481431（粉丝交流、源码分享）</p>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/hex">
+                        <img class="img" src="/static/img/app-hex.png">
+                        <div class="info">
+                            <h3 class="text">进制转换</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/animation">
+                        <img class="img" src="/static/img/app-css3.png">
+                        <div class="info">
+                            <h3 class="text">CSS3动画</h3>
+                            <div class="desc">CSS3动画代码生成</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/unicode">
+                        <img class="img" src="/static/img/app-unicode.png">
+                        <div class="info">
+                            <h3 class="text">Unicode</h3>
+                            <div class="desc">文字Unicode互换、Unicode搜索</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/category/color">
+                        <img class="img" src="/static/img/app-color.png">
+                        <div class="info">
+                            <h3 class="text">色彩工具</h3>
+                            <div class="desc">色彩搭配、颜色大全</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/download/image">
+                        <img class="img" src="/static/img/app-download.png">
+                        <div class="info">
+                            <h3 class="text">图片批量下载</h3>
+                            <div class="desc">功能渣渣的图片批量下载器</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/interfaces">
+                        <img class="img" src="/static/img/app-api.png">
+                        <div class="info">
+                            <h3 class="text">接口测试工具</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/timestamp">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">时间戳转换</h3>
+                            <div class="desc">Unix时间戳</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/cron">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">Cron表达式生成器</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/cron/verification">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">Cron表达式验证</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/robots">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">robots.txt生成器</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/htpasswd">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">htpasswd 生成器</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/pv">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">批量刷网站 PV</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/animate">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">css3动画库</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
 
-                            <h2>意见及建议</h2>
-                            <p>有什么意见或建议，可以在下面留言，或进群讨论。</p>
+            <h2 class="big-title">网络相关</h2>
+            <ul class="tool-list">
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/ip">
+                        <img class="img" src="/static/img/app-ip.png">
+                        <div class="info">
+                            <h3 class="text">本机 IP 查询</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/network">
+                        <img class="img" src="/static/img/app-network.png">
+                        <div class="info">
+                            <h3 class="text">网络计算器</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/port">
+                        <img class="img" src="/static/img/app-port.png">
+                        <div class="info">
+                            <h3 class="text">端口扫描器</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/useragent">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">UserAgent分析</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
 
-                            <h2>更新日志</h2>
-                            <table class="table table-bordered">
-                                <tr>
-                                    <th width="100">版本</th>
-                                    <th width="100">时间</th>
-                                    <th>内容</th>
-                                </tr>
-                                <tr>
-                                    <td>v17.5.4</td>
-                                    <td>2017-06-13</td>
-                                    <td>
+            <h2 class="big-title">代码工具</h2>
+            <ul class="tool-list">
 
-                                        <ul>
-                                            <li>增加工具若干。</li>
-                                            <li>部分工具手机端浏览优化。</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>v17.5.3</td>
-                                    <td>2017-05-22</td>
-                                    <td>
-                                        <ul>
-                                            <li>增加工具若干。</li>
-                                            <li>部分工具手机端浏览优化。</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>v17.5.2</td>
-                                    <td>2017-05-22</td>
-                                    <td>新增特殊字符搜索、文件MD5查询功能。</td>
-                                </tr>
-                                <tr>
-                                    <td>v17.5.1</td>
-                                    <td>2017-05-21</td>
-                                    <td>新增单位转换、颜文字等 10 个小工具。</td>
-                                </tr>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/highlight">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">代码着色</h3>
+                            <div class="desc">代码高亮</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/json">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">JSON 工具</h3>
+                            <div class="desc">JSON格式化</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/xml">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">XML 工具</h3>
+                            <div class="desc">XML格式化</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
 
-                                <tr>
-                                    <td>v17.4.5</td>
-                                    <td>2017-05-03</td>
-                                    <td>
-                                        <ul>
-                                            <li>修复画板工具某些bug。</li>
-                                            <li>修复二维码工具某些bug。</li>
-                                        </ul>
-                                    </td>
-                                </tr>
+            <h2 class="big-title">前端工具</h2>
+            <ul class="tool-list">
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/css/sprite" target="_blank">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">雪碧图生成工具</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/px2em" target="_blank">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">px 转 em</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/clippath" target="_blank">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">clip-path 生成器</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://runcode.yunser.com/editor">
+                        <img class="img" src="/static/img/app-runcode.png">
+                        <div class="info">
+                            <h3 class="text">RunCode</h3>
+                            <div class="desc">在线调试 Javascript</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/bezier">
+                        <img class="img" src="/static/img/app-bezier.png">
+                        <div class="info">
+                            <h3 class="text">贝塞尔曲线</h3>
+                            <div class="desc">canvas贝塞尔曲代码在线生成</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/bezier/anim">
+                        <img class="img" src="/static/img/app-bezier.png">
+                        <div class="info">
+                            <h3 class="text">贝塞尔曲线动画</h3>
+                            <div class="desc">贝塞尔曲线形成过程动画</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/css3/bezier">
+                        <img class="img" src="/static/img/app-bezier.png">
+                        <div class="info">
+                            <h3 class="text">CSS3贝塞尔曲线</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/svg/converter">
+                        <img class="img" src="/static/img/app-svg.png">
+                        <div class="info">
+                            <h3 class="text">SVG 转 Canvas</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/html/char">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">HTML特殊符号</h3>
+                            <div class="desc">HTML特殊符号对照表</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/asc2">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">ASCII码对照表</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
 
-                                <tr>
-                                    <td>...</td>
-                                    <td>...</td>
-                                    <td>...</td>
-                                </tr>
-                            </table>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
+            <h2 class="big-title">编码解码</h2>
+            <ul class="tool-list">
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/url/encode">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">URL编码解码</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/encrypt">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">加密解密</h3>
+                            <div class="desc">支持 AES、DES、RC4等算法</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/base64">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">Base64编码解码</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/base64/image">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">Base64图片</h3>
+                            <div class="desc">Base64图片编码解码</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/md5">
+                        <img class="img" src="/static/img/app-md5.png">
+                        <div class="info">
+                            <h3 class="text">MD5加密</h3>
+                            <div class="desc">支持 MD5、SHA1 等散哈希算法加密</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/filemd5">
+                        <img class="img" src="/static/img/app-md5.png">
+                        <div class="info">
+                            <h3 class="text">文件MD5查询</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="http://tool2.yunser.com/morse">
+                        <img class="img" src="/static/img/app-tool.png">
+                        <div class="info">
+                            <h3 class="text">摩斯码加密解密</h3>
+                            <div class="desc"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </div>
     </ui-page>
 </template>
@@ -94,34 +372,9 @@
     export default {
         data () {
             return {
-                version: ''
             }
         },
         mounted() {
-            this.$http.get('/version').then(
-                response => {
-                    let data = response.data
-                    if (data.code === 200) {
-                        console.log(data)
-                        this.version = data.data
-                    }
-                },
-                response => {
-                    console.log(response)
-                })
-//            this.$http.post('/example', this.$qs.stringify({
-//                param1: 'value1',
-//                param2: 'value2'
-//            })).then(
-//                response => {
-//                    let data = response.data
-//                    if (data.code === 200) {
-//                        console.log(data.data)
-//                    }
-//                },
-//                response => {
-//                    console.log(response)
-//                })
         }
     }
 </script>

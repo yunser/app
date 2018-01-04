@@ -7,13 +7,18 @@
             </div>
 
             <div class="logo-box">
-                <img src="/logo_64.png" alt="云设工具">
+                <img src="/static/img/logo_64.png" alt="云设工具">
             </div>
             <div class="info">
                 <ul class="meta-list">
-                    <li class="meta-item"><a href="/about">关于我们</a> </li>
-                    <li class="meta-item"><a href="/about">联系我们</a> </li>
-                    <li class="meta-item"><a href="/friend">友情链接</a> </li>
+                    <li class="meta-item">
+                        <router-link to="/about">关于我们</router-link>
+                    </li>
+                    <li class="meta-item">
+                        <router-link to="/about">联系我们</router-link>
+                    <li class="meta-item">
+                        <router-link to="/friend">友情链接</router-link>
+                    </li>
                 </ul>
 
                 <!--<style type="text/css">-->

@@ -11,15 +11,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/"><h1>云设工具</h1></a>
+                <router-link class="navbar-brand" to="/"><h1>云设工具</h1></router-link>
             </div>
             <div id="navbar-collapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav" id="menu-layoutit">
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="/" target="_blank">首页</a>
                     </li> -->
+                    <!--<li class="nav-item">-->
+                        <!--<a class="nav-link" href="http://app.yunser.com" target="_blank" style="color: #f00;" rel="nofollow">新版</a>-->
+                    <!--</li>-->
                     <li class="nav-item">
-                        <a class="nav-link" href="http://app.yunser.com" target="_blank" style="color: #f00;" rel="nofollow">新版</a>
+                        <router-link class="nav-link" to="/">首页</router-link>
+                    </li>
                     <li class="nav-item">
                         <router-link class="nav-link" to="/live">便民工具</router-link>
                     </li>

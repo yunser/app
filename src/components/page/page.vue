@@ -1,5 +1,5 @@
 <template>
-    <div class="ui-page page-home" :class="'page-' + name">
+    <div class="page page-home" :class="'page-' + name">
         <ui-header :title="page.title"></ui-header>
         <main class="page-body">
             <slot></slot>
@@ -26,7 +26,7 @@
         data() {
             return {
                 open: false,
-                docked: true,
+                docked: true
             }
         },
         props: {
