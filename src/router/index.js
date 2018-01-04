@@ -41,23 +41,23 @@ let routes = [
     },
     {
         path: '/live',
-        component: Live,
+        component: Live
     },
     {
         path: '/study',
-        component: Study,
+        component: Study
     },
     {
         path: '/develop',
-        component: Develop,
+        component: Develop
     },
     {
         path: '/plugin',
-        component: Plugin,
+        component: Plugin
     },
     {
         path: '/lab',
-        component: Lab,
+        component: Lab
     },
     {
         path: '/404',
