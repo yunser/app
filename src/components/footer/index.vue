@@ -55,7 +55,7 @@
                     <!--// })();-->
                 <!--</script>-->
                 <!-- 版权信息 -->
-                <div class="copyright"><a href="http://tool.yunser.com">云设工具</a> 版权所有 © 2016-2018</div>
+                <div class="copyright">© 2016-2018 云设</div>
             </div>
 
             <!-- 百度分享 -->

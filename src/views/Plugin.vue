@@ -4,7 +4,7 @@
             <h2 class="big-title">浏览器插件</h2>
             <ul class="tool-list">
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com/plugin/qrcode">
+                    <a href="http://tool2.yunser.com/plugin/qrcode" target="_blank">
                         <img class="img" src="/static/img/app-qrcode.png">
                         <div class="info">
                             <h3 class="text">二维码生成</h3>
@@ -13,7 +13,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="http://tool2.yunser.com/plugin/api">
+                    <a href="http://tool2.yunser.com/plugin/api" target="_blank">
                         <img class="img" src="/static/img/app-api.png">
                         <div class="info">
                             <h3 class="text">接口测试插件</h3>
