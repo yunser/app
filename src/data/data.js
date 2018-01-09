@@ -597,7 +597,7 @@ let textTools = [
 
 let imageTools = [
     {
-        href: 'http://tool2.yunser.com/image/compress',
+        href: 'http://img.tool.yunser.com/',
         icon: '/static/img/app-tool.png',
         name: '图片压缩',
         description: '',
