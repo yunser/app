@@ -10,8 +10,8 @@
                 <section class="link-box">
                     <h3 class="link-title">友情链接：</h3>
                     <ul class="link-list">
+                        <li class="link-item"><a href="http://www.ofmonkey.com/" target="_blank">程序猿在线工具</a> </li>
                         <li class="link-item"><a href="http://123.yunser.com" target="_blank">云设导航</a> </li>
-                        <!--<li class="link-item"><a href="http://miduapp.cn" target="_blank">鲸鱼书单</a> </li>-->
                         <li class="link-item"><a href="http://map.yunser.com" target="_blank">云设地图</a> </li>
                     </ul>
                 </section>
@@ -32,8 +32,10 @@
         props: {
             page: {
                 type: Object,
-                default: {
-                    title: '云设'
+                default: function () {
+                    return {
+                        title: '云设'
+                    }
                 }
             },
             name: {

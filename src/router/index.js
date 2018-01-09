@@ -3,13 +3,14 @@ import Router from 'vue-router'
 
 const Home = resolve => require(['@/views/Home'], resolve)
 const About = resolve => require(['@/views/About'], resolve)
-const Friend = resolve => require(['@/views/Friend'], resolve)
-
 const Live = resolve => require(['@/views/Live'], resolve)
 const Study = resolve => require(['@/views/Study'], resolve)
 const Develop = resolve => require(['@/views/Develop'], resolve)
 const Plugin = resolve => require(['@/views/Plugin'], resolve)
 const Lab = resolve => require(['@/views/Lab'], resolve)
+
+const Collection = resolve => require(['@/views/Collection'], resolve)
+const All = resolve => require(['@/views/All'], resolve)
 
 const Error404 = resolve => require(['@/views/error/Error404'], resolve)
 
@@ -26,6 +27,10 @@ let routes = [
         }
     },
     {
+        path: '/like',
+        component: Collection
+    },
+    {
         path: '/about',
         component: About,
         meta: {
@@ -33,15 +38,12 @@ let routes = [
         }
     },
     {
-        path: '/friend',
-        component: Friend,
-        meta: {
-            title: '友情链接'
-        }
-    },
-    {
         path: '/live',
         component: Live
+    },
+    {
+        path: '/all',
+        component: All
     },
     {
         path: '/study',

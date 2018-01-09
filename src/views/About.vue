@@ -16,6 +16,9 @@
                                 <li>逐步把网站相关功能代码开源出去。</li>
                             </ul>
 
+                            <!--<h2>帮助</h2>-->
+                            <!--<p></p>-->
+
                             <h2>联系我们</h2>
                             <p>官方邮箱：admin@yunser.com</p>
                             <p>站长 QQ：1418503647</p>
@@ -125,5 +128,10 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+    .article {
+        h2 {
+            font-size: 30px;
+        }
+    }
 </style>
