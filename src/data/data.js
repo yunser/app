@@ -214,7 +214,7 @@ let codeTools = [
         name: 'XML 工具',
         description: 'XML格式化',
         tags: ['开发']
-    },
+    }
 ]
 
 let frontEndTools = [
@@ -647,7 +647,7 @@ let queryTools = [
         name: '色盲测试',
         description: '色盲色弱图片测试',
         tags: ['生活']
-    },
+    }
 ]
 
 let makeTools = [
@@ -723,7 +723,7 @@ let otherTools = [
         name: '印章生成工具',
         description: '',
         tags: ['生活']
-    },
+    }
 ]
 
 let liveTools2 = [
@@ -813,7 +813,7 @@ let recommendTools = [
         name: '云设地图',
         description: '为地图爱好者而准备',
         tags: ['生活']
-    },
+    }
     // {
     //     href: 'http://tool2.yunser.com/h5',
     //     icon: '/static/img/app-h5.jpg',
