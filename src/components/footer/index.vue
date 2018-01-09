@@ -55,7 +55,7 @@
                     <!--// })();-->
                 <!--</script>-->
                 <!-- 版权信息 -->
-                <div class="copyright">© 2016-2018 云设</div>
+                <div class="copyright">© 2016-2018 <a href="https://yunser.com/" target="_blank">云设</a></div>
             </div>
 
             <!-- 百度分享 -->

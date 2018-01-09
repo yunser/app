@@ -640,13 +640,6 @@ let queryTools = [
         name: '色盲测试',
         description: '色盲色弱图片测试',
         tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/blind',
-        icon: '/static/img/app-blind.png',
-        name: '色盲测试',
-        description: '色盲色弱图片测试',
-        tags: ['生活']
     }
 ]
 
