@@ -1,7 +1,7 @@
 <template>
     <ul class="tool-list">
         <li class="list-item" v-for="item in data">
-            <a class="link" :href="item.href" target="_blank">
+            <a class="link" :href="item.href" target="_blank" @click="addToRecent(item)">
                 <img class="img" :src="item.icon">
                 <div class="info">
                     <h3 class="text">{{ item.name }}</h3>
@@ -16,6 +16,7 @@
 
 <script>
     import collection from '@/util/collection'
+    import recent from '@/util/recent'
 
     export default {
         data() {
@@ -42,6 +43,9 @@
         mounted() {
         },
         methods: {
+            addToRecent(item) {
+                recent.add(item)
+            },
             collection(item) {
                 collection.add(item)
             },

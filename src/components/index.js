@@ -7,7 +7,7 @@ export default {
     install: function (Vue) {
         Vue.component('ui-header', header)
         Vue.component('ui-footer', footer)
-        Vue.component('ui-page', page)
+        Vue.component('tool-page', page)
         Vue.component('ui-tool-list', toolList)
     }
 }

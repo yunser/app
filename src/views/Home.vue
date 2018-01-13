@@ -1,43 +1,43 @@
 <template>
-    <ui-page name="home">
-        <div class="container">
-            <!--<input v-model="keyword" placeholder="输入关键词搜索">-->
-
-            <!--<h2 class="big-title">搜索结果</h2>-->
-
-            <h2 class="big-title">推荐工具</h2>
-            <ui-tool-list :data="recommendTools"></ui-tool-list>
-
-            <h2 class="big-title">在线制作</h2>
-            <ui-tool-list :data="makeTools"></ui-tool-list>
-
-            <h2 class="big-title">便民工具</h2>
-            <ui-tool-list :data="liveTools2"></ui-tool-list>
-
-            <h2 class="big-title">便民工具 - 文字工具</h2>
-            <ui-tool-list :data="textTools"></ui-tool-list>
-
-            <h2 class="big-title">便民工具 - 图片工具</h2>
-            <ui-tool-list :data="imageTools"></ui-tool-list>
-
-            <h2 class="big-title">便民工具 - 查询</h2>
-            <ui-tool-list :data="queryTools"></ui-tool-list>
-
-            <h2 class="big-title">未分类</h2>
-            <ui-tool-list :data="otherTools"></ui-tool-list>
+    <tool-page title="云设工具">
+        <ui-text-field v-model="keyword" hintText="输入关键词搜索"/>
+        <div v-if="keyword.length">
+            <h2 class="big-title">搜索结果</h2>
+            <ui-tool-list :data="resultTools"></ui-tool-list>
+            <div v-if="!resultTools.length">
+                <p>找不到你想要的工具，换个关键词试试？</p>
+            </div>
         </div>
-    </ui-page>
+
+        <h2 class="big-title" v-if="recentUseTools.length">最近使用</h2>
+        <ui-tool-list :data="recentUseTools" :onRemove="onRemove" v-if="recentUseTools.length"></ui-tool-list>
+
+        <h2 class="big-title">推荐工具</h2>
+        <ui-tool-list :data="recommendTools"></ui-tool-list>
+
+        <h2 class="big-title">在线制作</h2>
+        <ui-tool-list :data="makeTools"></ui-tool-list>
+
+        <h2 class="big-title">便民工具</h2>
+        <ui-tool-list :data="liveTools2"></ui-tool-list>
+
+        <h2 class="big-title">便民工具 - 文字工具</h2>
+        <ui-tool-list :data="textTools"></ui-tool-list>
+
+        <h2 class="big-title">便民工具 - 图片工具</h2>
+        <ui-tool-list :data="imageTools"></ui-tool-list>
+
+        <h2 class="big-title">便民工具 - 查询</h2>
+        <ui-tool-list :data="queryTools"></ui-tool-list>
+
+        <h2 class="big-title">未分类</h2>
+        <ui-tool-list :data="otherTools"></ui-tool-list>
+    </tool-page>
 </template>
 
 <script>
-    import {textTools, imageTools, queryTools, makeTools, otherTools, liveTools2, recommendTools} from '@/data/data'
-
-//    import dark from 'raw-loader!yunser-ui-vue/dist/theme-dark.css'
-//    import dark from '!raw-loader!./theme-light.css'
-//    import teal from 'raw-loader!yunser-ui-vue/dist/theme-teal.css'
-
-//    console.log('dark')
-//    console.log(dark)
+    import {textTools, imageTools, queryTools, makeTools, otherTools, liveTools2, recommendTools, allTools} from '@/data/data'
+    import recent from '@/util/recent'
 
     export default {
         data () {
@@ -49,34 +49,35 @@
                 otherTools: otherTools,
                 liveTools2: liveTools2,
                 recommendTools: recommendTools,
+                recentUseTools: [],
                 keyword: '',
-                theme: 'light',
-                themes: {
-//                    dark,
-//                    teal
-                }
+                resultTools: []
             }
         },
+        mounted() {
+            this.init()
+        },
         methods: {
-            changeTheme() {
-                this.changeTheme2('dark')
+            init() {
+                this.recentUseTools = recent.getAll()
             },
-            changeTheme2 (theme) {
-                this.theme = theme
-                const styleEl = this.getThemeStyle()
-                styleEl.innerHTML = this.themes[theme] || ''
-                console.log(styleEl.innerHTML)
-            },
-            getThemeStyle () {
-                const themeId = 'muse-theme'
-                let styleEl = document.getElementById(themeId)
-                if (styleEl) return styleEl
-                styleEl = document.createElement('style')
-                styleEl.setAttribute('asd', 'asd')
-                styleEl.id = themeId
-                document.body.appendChild(styleEl)
-                console.log('添加完成')
-                return styleEl
+            onRemove(item) {
+                recent.remove(item)
+                this.recentUseTools = recent.getAll()
+            }
+        },
+        watch: {
+            keyword() {
+                if (!this.keyword) {
+                    this.resultTools = []
+                    return
+                }
+                this.resultTools = []
+                for (let tool of allTools) {
+                    if (tool.name.indexOf(this.keyword) !== -1) {
+                        this.resultTools.push(tool)
+                    }
+                }
             }
         }
     }

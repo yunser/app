@@ -1,24 +1,21 @@
 <template>
-    <div class="page page-home" :class="'page-' + name">
-        <ui-header :title="page.title"></ui-header>
-        <main class="page-body">
-            <slot></slot>
-        </main>
-        <div>
-            <div class="container">
-                <!-- 友情链接 -->
-                <section class="link-box">
-                    <h3 class="link-title">友情链接：</h3>
-                    <ul class="link-list">
-                        <li class="link-item"><a href="http://www.ofmonkey.com/" target="_blank">程序猿在线工具</a> </li>
-                        <li class="link-item"><a href="http://123.yunser.com" target="_blank">云设导航</a> </li>
-                        <li class="link-item"><a href="http://map.yunser.com" target="_blank">云设地图</a> </li>
-                    </ul>
-                </section>
-            </div>
+    <ui-page :title="title || page.title" ref="page">
+        <div slot="drawer">
+            <ui-appbar title=""></ui-appbar>
+            <ui-list @itemClick="toggle()">
+                <ui-list-item title="首页" to="/"/>
+                <!--<ui-list-item title="所有工具" to="/all" />-->
+                <ui-list-item title="我的收藏" to="/like" />
+                <ui-list-item title="便民工具" to="/live" />
+                <ui-list-item title="学习工具" to="/study" />
+                <ui-list-item title="开发者工具" to="/develop" />
+                <!--<ui-list-item title="实验室" to="/lab" />-->
+                <ui-list-item title="关于" to="/about" />
+            </ui-list>
         </div>
+        <slot></slot>
         <ui-footer></ui-footer>
-    </div>
+    </ui-page>
 </template>
 
 <script>
@@ -38,9 +35,13 @@
                     }
                 }
             },
-            name: {
+            title: {
                 type: String,
                 default: ''
+            },
+            name: {
+                type: String,
+                default: '11'
             },
             backable: {
                 type: Boolean,
@@ -50,27 +51,13 @@
         mounted() {
         },
         methods: {
-            toggle(flag) {
-                this.open = !this.open
-                this.docked = !flag
+            toggle() {
+                console.log(this.$refs.page)
+                this.$refs.page.hideDrawerIfMobile()
             }
         }
     }
 </script>
 
 <style lang="scss" scoped>
-
-    .ui-page {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-    }
-    .page-body {
-        min-height: 500px;
-    }
-    .admin-container {
-        padding: 16px;
-    }
 </style>

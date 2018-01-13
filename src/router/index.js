@@ -6,11 +6,9 @@ const About = resolve => require(['@/views/About'], resolve)
 const Live = resolve => require(['@/views/Live'], resolve)
 const Study = resolve => require(['@/views/Study'], resolve)
 const Develop = resolve => require(['@/views/Develop'], resolve)
-const Plugin = resolve => require(['@/views/Plugin'], resolve)
 const Lab = resolve => require(['@/views/Lab'], resolve)
 
 const Collection = resolve => require(['@/views/Collection'], resolve)
-const All = resolve => require(['@/views/All'], resolve)
 
 const Error404 = resolve => require(['@/views/error/Error404'], resolve)
 
@@ -42,20 +40,12 @@ let routes = [
         component: Live
     },
     {
-        path: '/all',
-        component: All
-    },
-    {
         path: '/study',
         component: Study
     },
     {
         path: '/develop',
         component: Develop
-    },
-    {
-        path: '/plugin',
-        component: Plugin
     },
     {
         path: '/lab',

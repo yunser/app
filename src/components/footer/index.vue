@@ -21,6 +21,16 @@
                     </li>
                 </ul>
 
+                <!-- 友情链接 -->
+                <section class="link-box">
+                    <h3 class="link-title">友情链接：</h3>
+                    <ul class="link-list">
+                        <li class="link-item"><a href="http://www.ofmonkey.com/" target="_blank">程序猿在线工具</a> </li>
+                        <li class="link-item"><a href="http://123.yunser.com" target="_blank">云设导航</a> </li>
+                        <li class="link-item"><a href="http://map.yunser.com" target="_blank">云设地图</a> </li>
+                    </ul>
+                </section>
+
                 <!--<style type="text/css">-->
                     <!--.share_weixin{position:fixed;top:100px;left:50%;margin-left:-121px;padding:10px 20px;width:200px;border:1px solid #d9d9d9;background:#fff;text-align:center}-->
                     <!--.share_weixin .qrcode{margin:10px 0}-->
