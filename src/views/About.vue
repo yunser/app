@@ -79,16 +79,10 @@
                     <td>...</td>
                 </tr>
             </table>
-        </ui-article>
-        <div class="row">
-            <div class="col-lg-8 col-md-12">
-                <div class="article-box">
-                    <article>
 
-                    </article>
-                </div>
-            </div>
-        </div>
+            <h2>版权</h2>
+            <p>© 2016-2018 <a href="https://yunser.com/" target="_blank">云设</a></p>
+        </ui-article>
     </tool-page>
 </template>
 

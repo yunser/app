@@ -434,7 +434,7 @@ let timeTools = [
 
 let healthTools = [
     {
-        href: 'http://tool2.yunser.com/bmi',
+        href: 'http://health.yunser.com/',
         icon: '/static/img/app-bmi.png',
         name: 'BMI计算器',
         description: 'BMI健康指数计算器',
@@ -566,7 +566,7 @@ let textTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/chinese',
+        href: 'http://text.yunser.com/chinese',
         icon: '/static/img/app-chinese.png',
         name: '简体繁体转换',
         description: '中文简体繁体转换器',
@@ -711,7 +711,7 @@ let otherTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/seal',
+        href: 'http://font.yunser.com/seal',
         icon: '/static/img/app-seal.png',
         name: '印章生成工具',
         description: '',
@@ -721,7 +721,7 @@ let otherTools = [
 
 let liveTools2 = [
     {
-        href: 'http://tool2.yunser.com/calculator',
+        href: 'http://calculator.yunser.com/',
         icon: '/static/img/app-calculator.png',
         name: '计算器',
         description: '功能渣渣的科学计算器',
@@ -749,7 +749,7 @@ let liveTools2 = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/counter',
+        href: 'http://counter.yunser.com/v2',
         icon: '/static/img/app-counter.png',
         name: '计数器',
         description: '',
@@ -885,6 +885,57 @@ let mathTools = [
     }
 ]
 
+let colorTools = [
+    {
+        href: 'http://tool2.yunser.com/color',
+        icon: '/static/img/app-color.png',
+        name: '色彩搭配',
+        description: '网页设计常用色彩搭配表'
+    },
+    {
+        href: 'http://tool2.yunser.com/color/viewer',
+        icon: '/static/img/app-color.png',
+        name: '编辑器',
+        description: ''
+    },
+    {
+        href: 'http://tool2.yunser.com/color/colors',
+        icon: '/static/img/app-color.png',
+        name: '颜色名称大全',
+        description: ''
+    },
+    {
+        href: 'http://tool2.yunser.com/color/chinese',
+        icon: '/static/img/app-color-cn.png',
+        name: '中国传统色彩',
+        description: ''
+    },
+    {
+        href: 'http://tool2.yunser.com/color/japen',
+        icon: '/static/img/app-color-jp.png',
+        name: '日本传统色彩',
+        description: ''
+    },
+    {
+        href: 'http://tool2.yunser.com/gradient',
+        icon: '/static/img/app-gradient.png',
+        name: 'CSS3渐变',
+        description: 'CSS3渐变代码生成'
+    },
+    {
+        href: 'http://tool2.yunser.com/color/md',
+        icon: '/static/img/app-color.png',
+        name: 'Material design',
+        description: 'Material Design 色彩大全'
+    },
+    {
+        href: 'http://tool2.yunser.com/color/cmyk',
+        icon: '/static/img/app-cmyk.png',
+        name: 'CMYK',
+        description: 'CMYK 颜色表'
+    }
+]
+
 // TODO
 let allTools = []
 allTools = allTools.concat(historyTools)
@@ -909,7 +960,8 @@ allTools = allTools.concat(otherTools)
 allTools = allTools.concat(liveTools2)
 allTools = allTools.concat(recommendTools)
 allTools = allTools.concat(mathTools)
+allTools = allTools.concat(colorTools)
 
 export {historyTools, chemistryTools, chineseTools, studOtherTools, devTools, networkTools, codeTools, frontEndTools,
     encodeTools, liveTools, timeTools, healthTools, moneyTools, textTools, imageTools, queryTools, makeTools,
-    otherTools, liveTools2, recommendTools, mathTools, allTools}
+    otherTools, liveTools2, recommendTools, mathTools, allTools, colorTools}

@@ -15,6 +15,9 @@
         <h2 class="big-title">编码解码</h2>
         <ui-tool-list :data="encodeTools"></ui-tool-list>
 
+        <h2 class="big-title">顏色工具</h2>
+        <ui-tool-list :data="colorTools"></ui-tool-list>
+
         <h2 class="big-title">浏览器插件</h2>
         <ul class="tool-list">
             <li class="list-item">
@@ -40,7 +43,7 @@
 </template>
 
 <script>
-    import {devTools, networkTools, codeTools, frontEndTools, encodeTools} from '@/data/data'
+    import {devTools, networkTools, codeTools, frontEndTools, encodeTools, colorTools} from '@/data/data'
 
     export default {
         data () {
@@ -49,7 +52,8 @@
                 networkTools: networkTools,
                 codeTools: codeTools,
                 frontEndTools: frontEndTools,
-                encodeTools: encodeTools
+                encodeTools: encodeTools,
+                colorTools: colorTools
             }
         },
         mounted() {

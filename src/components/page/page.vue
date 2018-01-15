@@ -8,8 +8,9 @@
                 <ui-list-item title="我的收藏" to="/like" />
                 <ui-list-item title="便民工具" to="/live" />
                 <ui-list-item title="学习工具" to="/study" />
-                <ui-list-item title="开发者工具" to="/develop" />
+                <ui-list-item title="开发工具" to="/develop" />
                 <!--<ui-list-item title="实验室" to="/lab" />-->
+                <ui-list-item title="友情链接" to="/links" />
                 <ui-list-item title="关于" to="/about" />
             </ui-list>
         </div>

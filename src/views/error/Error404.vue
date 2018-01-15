@@ -1,23 +1,5 @@
 <template>
-    <div class="page-404">
-        <ui-header></ui-header>
-        <main class="page-body">
-            <div class="container">
-                404
-            </div>
-        </main>
-        <ui-footer></ui-footer>
-    </div>
+    <tool-page title="页面找不到了">
+        <div>404</div>
+    </tool-page>
 </template>
-
-<script>
-    export default {
-        data () {
-            return {
-            }
-        }
-    }
-</script>
-
-<style scoped>
-</style>
