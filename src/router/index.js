@@ -5,6 +5,7 @@ const Home = resolve => require(['@/views/Home'], resolve)
 const Link = resolve => require(['@/views/Link'], resolve)
 const About = resolve => require(['@/views/About'], resolve)
 const Live = resolve => require(['@/views/Live'], resolve)
+const Work = resolve => require(['@/views/Work'], resolve)
 const Study = resolve => require(['@/views/Study'], resolve)
 const Develop = resolve => require(['@/views/Develop'], resolve)
 const Lab = resolve => require(['@/views/Lab'], resolve)
@@ -39,6 +40,10 @@ let routes = [
     {
         path: '/study',
         component: Study
+    },
+    {
+        path: '/work',
+        component: Work
     },
     {
         path: '/develop',

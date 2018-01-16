@@ -320,13 +320,6 @@ let encodeTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/base64/image',
-        icon: '/static/img/app-tool.png',
-        name: 'Base64图片',
-        description: 'Base64图片编码解码',
-        tags: ['开发']
-    },
-    {
         href: 'http://tool2.yunser.com/md5',
         icon: '/static/img/app-md5.png',
         name: 'MD5加密',
@@ -362,6 +355,69 @@ let liveTools = [
         icon: '/static/img/app-cloth.png',
         name: '标准尺码对照表',
         description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://calculator.yunser.com/',
+        icon: '/static/img/app-calculator.png',
+        name: '计算器',
+        description: '功能渣渣的科学计算器',
+        tags: ['生活']
+    },
+    {
+        href: 'http://tool2.yunser.com/unit',
+        icon: '/static/img/app-unit.jpg',
+        name: '单位转换',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://tool2.yunser.com/relationship',
+        icon: '/static/img/app-relationship.png',
+        name: '三姑六婆计算器',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://tool2.yunser.com/sandphoto',
+        icon: '/static/img/app-photo.jpg',
+        name: '证件照',
+        description: '证件照片排版在线生成',
+        tags: ['生活']
+    },
+    {
+        href: 'http://counter.yunser.com/v2',
+        icon: '/static/img/app-counter.png',
+        name: '计数器',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://note.yunser.com',
+        icon: '/static/img/app-note.svg',
+        name: '便签',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://todo.yunser.com',
+        icon: '/static/img/app-todo.jpg',
+        name: '待办事项',
+        description: '番茄钟 + todo list',
+        tags: ['生活']
+    },
+    {
+        href: 'http://tool2.yunser.com/ai/qiqiao.html',
+        icon: '/static/img/app-qiqiao.jpg',
+        name: '在线七巧板',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://tool2.yunser.com/url',
+        icon: '/static/img/app-download.png',
+        name: '下载地址转换',
+        description: '迅雷、快车等地址转换',
         tags: ['生活']
     }
 ]
@@ -538,7 +594,7 @@ let textTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/fullhalf',
+        href: 'http://text.yunser.com/fullAndHalf',
         icon: '/static/img/app-tool.png',
         name: '全角半角转换',
         description: '',
@@ -562,6 +618,13 @@ let textTools = [
         href: 'http://tool2.yunser.com/textcol',
         icon: '/static/img/app-text-col.png',
         name: '文字竖排工具',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://text.yunser.com/letter',
+        icon: '/static/img/app-letter.png',
+        name: '大小写转换',
         description: '',
         tags: ['生活']
     },
@@ -715,72 +778,6 @@ let otherTools = [
         icon: '/static/img/app-seal.png',
         name: '印章生成工具',
         description: '',
-        tags: ['生活']
-    }
-]
-
-let liveTools2 = [
-    {
-        href: 'http://calculator.yunser.com/',
-        icon: '/static/img/app-calculator.png',
-        name: '计算器',
-        description: '功能渣渣的科学计算器',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/unit',
-        icon: '/static/img/app-unit.jpg',
-        name: '单位转换',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/relationship',
-        icon: '/static/img/app-relationship.png',
-        name: '三姑六婆计算器',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/sandphoto',
-        icon: '/static/img/app-photo.jpg',
-        name: '证件照',
-        description: '证件照片排版在线生成',
-        tags: ['生活']
-    },
-    {
-        href: 'http://counter.yunser.com/v2',
-        icon: '/static/img/app-counter.png',
-        name: '计数器',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://note.yunser.com',
-        icon: '/static/img/app-note.svg',
-        name: '便签',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://todo.yunser.com',
-        icon: '/static/img/app-todo.jpg',
-        name: '待办事项',
-        description: '番茄钟 + todo list',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/ai/qiqiao.html',
-        icon: '/static/img/app-qiqiao.jpg',
-        name: '在线七巧板',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/url',
-        icon: '/static/img/app-download.png',
-        name: '下载地址转换',
-        description: '迅雷、快车等地址转换',
         tags: ['生活']
     }
 ]
@@ -957,11 +954,10 @@ allTools = allTools.concat(imageTools)
 allTools = allTools.concat(queryTools)
 allTools = allTools.concat(makeTools)
 allTools = allTools.concat(otherTools)
-allTools = allTools.concat(liveTools2)
 allTools = allTools.concat(recommendTools)
 allTools = allTools.concat(mathTools)
 allTools = allTools.concat(colorTools)
 
 export {historyTools, chemistryTools, chineseTools, studOtherTools, devTools, networkTools, codeTools, frontEndTools,
     encodeTools, liveTools, timeTools, healthTools, moneyTools, textTools, imageTools, queryTools, makeTools,
-    otherTools, liveTools2, recommendTools, mathTools, allTools, colorTools}
+    otherTools, recommendTools, mathTools, allTools, colorTools}

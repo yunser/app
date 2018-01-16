@@ -3,19 +3,35 @@
         <div slot="drawer">
             <ui-appbar title=""></ui-appbar>
             <ui-list @itemClick="toggle()">
-                <ui-list-item title="首页" to="/"/>
+                <ui-list-item title="首页" to="/">
+                    <ui-icon value="home" slot="left" />
+                </ui-list-item>
                 <!--<ui-list-item title="所有工具" to="/all" />-->
-                <ui-list-item title="我的收藏" to="/like" />
-                <ui-list-item title="便民工具" to="/live" />
-                <ui-list-item title="学习工具" to="/study" />
-                <ui-list-item title="开发工具" to="/develop" />
+                <ui-list-item title="我的收藏" to="/like">
+                    <ui-icon value="star" slot="left" />
+                </ui-list-item>
+                <ui-list-item title="办公工具" to="/work">
+                    <ui-icon value="folder" slot="left" />
+                </ui-list-item>
+                <ui-list-item title="便民工具" to="/live">
+                    <ui-icon value="folder" slot="left" />
+                </ui-list-item>
+                <ui-list-item title="学习工具" to="/study">
+                    <ui-icon value="folder" slot="left" />
+                </ui-list-item>
+                <ui-list-item title="开发工具" to="/develop">
+                    <ui-icon value="folder" slot="left" />
+                </ui-list-item>
                 <!--<ui-list-item title="实验室" to="/lab" />-->
-                <ui-list-item title="友情链接" to="/links" />
-                <ui-list-item title="关于" to="/about" />
+                <ui-list-item title="友情链接" to="/links">
+                    <ui-icon value="link" slot="left" />
+                </ui-list-item>
+                <ui-list-item title="关于" to="/about">
+                    <ui-icon value="info" slot="left" />
+                </ui-list-item>
             </ui-list>
         </div>
         <slot></slot>
-        <ui-footer></ui-footer>
     </ui-page>
 </template>
 

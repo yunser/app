@@ -1,6 +1,8 @@
 <template>
     <tool-page title="云设工具">
-        <ui-text-field v-model="keyword" hintText="输入关键词搜索"/>
+        <div class="search-box">
+            <ui-text-field v-model="keyword" hintText="输入名称、分类快速搜索工具"/>
+        </div>
         <div v-if="keyword.length">
             <h2 class="big-title">搜索结果</h2>
             <ui-tool-list :data="resultTools"></ui-tool-list>
@@ -14,40 +16,16 @@
 
         <h2 class="big-title">推荐工具</h2>
         <ui-tool-list :data="recommendTools"></ui-tool-list>
-
-        <h2 class="big-title">在线制作</h2>
-        <ui-tool-list :data="makeTools"></ui-tool-list>
-
-        <h2 class="big-title">便民工具</h2>
-        <ui-tool-list :data="liveTools2"></ui-tool-list>
-
-        <h2 class="big-title">便民工具 - 文字工具</h2>
-        <ui-tool-list :data="textTools"></ui-tool-list>
-
-        <h2 class="big-title">便民工具 - 图片工具</h2>
-        <ui-tool-list :data="imageTools"></ui-tool-list>
-
-        <h2 class="big-title">便民工具 - 查询</h2>
-        <ui-tool-list :data="queryTools"></ui-tool-list>
-
-        <h2 class="big-title">未分类</h2>
-        <ui-tool-list :data="otherTools"></ui-tool-list>
     </tool-page>
 </template>
 
 <script>
-    import {textTools, imageTools, queryTools, makeTools, otherTools, liveTools2, recommendTools, allTools} from '@/data/data'
+    import {recommendTools, allTools} from '@/data/data'
     import recent from '@/util/recent'
 
     export default {
         data () {
             return {
-                textTools: textTools,
-                imageTools: imageTools,
-                queryTools: queryTools,
-                makeTools: makeTools,
-                otherTools: otherTools,
-                liveTools2: liveTools2,
                 recommendTools: recommendTools,
                 recentUseTools: [],
                 keyword: '',
@@ -74,8 +52,18 @@
                 }
                 this.resultTools = []
                 for (let tool of allTools) {
-                    if (tool.name.indexOf(this.keyword) !== -1) {
+                    if (tool.name.toLowerCase().indexOf(this.keyword.toLowerCase()) !== -1) {
                         this.resultTools.push(tool)
+                    }
+                    if (tool.description.toLowerCase().indexOf(this.keyword.toLowerCase()) !== -1) {
+                        this.resultTools.push(tool)
+                    }
+                    if (tool.tags) {
+                        for (let tag of tool.tags) {
+                            if (this.keyword.toLowerCase().indexOf(tag.toLowerCase()) !== -1) {
+                                this.resultTools.push(tool)
+                            }
+                        }
                     }
                 }
             }
@@ -84,4 +72,8 @@
 </script>
 
 <style scoped>
+    .search-box {
+        padding: 16px 0;
+        text-align: center;
+    }
 </style>

@@ -1,6 +1,6 @@
 <template>
-    <ul class="tool-list">
-        <li class="list-item" v-for="item in data">
+    <div class="tool-list">
+        <ui-paper class="list-item" v-for="item in data" :key="item.id" :zDepth="1">
             <a class="link" :href="item.href" target="_blank" @click="addToRecent(item)">
                 <img class="img" :src="item.icon">
                 <div class="info">
@@ -8,10 +8,10 @@
                     <div class="desc">{{ item.description }}</div>
                 </div>
                 <i class="icon" :class="classes" @click.prevent="collection(item)"></i>
-                <i class="icon icon-close" @click.prevent="removeCollection(item)"></i>
+                <i class="icon icon-close" @click.prevent="removeCollection(item)" v-if="removeable"></i>
             </a>
-        </li>
-    </ul>
+        </ui-paper>
+    </div>
 </template>
 
 <script>
@@ -38,6 +38,10 @@
             onRemove: {
                 type: Function,
                 require: false
+            },
+            removeable: {
+                type: Boolean,
+                default: false
             }
         },
         mounted() {

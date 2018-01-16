@@ -1,21 +1,27 @@
 <template>
     <tool-page title="便民工具">
-        <h2 class="big-title">便民工具</h2>
+        <h2 class="big-title">便民</h2>
         <ui-tool-list :data="liveTools"></ui-tool-list>
 
-        <h2 class="big-title">便民工具 - 时间相关</h2>
+        <h2 class="big-title">时间</h2>
         <ui-tool-list :data="timeTools"></ui-tool-list>
 
-        <h2 class="big-title">便民工具 - 健康相关</h2>
+        <h2 class="big-title">健康</h2>
         <ui-tool-list :data="healthTools"></ui-tool-list>
 
-        <h2 class="big-title">便民工具 - 理财相关</h2>
+        <h2 class="big-title">理财</h2>
         <ui-tool-list :data="moneyTools"></ui-tool-list>
+
+        <h2 class="big-title">查询</h2>
+        <ui-tool-list :data="queryTools"></ui-tool-list>
+
+        <h2 class="big-title">未分类</h2>
+        <ui-tool-list :data="otherTools"></ui-tool-list>
     </tool-page>
 </template>
 
 <script>
-    import {liveTools, timeTools, healthTools, moneyTools} from '@/data/data'
+    import {liveTools, timeTools, healthTools, moneyTools, queryTools, otherTools} from '@/data/data'
 
     export default {
         data () {
@@ -23,7 +29,9 @@
                 liveTools: liveTools,
                 timeTools: timeTools,
                 healthTools: healthTools,
-                moneyTools: moneyTools
+                moneyTools: moneyTools,
+                queryTools: queryTools,
+                otherTools: otherTools
             }
         },
         mounted() {
