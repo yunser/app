@@ -63,7 +63,7 @@ let studOtherTools = [
 
 let devTools = [
     {
-        href: 'http://tool2.yunser.com/regex',
+        href: 'http://regex.yunser.com/',
         icon: '/static/img/app-regex.png',
         name: '正则表达式测试',
         description: '匹配结果高亮显示',
@@ -88,13 +88,6 @@ let devTools = [
         icon: '/static/img/app-unicode.png',
         name: 'Unicode',
         description: '文字Unicode互换、Unicode搜索',
-        tags: ['开发']
-    },
-    {
-        href: 'http://tool2.yunser.com/category/color',
-        icon: '/static/img/app-color.png',
-        name: '色彩工具',
-        description: '色彩搭配、颜色大全',
         tags: ['开发']
     },
     {
@@ -150,13 +143,6 @@ let devTools = [
         href: 'http://tool2.yunser.com/pv',
         icon: '/static/img/app-tool.png',
         name: '批量刷网站 PV',
-        description: '',
-        tags: ['开发']
-    },
-    {
-        href: 'http://tool2.yunser.com/animate',
-        icon: '/static/img/app-tool.png',
-        name: 'css3动画库',
         description: '',
         tags: ['开发']
     }
@@ -287,6 +273,13 @@ let frontEndTools = [
         name: 'ASCII码对照表',
         description: '',
         tags: ['开发']
+    },
+    {
+        href: 'http://tool2.yunser.com/animate',
+        icon: '/static/img/app-tool.png',
+        name: 'css3动画库',
+        description: '',
+        tags: ['开发']
     }
 ]
 
@@ -397,7 +390,7 @@ let liveTools = [
         icon: '/static/img/app-note.svg',
         name: '便签',
         description: '',
-        tags: ['生活']
+        tags: ['笔记', 'note', '生活']
     },
     {
         href: 'http://todo.yunser.com',
@@ -672,13 +665,6 @@ let imageTools = [
         name: 'GIF 动态图制作',
         description: '',
         tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/bar',
-        icon: '/static/img/app-tool.png',
-        name: '条形图制作',
-        description: '',
-        tags: ['生活']
     }
 ]
 
@@ -753,6 +739,13 @@ let makeTools = [
         href: 'http://tool2.yunser.com/shape',
         icon: '/static/img/app-shape.png',
         name: '图形制作',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://tool2.yunser.com/bar',
+        icon: '/static/img/app-tool.png',
+        name: '条形图制作',
         description: '',
         tags: ['生活']
     }
@@ -887,49 +880,57 @@ let colorTools = [
         href: 'http://tool2.yunser.com/color',
         icon: '/static/img/app-color.png',
         name: '色彩搭配',
-        description: '网页设计常用色彩搭配表'
+        description: '网页设计常用色彩搭配表',
+        tags: ['颜色', '开发']
     },
     {
         href: 'http://tool2.yunser.com/color/viewer',
         icon: '/static/img/app-color.png',
         name: '编辑器',
-        description: ''
+        description: '',
+        tags: ['颜色', '开发']
     },
     {
         href: 'http://tool2.yunser.com/color/colors',
         icon: '/static/img/app-color.png',
         name: '颜色名称大全',
-        description: ''
+        description: '',
+        tags: ['颜色', '开发']
     },
     {
         href: 'http://tool2.yunser.com/color/chinese',
         icon: '/static/img/app-color-cn.png',
         name: '中国传统色彩',
-        description: ''
+        description: '',
+        tags: ['颜色', '开发']
     },
     {
         href: 'http://tool2.yunser.com/color/japen',
         icon: '/static/img/app-color-jp.png',
         name: '日本传统色彩',
-        description: ''
+        description: '',
+        tags: ['颜色', '开发']
     },
     {
         href: 'http://tool2.yunser.com/gradient',
         icon: '/static/img/app-gradient.png',
         name: 'CSS3渐变',
-        description: 'CSS3渐变代码生成'
+        description: 'CSS3渐变代码生成',
+        tags: ['颜色', '开发']
     },
     {
         href: 'http://tool2.yunser.com/color/md',
         icon: '/static/img/app-color.png',
         name: 'Material design',
-        description: 'Material Design 色彩大全'
+        description: 'Material Design 色彩大全',
+        tags: ['颜色', '开发']
     },
     {
         href: 'http://tool2.yunser.com/color/cmyk',
         icon: '/static/img/app-cmyk.png',
         name: 'CMYK',
-        description: 'CMYK 颜色表'
+        description: 'CMYK 颜色表',
+        tags: ['颜色', '开发']
     }
 ]
 
@@ -954,7 +955,7 @@ allTools = allTools.concat(imageTools)
 allTools = allTools.concat(queryTools)
 allTools = allTools.concat(makeTools)
 allTools = allTools.concat(otherTools)
-allTools = allTools.concat(recommendTools)
+// allTools = allTools.concat(recommendTools)
 allTools = allTools.concat(mathTools)
 allTools = allTools.concat(colorTools)
 

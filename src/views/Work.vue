@@ -1,9 +1,6 @@
 <template>
     <tool-page title="学习工具">
         <h2 class="big-title">办公</h2>
-        <div>暂无工具</div>
-
-        <h2 class="big-title">在线制作</h2>
         <ui-tool-list :data="makeTools"></ui-tool-list>
 
         <h2 class="big-title">文字</h2>

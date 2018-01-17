@@ -1,5 +1,5 @@
 <template>
-    <ui-page :title="title || page.title" ref="page">
+    <ui-page :title="title || page.title" ref="page" :containerMaxWidth="containerMaxWidth">
         <div slot="drawer">
             <ui-appbar title=""></ui-appbar>
             <ui-list @itemClick="toggle()">
@@ -10,6 +10,7 @@
                 <ui-list-item title="我的收藏" to="/like">
                     <ui-icon value="star" slot="left" />
                 </ui-list-item>
+                <ui-divider />
                 <ui-list-item title="办公工具" to="/work">
                     <ui-icon value="folder" slot="left" />
                 </ui-list-item>
@@ -23,6 +24,8 @@
                     <ui-icon value="folder" slot="left" />
                 </ui-list-item>
                 <!--<ui-list-item title="实验室" to="/lab" />-->
+            </ui-list>
+            <ui-list class="ui-position-bottom" @itemClick="toggle()">
                 <ui-list-item title="友情链接" to="/links">
                     <ui-icon value="link" slot="left" />
                 </ui-list-item>
@@ -60,6 +63,10 @@
                 type: String,
                 default: '11'
             },
+            containerMaxWidth: {
+                type: Number,
+                default: 1000
+            },
             backable: {
                 type: Boolean,
                 default: false
@@ -69,7 +76,6 @@
         },
         methods: {
             toggle() {
-                console.log(this.$refs.page)
                 this.$refs.page.hideDrawerIfMobile()
             }
         }

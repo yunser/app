@@ -14,8 +14,11 @@
         <h2 class="big-title" v-if="recentUseTools.length">最近使用</h2>
         <ui-tool-list :data="recentUseTools" :onRemove="onRemove" v-if="recentUseTools.length"></ui-tool-list>
 
-        <h2 class="big-title">推荐工具</h2>
+        <h2 class="big-title">推荐</h2>
         <ui-tool-list :data="recommendTools"></ui-tool-list>
+        <!--<div class="my-container">-->
+            <!---->
+        <!--</div>-->
     </tool-page>
 </template>
 

@@ -6,12 +6,13 @@ import router from './router'
 import http from '@/util/http'
 import qs from 'qs'
 import storage from '@/util/storage'
-import './scss/main.scss'
+
 import ui from './components/index'
 
 import YunserUI from 'yunser-ui-vue'
 
 import 'yunser-ui-vue/dist/yunser-ui.css'
+import './scss/main.scss'
 // import 'yunser-ui-vue/dist/theme-dark.css'
 // import 'yunser-ui-vue/dist/theme-light.css'
 // import 'yunser-ui-vue/dist/theme-carbon.css'
