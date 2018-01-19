@@ -14,14 +14,11 @@
 
         <h2 class="big-title">查询</h2>
         <ui-tool-list :data="queryTools"></ui-tool-list>
-
-        <h2 class="big-title">未分类</h2>
-        <ui-tool-list :data="otherTools"></ui-tool-list>
     </tool-page>
 </template>
 
 <script>
-    import {liveTools, timeTools, healthTools, moneyTools, queryTools, otherTools} from '@/data/data'
+    import {liveTools, timeTools, healthTools, moneyTools, queryTools} from '@/data/data'
 
     export default {
         data () {
@@ -30,8 +27,7 @@
                 timeTools: timeTools,
                 healthTools: healthTools,
                 moneyTools: moneyTools,
-                queryTools: queryTools,
-                otherTools: otherTools
+                queryTools: queryTools
             }
         },
         mounted() {

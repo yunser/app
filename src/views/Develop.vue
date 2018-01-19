@@ -18,27 +18,7 @@
         <h2 class="big-title">颜色</h2>
         <ui-tool-list :data="colorTools"></ui-tool-list>
 
-        <h2 class="big-title">浏览器插件</h2>
-        <ul class="tool-list">
-            <li class="list-item">
-                <a href="http://tool2.yunser.com/plugin/qrcode" target="_blank">
-                    <img class="img" src="/static/img/app-qrcode.png">
-                    <div class="info">
-                        <h3 class="text">二维码生成</h3>
-                        <div class="desc">支持多种配置</div>
-                    </div>
-                </a>
-            </li>
-            <li class="list-item">
-                <a href="http://tool2.yunser.com/plugin/api" target="_blank">
-                    <img class="img" src="/static/img/app-api.png">
-                    <div class="info">
-                        <h3 class="text">接口测试插件</h3>
-                        <div class="desc"></div>
-                    </div>
-                </a>
-            </li>
-        </ul>
+        <!--<h2 class="big-title">浏览器插件</h2>-->
     </tool-page>
 </template>
 

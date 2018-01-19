@@ -1,3 +1,5 @@
+@import "var";
+
 body {
     background-color: #fcfcfc !important;
 }
@@ -40,7 +42,7 @@ body {
 /**/
 .tool-list {
     margin: 0 auto;
-    overflow: hidden;
+    @include clearfix;
     .list-item {
         position: relative;
         float: left;
@@ -105,6 +107,14 @@ body {
         right: 8px;
         &:hover {
             color: #f00;
+        }
+    }
+}
+@media all and (max-width: 400px){
+    .tool-list {
+        .list-item {
+            width: 100%;
+            margin-right: 0;
         }
     }
 }

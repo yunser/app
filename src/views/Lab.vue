@@ -1,8 +1,5 @@
 <template>
     <tool-page name="home">
-        <h2 class="big-title">实验室</h2>
-        <p>这里的工具处于开发阶段、功能什么时候可以用取决于站长的心情。</p>
-        <h2 class="big-title">办公</h2>
         <ul class="tool-list">
             <li class="list-item">
                 <a href="http://tool2.yunser.com/docs" target="_blank">
@@ -36,15 +33,6 @@
                     <img class="img" src="/static/img/app-tool.png">
                     <div class="info">
                         <h3 class="text">chart</h3>
-                        <div class="desc"></div>
-                    </div>
-                </a>
-            </li>
-            <li class="list-item">
-                <a href="http://tool2.yunser.com/jtopo" target="_blank">
-                    <img class="img" src="/static/img/app-tool.png">
-                    <div class="info">
-                        <h3 class="text">jtopo</h3>
                         <div class="desc"></div>
                     </div>
                 </a>

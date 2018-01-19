@@ -55,7 +55,7 @@ let studOtherTools = [
     {
         href: 'http://tool2.yunser.com/draw/chalk',
         icon: '/static/img/app-black-board.png',
-        name: '在线黑板',
+        name: '黑板',
         description: '',
         tags: ['学习']
     }
@@ -84,7 +84,7 @@ let devTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/unicode',
+        href: 'http://unicode.yunser.com/',
         icon: '/static/img/app-unicode.png',
         name: 'Unicode',
         description: '文字Unicode互换、Unicode搜索',
@@ -102,6 +102,13 @@ let devTools = [
         icon: '/static/img/app-api.png',
         name: '接口测试工具',
         description: '',
+        tags: ['开发']
+    },
+    {
+        href: 'http://tool2.yunser.com/plugin/api',
+        icon: '/static/img/app-api.png',
+        name: '接口测试插件',
+        description: '浏览器插件',
         tags: ['开发']
     },
     {
@@ -229,14 +236,14 @@ let frontEndTools = [
         href: 'http://runcode.yunser.com/editor',
         icon: '/static/img/app-runcode.png',
         name: 'RunCode',
-        description: '在线调试 Javascript',
+        description: '调试 Javascript',
         tags: ['开发']
     },
     {
         href: 'http://tool2.yunser.com/bezier',
         icon: '/static/img/app-bezier.png',
         name: '贝塞尔曲线',
-        description: 'canvas贝塞尔曲代码在线生成',
+        description: 'canvas 贝塞尔曲代码生成',
         tags: ['开发']
     },
     {
@@ -337,9 +344,9 @@ let encodeTools = [
 
 let liveTools = [
     {
-        href: 'http://tool2.yunser.com/dice',
+        href: 'http://math.yunser.com/dice',
         icon: '/static/img/app-rand.png',
-        name: '在线骰子',
+        name: '骰子',
         description: '',
         tags: ['生活']
     },
@@ -375,11 +382,11 @@ let liveTools = [
         href: 'http://tool2.yunser.com/sandphoto',
         icon: '/static/img/app-photo.jpg',
         name: '证件照',
-        description: '证件照片排版在线生成',
+        description: '证件照片排版生成',
         tags: ['生活']
     },
     {
-        href: 'http://counter.yunser.com/v2',
+        href: 'http://counter.yunser.com',
         icon: '/static/img/app-counter.png',
         name: '计数器',
         description: '',
@@ -402,7 +409,7 @@ let liveTools = [
     {
         href: 'http://tool2.yunser.com/ai/qiqiao.html',
         icon: '/static/img/app-qiqiao.jpg',
-        name: '在线七巧板',
+        name: '七巧板',
         description: '',
         tags: ['生活']
     },
@@ -431,14 +438,14 @@ let timeTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/clock',
+        href: 'http://time.yunser.com/',
         icon: '/static/img/app-timer.jpg',
-        name: '在线秒表',
+        name: '秒表',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/countdown',
+        href: 'http://time.yunser.com/countdown',
         icon: '/static/img/app-timer.jpg',
         name: '倒计时',
         description: '',
@@ -476,7 +483,7 @@ let timeTools = [
         href: 'http://tool2.yunser.com/solarterms',
         icon: '/static/img/app-solarterms.png',
         name: '24节气',
-        description: '算一算自己还能活几天',
+        description: '',
         tags: ['生活']
     }
 ]
@@ -573,10 +580,10 @@ let textTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/text/image',
+        href: 'http://text.yunser.com/rich',
         icon: '/static/img/app-tool.png',
         name: '长微博生成器',
-        description: '',
+        description: '文字转图片',
         tags: ['生活']
     },
     {
@@ -638,7 +645,7 @@ let textTools = [
     {
         href: 'http://tool2.yunser.com/type',
         icon: '/static/img/app-type.png',
-        name: '在线打字练习工具',
+        name: '打字练习工具',
         description: '',
         tags: ['生活']
     },
@@ -655,7 +662,7 @@ let imageTools = [
     {
         href: 'http://img.tool.yunser.com/',
         icon: '/static/img/app-image-tool.svg',
-        name: '图片处理工具',
+        name: '图片处理',
         description: '图片压缩、修改大小',
         tags: ['生活']
     },
@@ -670,14 +677,14 @@ let imageTools = [
 
 let queryTools = [
     {
-        href: 'http://tool2.yunser.com/fuhao',
+        href: 'http://unicode.yunser.com/common',
         icon: '/static/img/app-fuhao.jpg',
         name: '特殊符号',
         description: '特殊符号大全',
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/textemoji',
+        href: 'http://unicode.yunser.com/emoticons',
         icon: '/static/img/app-textemoji.jpg',
         name: '颜文字',
         description: '颜文字大全',
@@ -689,6 +696,13 @@ let queryTools = [
         name: '色盲测试',
         description: '色盲色弱图片测试',
         tags: ['生活']
+    },
+    {
+        href: 'http://tool2.yunser.com/point24',
+        icon: '/static/img/app-24.jpg',
+        name: '24 点游戏答案',
+        description: '',
+        tags: ['生活']
     }
 ]
 
@@ -697,34 +711,27 @@ let makeTools = [
         href: 'http://draw.yunser.com',
         icon: '/static/img/app-draw.png',
         name: '画板',
-        description: '在线绘画、图片编辑',
+        description: '绘画、图片编辑',
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/qrcode',
+        href: 'http://qrcode.yunser.com/',
         icon: '/static/img/app-qrcode.png',
-        name: '二维码（电脑版）',
-        description: '支持多种配置',
+        name: '二维码',
+        description: '二维码制作、二维码识别',
         tags: ['生活']
     },
     {
         href: 'http://tool2.yunser.com/qrcode/mobile',
         icon: '/static/img/app-qrcode.png',
         name: '二维码（手机版）',
-        description: '支持多种配置',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/qrcode/recognition',
-        icon: '/static/img/app-qrcode.png',
-        name: '二维码识别',
         description: '',
         tags: ['生活']
     },
     {
         href: 'http://tool2.yunser.com/barcode',
         icon: '/static/img/app-barcode.png',
-        name: '条形码生成工具',
+        name: '条形码制作',
         description: '',
         tags: ['生活']
     },
@@ -732,18 +739,18 @@ let makeTools = [
         href: 'http://tool2.yunser.com/wordcloud',
         icon: '/static/img/app-word-cloud.png',
         name: '文字云',
-        description: '词云生成工具',
+        description: '词云生成',
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/shape',
+        href: 'http://svg.yunser.com/',
         icon: '/static/img/app-shape.png',
         name: '图形制作',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/bar',
+        href: 'http://bar.yunser.com/',
         icon: '/static/img/app-tool.png',
         name: '条形图制作',
         description: '',
@@ -760,16 +767,16 @@ let otherTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/point24',
-        icon: '/static/img/app-24.jpg',
-        name: '24 点游戏答案',
+        href: 'http://icon.yunser.com/',
+        icon: '/static/img/app-tool.png',
+        name: '图标下载',
         description: '',
         tags: ['生活']
     },
     {
         href: 'http://font.yunser.com/seal',
         icon: '/static/img/app-seal.png',
-        name: '印章生成工具',
+        name: '印章生成',
         description: '',
         tags: ['生活']
     }
@@ -789,18 +796,11 @@ let recommendTools = [
         name: '脸萌',
         description: '脸萌网页版',
         tags: ['生活']
-    },
-    {
-        href: 'http://map.yunser.com',
-        icon: '/static/img/app-map.png',
-        name: '云设地图',
-        description: '为地图爱好者而准备',
-        tags: ['生活']
     }
     // {
     //     href: 'http://tool2.yunser.com/h5',
     //     icon: '/static/img/app-h5.jpg',
-    //     name: 'H5在线制作',
+    //     name: 'H5 制作',
     //     description: '',
     //     tags: ['生活']
     // }
@@ -832,13 +832,13 @@ let mathTools = [
         description: ''
     },
     {
-        href: 'http://tool2.yunser.com/rand',
+        href: 'http://math.yunser.com/',
         icon: '/static/img/app-rand.png',
         name: '随机数生成器',
         description: ''
     },
     {
-        href: 'http://tool2.yunser.com/prime2',
+        href: 'http://math.yunser.com/prime2',
         icon: '/static/img/app-math.png',
         name: '公约数公倍数',
         description: '最大公约数、公倍数'
@@ -850,13 +850,13 @@ let mathTools = [
         description: '数论、科学计数法、分解质因数等'
     },
     {
-        href: 'http://tool2.yunser.com/mathcount',
+        href: 'http://math.yunser.com/statistics',
         icon: '/static/img/app-math.png',
         name: '数学统计',
         description: ''
     },
     {
-        href: 'http://tool2.yunser.com/math/compare',
+        href: 'http://math.yunser.com/compare',
         icon: '/static/img/app-math.png',
         name: '数值大小比较',
         description: ''
@@ -884,9 +884,9 @@ let colorTools = [
         tags: ['颜色', '开发']
     },
     {
-        href: 'http://tool2.yunser.com/color/viewer',
+        href: 'http://color.yunser.com/',
         icon: '/static/img/app-color.png',
-        name: '编辑器',
+        name: '调色板',
         description: '',
         tags: ['颜色', '开发']
     },
