@@ -43,11 +43,18 @@ let chineseTools = [
     //     tags: ['语文']
     // },
     {
-        href: 'http://tool2.yunser.com/pinyin',
+        href: 'http://chinese.yunser.com/',
         icon: '/static/img/app-pinyin.png',
-        name: '拼音标调工具',
-        description: '',
+        name: '拼音工具',
+        description: '拼音标调、中文转拼音',
         tags: ['语文', '拼音']
+    },
+    {
+        href: 'http://chinese.yunser.com/copybook',
+        icon: '/static/img/app-copybook.png',
+        name: '字帖生成',
+        description: '',
+        tags: ['语文']
     }
 ]
 
@@ -365,7 +372,7 @@ let liveTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/unit',
+        href: 'http://calculator.yunser.com/unit',
         icon: '/static/img/app-unit.jpg',
         name: '单位转换',
         description: '',
@@ -556,7 +563,7 @@ let moneyTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/rmb',
+        href: 'http://calculator.yunser.com/rmb',
         icon: '/static/img/app-rmb.jpg',
         name: '人民币大小写转换',
         description: '',
@@ -660,6 +667,13 @@ let textTools = [
 
 let imageTools = [
     {
+        href: 'http://draw.yunser.com',
+        icon: '/static/img/app-draw.png',
+        name: '画板',
+        description: '绘画、图片编辑',
+        tags: ['生活']
+    },
+    {
         href: 'http://img.tool.yunser.com/',
         icon: '/static/img/app-image-tool.svg',
         name: '图片处理',
@@ -707,13 +721,6 @@ let queryTools = [
 ]
 
 let makeTools = [
-    {
-        href: 'http://draw.yunser.com',
-        icon: '/static/img/app-draw.png',
-        name: '画板',
-        description: '绘画、图片编辑',
-        tags: ['生活']
-    },
     {
         href: 'http://qrcode.yunser.com/',
         icon: '/static/img/app-qrcode.png',
@@ -872,6 +879,12 @@ let mathTools = [
         icon: '/static/img/app-frame.png',
         name: '质数',
         description: '质数表'
+    },
+    {
+        href: 'http://math.yunser.com/number',
+        icon: '/static/img/app-number.png',
+        name: '数字的分解',
+        description: ''
     }
 ]
 

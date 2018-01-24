@@ -8,7 +8,7 @@
         <ui-tool-list :data="chemistryTools"></ui-tool-list>
         <h2 class="big-title">语文</h2>
         <ui-tool-list :data="chineseTools"></ui-tool-list>
-        <h2 class="big-title">其他</h2>
+        <h2 class="big-title">教学</h2>
         <ui-tool-list :data="studOtherTools"></ui-tool-list>
     </tool-page>
 </template>
