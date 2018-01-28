@@ -23,6 +23,9 @@
                 <ui-list-item title="开发工具" to="/develop">
                     <ui-icon value="folder" slot="left" />
                 </ui-list-item>
+                <ui-list-item title="站外工具" to="/site">
+                    <ui-icon value="folder" slot="left" />
+                </ui-list-item>
                 <!--<ui-list-item title="实验室" to="/lab" />-->
             </ui-list>
             <ui-list class="ui-position-bottom" @itemClick="toggle()">

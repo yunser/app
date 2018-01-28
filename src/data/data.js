@@ -2,7 +2,7 @@
 
 let historyTools = [
     {
-        href: 'http://tool2.yunser.com/history',
+        href: 'http://history.yunser.com/',
         icon: '/static/img/app-history.png',
         name: '历史朝代表',
         description: '',
@@ -26,7 +26,7 @@ let historyTools = [
 
 let chemistryTools = [
     {
-        href: 'http://tool2.yunser.com/ptable',
+        href: 'http://chemistry.yunser.com/',
         icon: '/static/img/app-chemistry.png',
         name: '元素周期表',
         description: '',
@@ -95,13 +95,6 @@ let devTools = [
         icon: '/static/img/app-unicode.png',
         name: 'Unicode',
         description: '文字Unicode互换、Unicode搜索',
-        tags: ['开发']
-    },
-    {
-        href: 'http://tool2.yunser.com/download/image',
-        icon: '/static/img/app-download.png',
-        name: '图片批量下载',
-        description: '功能渣渣的图片批量下载器',
         tags: ['开发']
     },
     {
@@ -459,7 +452,7 @@ let timeTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/date/calculator',
+        href: 'http://time.yunser.com/calculator/date',
         icon: '/static/img/app-tool.png',
         name: '日期计算器',
         description: '',
@@ -767,6 +760,13 @@ let makeTools = [
 
 let otherTools = [
     {
+        href: 'http://download.yunser.com/',
+        icon: '/static/img/app-download.png',
+        name: '图片批量下载',
+        description: '图片批量下载器',
+        tags: ['开发']
+    },
+    {
         href: 'http://font.yunser.com',
         icon: '/static/img/app-font.svg',
         name: '字体生成',
@@ -815,19 +815,20 @@ let recommendTools = [
 
 let mathTools = [
     {
-        href: 'http://tool2.yunser.com/formula',
+        href: 'http://formula.yunser.com/',
         icon: '/static/img/app-formula.png',
         name: '公式编辑器',
         description: '可视化公式编辑器'
     },
     {
-        href: 'http://tool2.yunser.com/parser',
+        href: 'http://latex.yunser.com/',
         icon: '/static/img/app-formula.png',
         name: 'LaTex 解析器',
         description: 'LaTex 生成图片'
     },
+    // TODO
     {
-        href: 'http://tool2.yunser.com/calculator',
+        href: 'http://calculator.yunser.com',
         icon: '/static/img/app-calculator.png',
         name: '计算器',
         description: '功能渣渣的科学计算器'
@@ -869,13 +870,13 @@ let mathTools = [
         description: ''
     },
     {
-        href: 'http://tool2.yunser.com/pi',
+        href: 'http://history.yunser.com/pi',
         icon: '/static/img/app-pi.png',
         name: '圆周率',
         description: '圆周率表'
     },
     {
-        href: 'http://tool2.yunser.com/prime',
+        href: 'http://history.yunser.com/prime',
         icon: '/static/img/app-frame.png',
         name: '质数',
         description: '质数表'
@@ -947,6 +948,26 @@ let colorTools = [
     }
 ]
 
+let siteTools = [
+    {
+        href: 'https://tinypng.com/',
+        icon: '/static/img/app-tool.png',
+        name: 'TinyPNG',
+        description: '图片无损压缩',
+        tags: []
+    }
+]
+
+let englishTools = [
+    {
+        href: 'http://english.yunser.com/',
+        icon: '/static/img/app-tool.png',
+        name: '字母卡片',
+        description: '',
+        tags: []
+    }
+]
+
 // TODO
 let allTools = []
 allTools = allTools.concat(historyTools)
@@ -971,7 +992,8 @@ allTools = allTools.concat(otherTools)
 // allTools = allTools.concat(recommendTools)
 allTools = allTools.concat(mathTools)
 allTools = allTools.concat(colorTools)
+allTools = allTools.concat(englishTools)
 
 export {historyTools, chemistryTools, chineseTools, studOtherTools, devTools, networkTools, codeTools, frontEndTools,
     encodeTools, liveTools, timeTools, healthTools, moneyTools, textTools, imageTools, queryTools, makeTools,
-    otherTools, recommendTools, mathTools, allTools, colorTools}
+    otherTools, recommendTools, mathTools, allTools, colorTools, siteTools, englishTools}
