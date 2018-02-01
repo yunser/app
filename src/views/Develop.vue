@@ -3,6 +3,9 @@
         <h2 class="big-title">开发</h2>
         <ui-tool-list :data="devTools"></ui-tool-list>
 
+        <h2 class="big-title">运维</h2>
+        <ui-tool-list :data="operationTools"></ui-tool-list>
+
         <h2 class="big-title">网络</h2>
         <ui-tool-list :data="networkTools"></ui-tool-list>
 
@@ -23,11 +26,12 @@
 </template>
 
 <script>
-    import {devTools, networkTools, codeTools, frontEndTools, encodeTools, colorTools} from '@/data/data'
+    import {devTools, networkTools, codeTools, frontEndTools, encodeTools, colorTools, operationTools} from '@/data/data'
 
     export default {
         data () {
             return {
+                operationTools: operationTools,
                 devTools: devTools,
                 networkTools: networkTools,
                 codeTools: codeTools,

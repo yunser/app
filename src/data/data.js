@@ -77,7 +77,7 @@ let devTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/hex',
+        href: 'http://code.yunser.com/hex',
         icon: '/static/img/app-hex.png',
         name: '进制转换',
         description: '',
@@ -112,12 +112,15 @@ let devTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/timestamp',
+        href: 'http://code.yunser.com/timestamp',
         icon: '/static/img/app-tool.png',
         name: '时间戳转换',
         description: 'Unix时间戳',
         tags: ['开发']
-    },
+    }
+]
+
+let operationTools = [
     {
         href: 'http://tool2.yunser.com/cron',
         icon: '/static/img/app-tool.png',
@@ -240,7 +243,7 @@ let frontEndTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/bezier',
+        href: 'http://bezier.yunser.com/',
         icon: '/static/img/app-bezier.png',
         name: '贝塞尔曲线',
         description: 'canvas 贝塞尔曲代码生成',
@@ -268,14 +271,14 @@ let frontEndTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/html/char',
+        href: 'http://code.yunser.com/html/char',
         icon: '/static/img/app-tool.png',
         name: 'HTML特殊符号',
         description: 'HTML特殊符号对照表',
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/asc2',
+        href: 'http://code.yunser.com/asc2',
         icon: '/static/img/app-tool.png',
         name: 'ASCII码对照表',
         description: '',
@@ -834,7 +837,7 @@ let mathTools = [
         description: '功能渣渣的科学计算器'
     },
     {
-        href: 'http://tool2.yunser.com/equation',
+        href: 'http://calculator.yunser.com/equation',
         icon: '/static/img/app-equation.png',
         name: '方程求解',
         description: ''
@@ -852,7 +855,7 @@ let mathTools = [
         description: '最大公约数、公倍数'
     },
     {
-        href: 'http://tool2.yunser.com/math/number',
+        href: 'http://math.yunser.com/number/property',
         icon: '/static/img/app-math.png',
         name: '数的性质',
         description: '数论、科学计数法、分解质因数等'
@@ -912,21 +915,21 @@ let colorTools = [
         tags: ['颜色', '开发']
     },
     {
-        href: 'http://tool2.yunser.com/color/chinese',
+        href: 'http://color.yunser.com/color/chinese',
         icon: '/static/img/app-color-cn.png',
         name: '中国传统色彩',
         description: '',
         tags: ['颜色', '开发']
     },
     {
-        href: 'http://tool2.yunser.com/color/japen',
+        href: 'http://color.yunser.com/color/japen',
         icon: '/static/img/app-color-jp.png',
         name: '日本传统色彩',
         description: '',
         tags: ['颜色', '开发']
     },
     {
-        href: 'http://tool2.yunser.com/gradient',
+        href: 'http://color.yunser.com/gradient',
         icon: '/static/img/app-gradient.png',
         name: 'CSS3渐变',
         description: 'CSS3渐变代码生成',
@@ -975,6 +978,7 @@ allTools = allTools.concat(chemistryTools)
 allTools = allTools.concat(chineseTools)
 allTools = allTools.concat(studOtherTools)
 allTools = allTools.concat(devTools)
+allTools = allTools.concat(operationTools)
 allTools = allTools.concat(networkTools)
 allTools = allTools.concat(codeTools)
 allTools = allTools.concat(frontEndTools)
@@ -994,6 +998,6 @@ allTools = allTools.concat(mathTools)
 allTools = allTools.concat(colorTools)
 allTools = allTools.concat(englishTools)
 
-export {historyTools, chemistryTools, chineseTools, studOtherTools, devTools, networkTools, codeTools, frontEndTools,
+export {historyTools, chemistryTools, chineseTools, studOtherTools, devTools, operationTools, networkTools, codeTools, frontEndTools,
     encodeTools, liveTools, timeTools, healthTools, moneyTools, textTools, imageTools, queryTools, makeTools,
     otherTools, recommendTools, mathTools, allTools, colorTools, siteTools, englishTools}
