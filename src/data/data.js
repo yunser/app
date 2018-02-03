@@ -129,7 +129,7 @@ let operationTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/cron/verification',
+        href: 'http://network.yunser.com/cron/verification',
         icon: '/static/img/app-tool.png',
         name: 'Cron表达式验证',
         description: '',
@@ -160,7 +160,7 @@ let operationTools = [
 
 let networkTools = [
     {
-        href: 'http://tool2.yunser.com/ip',
+        href: 'http://network.yunser.com/',
         icon: '/static/img/app-ip.png',
         name: '本机 IP 查询',
         description: '',
@@ -181,7 +181,7 @@ let networkTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/useragent',
+        href: 'http://network.yunser.com/userAgent',
         icon: '/static/img/app-tool.png',
         name: 'UserAgent分析',
         description: '',
@@ -302,7 +302,7 @@ let encodeTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/encrypt',
+        href: 'http://encrypt.yunser.com/encrypt',
         icon: '/static/img/app-tool.png',
         name: '加密解密',
         description: '支持 AES、DES、RC4等算法',
@@ -323,14 +323,14 @@ let encodeTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/md5',
+        href: 'http://encrypt.yunser.com/',
         icon: '/static/img/app-md5.png',
         name: 'MD5加密',
         description: '支持 MD5、SHA1 等散哈希算法加密',
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/filemd5',
+        href: 'http://encrypt.yunser.com/hash/file',
         icon: '/static/img/app-md5.png',
         name: '文件MD5查询',
         description: '',
@@ -524,7 +524,7 @@ let healthTools = [
 
 let moneyTools = [
     {
-        href: 'http://tool2.yunser.com/tax',
+        href: 'http://finance.yunser.com/',
         icon: '/static/img/app-loan.png',
         name: '个人所得税计算器',
         description: '',
@@ -717,6 +717,27 @@ let queryTools = [
 ]
 
 let makeTools = [
+    {
+        href: 'http://doc.yunser.com/',
+        icon: '/static/img/app-doc.png',
+        name: '文档',
+        description: '',
+        tags: ['办公']
+    },
+    {
+        href: 'http://table.yunser.com/',
+        icon: '/static/img/app-table.png',
+        name: '表格',
+        description: '',
+        tags: ['办公']
+    },
+    {
+        href: 'http://tool2.yunser.com/slides/',
+        icon: '/static/img/app-slides.png',
+        name: '演示',
+        description: '',
+        tags: ['办公']
+    },
     {
         href: 'http://qrcode.yunser.com/',
         icon: '/static/img/app-qrcode.png',

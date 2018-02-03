@@ -2,33 +2,6 @@
     <tool-page name="home">
         <ul class="tool-list">
             <li class="list-item">
-                <a href="http://tool2.yunser.com/docs" target="_blank">
-                    <img class="img" src="/static/img/app-doc.png">
-                    <div class="info">
-                        <h3 class="text">文档</h3>
-                        <div class="desc"></div>
-                    </div>
-                </a>
-            </li>
-            <li class="list-item">
-                <a href="http://tool2.yunser.com/tables" target="_blank">
-                    <img class="img" src="/static/img/app-table.png">
-                    <div class="info">
-                        <h3 class="text">表格</h3>
-                        <div class="desc"></div>
-                    </div>
-                </a>
-            </li>
-            <li class="list-item">
-                <a href="http://tool2.yunser.com/slides" target="_blank">
-                    <img class="img" src="/static/img/app-slides.png">
-                    <div class="info">
-                        <h3 class="text">PPT在线制作</h3>
-                        <div class="desc"></div>
-                    </div>
-                </a>
-            </li>
-            <li class="list-item">
                 <a href="http://tool2.yunser.com/chart" target="_blank">
                     <img class="img" src="/static/img/app-tool.png">
                     <div class="info">
