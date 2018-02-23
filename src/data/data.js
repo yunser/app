@@ -113,9 +113,16 @@ let devTools = [
     },
     {
         href: 'http://code.yunser.com/timestamp',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-timestamp.svg',
         name: '时间戳转换',
         description: 'Unix时间戳',
+        tags: ['开发']
+    },
+    {
+        href: 'http://directory.yunser.com/',
+        icon: '/static/img/app-tool.png',
+        name: '目录结构生成',
+        description: '',
         tags: ['开发']
     }
 ]
@@ -198,17 +205,24 @@ let codeTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/json',
-        icon: '/static/img/app-tool.png',
+        href: 'http://json.yunser.com/',
+        icon: '/static/img/app-json.svg',
         name: 'JSON 工具',
         description: 'JSON格式化',
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/xml',
-        icon: '/static/img/app-tool.png',
+        href: 'http://xml.yunser.com',
+        icon: '/static/img/app-xml.svg',
         name: 'XML 工具',
         description: 'XML格式化',
+        tags: ['开发']
+    },
+    {
+        href: 'http://html.yunser.com',
+        icon: '/static/img/app-html.jpg',
+        name: 'HTML 工具',
+        description: '',
         tags: ['开发']
     }
 ]
@@ -285,8 +299,8 @@ let frontEndTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/animate',
-        icon: '/static/img/app-tool.png',
+        href: 'http://animation.yunser.com/animate',
+        icon: '/static/img/app-animation.svg',
         name: 'css3动画库',
         description: '',
         tags: ['开发']
@@ -303,7 +317,7 @@ let encodeTools = [
     },
     {
         href: 'http://encrypt.yunser.com/encrypt',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-encrypt.svg',
         name: '加密解密',
         description: '支持 AES、DES、RC4等算法',
         tags: ['开发']
@@ -421,6 +435,27 @@ let liveTools = [
         icon: '/static/img/app-download.png',
         name: '下载地址转换',
         description: '迅雷、快车等地址转换',
+        tags: ['生活']
+    },
+    {
+        href: 'http://translation.yunser.com/',
+        icon: '/static/img/app-translate.svg',
+        name: '翻译',
+        description: '仅支持英译汉',
+        tags: ['生活']
+    },
+    // {
+    //     href: 'http://zip.yunser.com/',
+    //     icon: '/static/img/app-tool.png',
+    //     name: '在线查看 ZIP 文件',
+    //     description: '',
+    //     tags: ['生活']
+    // },
+    {
+        href: 'http://phone.yunser.com/',
+        icon: '/static/img/app-phone.svg',
+        name: '手机归属地查询',
+        description: '',
         tags: ['生活']
     }
 ]
@@ -577,7 +612,7 @@ let textTools = [
     },
     {
         href: 'http://tool2.yunser.com/md/public/editor.html',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-markdown.svg',
         name: 'Markdown 编辑器',
         description: '',
         tags: ['生活']
@@ -591,7 +626,7 @@ let textTools = [
     },
     {
         href: 'http://tool2.yunser.com/markdown/md2html',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-markdown.svg',
         name: 'Markdown 工具',
         description: 'Markdown HTML 互转',
         tags: ['生活']
@@ -775,7 +810,7 @@ let makeTools = [
     },
     {
         href: 'http://bar.yunser.com/',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-bar-chart.svg',
         name: '条形图制作',
         description: '',
         tags: ['生活']
@@ -799,7 +834,7 @@ let otherTools = [
     },
     {
         href: 'http://icon.yunser.com/',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-icon.svg',
         name: '图标下载',
         description: '',
         tags: ['生活']
@@ -883,7 +918,7 @@ let mathTools = [
     },
     {
         href: 'http://math.yunser.com/statistics',
-        icon: '/static/img/app-math.png',
+        icon: '/static/img/app-statistics.svg',
         name: '数学统计',
         description: ''
     },
@@ -985,7 +1020,7 @@ let siteTools = [
 let englishTools = [
     {
         href: 'http://english.yunser.com/',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-letter.svg',
         name: '字母卡片',
         description: '',
         tags: []

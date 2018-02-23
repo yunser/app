@@ -10,6 +10,7 @@ const Study = resolve => require(['@/views/Study'], resolve)
 const Develop = resolve => require(['@/views/Develop'], resolve)
 const Site = resolve => require(['@/views/Site'], resolve)
 const Lab = resolve => require(['@/views/Lab'], resolve)
+const Search = resolve => require(['@/views/Search'], resolve)
 
 const Collection = resolve => require(['@/views/Collection'], resolve)
 
@@ -37,6 +38,10 @@ let routes = [
     {
         path: '/live',
         component: Live
+    },
+    {
+        path: '/search',
+        component: Search
     },
     {
         path: '/study',
