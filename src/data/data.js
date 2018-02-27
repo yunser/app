@@ -224,6 +224,13 @@ let codeTools = [
         name: 'HTML 工具',
         description: '',
         tags: ['开发']
+    },
+    {
+        href: 'http://sql.yunser.com',
+        icon: '/static/img/app-sql.svg',
+        name: 'SQL 工具',
+        description: '',
+        tags: ['开发']
     }
 ]
 
@@ -368,7 +375,7 @@ let liveTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/clothsize',
+        href: 'http://cloth.yunser.com/',
         icon: '/static/img/app-cloth.png',
         name: '标准尺码对照表',
         description: '',
@@ -431,19 +438,19 @@ let liveTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/url',
+        href: 'http://seo.yunser.com/',
         icon: '/static/img/app-download.png',
         name: '下载地址转换',
         description: '迅雷、快车等地址转换',
         tags: ['生活']
     },
     {
-        href: 'http://translation.yunser.com/',
-        icon: '/static/img/app-translate.svg',
-        name: '翻译',
-        description: '仅支持英译汉',
+        href: 'http://clipboard.yunser.com/',
+        icon: '/static/img/app-tool.png',
+        name: '剪切板',
+        description: '剪切板小工具、支持跨设备',
         tags: ['生活']
-    },
+    }
     // {
     //     href: 'http://zip.yunser.com/',
     //     icon: '/static/img/app-tool.png',
@@ -451,18 +458,11 @@ let liveTools = [
     //     description: '',
     //     tags: ['生活']
     // },
-    {
-        href: 'http://phone.yunser.com/',
-        icon: '/static/img/app-phone.svg',
-        name: '手机归属地查询',
-        description: '',
-        tags: ['生活']
-    }
 ]
 
 let timeTools = [
     {
-        href: 'http://tool2.yunser.com/calendar',
+        href: 'http://time.yunser.com/calendar',
         icon: '/static/img/app-calendar.png',
         name: '日历',
         description: '万年历',
@@ -722,6 +722,20 @@ let imageTools = [
 
 let queryTools = [
     {
+        href: 'http://translation.yunser.com/',
+        icon: '/static/img/app-translate.svg',
+        name: '翻译',
+        description: '仅支持英译汉',
+        tags: ['生活']
+    },
+    {
+        href: 'http://phone.yunser.com/',
+        icon: '/static/img/app-phone.svg',
+        name: '手机归属地查询',
+        description: '',
+        tags: ['生活']
+    },
+    {
         href: 'http://unicode.yunser.com/common',
         icon: '/static/img/app-fuhao.jpg',
         name: '特殊符号',
@@ -767,7 +781,7 @@ let makeTools = [
         tags: ['办公']
     },
     {
-        href: 'http://tool2.yunser.com/slides/',
+        href: 'http://page.yunser.com',
         icon: '/static/img/app-slides.png',
         name: '演示',
         description: '',
