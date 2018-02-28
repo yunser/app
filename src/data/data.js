@@ -450,6 +450,13 @@ let liveTools = [
         name: '剪切板',
         description: '剪切板小工具、支持跨设备',
         tags: ['生活']
+    },
+    {
+        href: 'http://password.yunser.com/tool/',
+        icon: '/static/img/app-tool.png',
+        name: '随机密码生成',
+        description: '随机字符/密码生成',
+        tags: ['生活']
     }
     // {
     //     href: 'http://zip.yunser.com/',
@@ -733,6 +740,13 @@ let queryTools = [
         icon: '/static/img/app-phone.svg',
         name: '手机归属地查询',
         description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://idcard.yunser.com/',
+        icon: '/static/img/app-tool.png',
+        name: '身份证查询',
+        description: '身份证号码查询/验证',
         tags: ['生活']
     },
     {
