@@ -457,6 +457,13 @@ let liveTools = [
         name: '随机密码生成',
         description: '随机字符/密码生成',
         tags: ['生活']
+    },
+    {
+        href: 'http://screenshot.yunser.com/',
+        icon: '/static/img/app-tool.png',
+        name: '带壳截图',
+        description: '给截图加上漂亮的壳',
+        tags: ['生活']
     }
     // {
     //     href: 'http://zip.yunser.com/',
