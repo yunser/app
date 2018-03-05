@@ -143,8 +143,8 @@ let operationTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/robots',
-        icon: '/static/img/app-tool.png',
+        href: 'http://seo.yunser.com/',
+        icon: '/static/img/app-robots.svg',
         name: 'robots.txt生成器',
         description: '',
         tags: ['开发']
@@ -166,6 +166,13 @@ let operationTools = [
 ]
 
 let networkTools = [
+    {
+        href: 'http://network.yunser.com/userAgent',
+        icon: '/static/img/app-tool.png',
+        name: '站长工具',
+        description: 'DNS 查询、Whois 查询、备案查询',
+        tags: ['开发']
+    },
     {
         href: 'http://network.yunser.com/',
         icon: '/static/img/app-ip.png',
@@ -358,7 +365,7 @@ let encodeTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/morse',
+        href: 'http://morse.yunser.com/',
         icon: '/static/img/app-tool.png',
         name: '摩斯码加密解密',
         description: '',
@@ -403,13 +410,6 @@ let liveTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/sandphoto',
-        icon: '/static/img/app-photo.jpg',
-        name: '证件照',
-        description: '证件照片排版生成',
-        tags: ['生活']
-    },
-    {
         href: 'http://counter.yunser.com',
         icon: '/static/img/app-counter.png',
         name: '计数器',
@@ -446,23 +446,16 @@ let liveTools = [
     },
     {
         href: 'http://clipboard.yunser.com/',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-clipboard.svg',
         name: '剪切板',
         description: '剪切板小工具、支持跨设备',
         tags: ['生活']
     },
     {
         href: 'http://password.yunser.com/tool/',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-encrypt.svg',
         name: '随机密码生成',
         description: '随机字符/密码生成',
-        tags: ['生活']
-    },
-    {
-        href: 'http://screenshot.yunser.com/',
-        icon: '/static/img/app-tool.png',
-        name: '带壳截图',
-        description: '给截图加上漂亮的壳',
         tags: ['生活']
     }
     // {
@@ -576,6 +569,13 @@ let moneyTools = [
         href: 'http://finance.yunser.com/',
         icon: '/static/img/app-loan.png',
         name: '个人所得税计算器',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://finance.yunser.com/exchangeRate',
+        icon: '/static/img/app-exchange-rate.svg',
+        name: '汇率查询',
         description: '',
         tags: ['生活']
     },
@@ -731,6 +731,34 @@ let imageTools = [
         name: 'GIF 动态图制作',
         description: '',
         tags: ['生活']
+    },
+    {
+        href: 'http://screenshot.yunser.com/',
+        icon: '/static/img/app-screenshot.svg',
+        name: '带壳截图',
+        description: '给截图加上漂亮的壳',
+        tags: ['生活']
+    },
+    {
+        href: 'http://pixel.yunser.com/',
+        icon: '/static/img/app-pixel.svg',
+        name: '像素图制作',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://tool2.yunser.com/sandphoto',
+        icon: '/static/img/app-photo.jpg',
+        name: '证件照',
+        description: '证件照片排版生成',
+        tags: ['生活']
+    },
+    {
+        href: 'http://favicon.yunser.com/',
+        icon: '/static/img/app-favicon.svg',
+        name: 'facicon 图标制作',
+        description: '',
+        tags: ['生活']
     }
 ]
 
@@ -751,7 +779,7 @@ let queryTools = [
     },
     {
         href: 'http://idcard.yunser.com/',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-id-card.svg',
         name: '身份证查询',
         description: '身份证号码查询/验证',
         tags: ['生活']
