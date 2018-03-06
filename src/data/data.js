@@ -120,7 +120,7 @@ let devTools = [
     },
     {
         href: 'http://directory.yunser.com/',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-directory.svg',
         name: '目录结构生成',
         description: '',
         tags: ['开发']
@@ -130,14 +130,14 @@ let devTools = [
 let operationTools = [
     {
         href: 'http://tool2.yunser.com/cron',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-crontab.png',
         name: 'Cron表达式生成器',
         description: '',
         tags: ['开发']
     },
     {
         href: 'http://network.yunser.com/cron/verification',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-crontab.png',
         name: 'Cron表达式验证',
         description: '',
         tags: ['开发']
@@ -151,7 +151,7 @@ let operationTools = [
     },
     {
         href: 'http://tool2.yunser.com/htpasswd',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-htpasswd.png',
         name: 'htpasswd 生成器',
         description: '',
         tags: ['开发']
@@ -338,15 +338,15 @@ let encodeTools = [
     },
     {
         href: 'http://tool2.yunser.com/base64',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-base64.png',
         name: 'Base64编码解码',
         description: '',
         tags: ['开发']
     },
     {
         href: 'http://tool2.yunser.com/base64/image',
-        icon: '/static/img/app-tool.png',
-        name: 'Base64图片',
+        icon: '/static/img/app-base64.png',
+        name: '图片⇆Base64',
         description: 'Base64图片编码解码',
         tags: ['开发']
     },
@@ -366,7 +366,7 @@ let encodeTools = [
     },
     {
         href: 'http://morse.yunser.com/',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-morse.svg',
         name: '摩斯码加密解密',
         description: '',
         tags: ['开发']
@@ -477,7 +477,7 @@ let timeTools = [
     },
     {
         href: 'http://tool2.yunser.com/lunar',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-date-calculator.svg',
         name: '公历农历互转',
         description: '',
         tags: ['生活']
@@ -498,28 +498,28 @@ let timeTools = [
     },
     {
         href: 'http://time.yunser.com/calculator/date',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-date-calculator.svg',
         name: '日期计算器',
         description: '',
         tags: ['生活']
     },
     {
         href: 'http://tool2.yunser.com/age',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-date-calculator.svg',
         name: '年龄计算器',
         description: '',
         tags: ['生活']
     },
     {
         href: 'http://tool2.yunser.com/zodiac',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-date-calculator.svg',
         name: '生肖计算器',
         description: '',
         tags: ['生活']
     },
     {
         href: 'http://tool2.yunser.com/death',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-date-calculator.svg',
         name: '活着天数计算器',
         description: '算一算自己还能活几天',
         tags: ['生活']
@@ -619,7 +619,7 @@ let moneyTools = [
 let textTools = [
     {
         href: 'http://ace.yunser.com',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-text-editor.png',
         name: '文本编辑器',
         description: '',
         tags: ['生活']
@@ -633,7 +633,7 @@ let textTools = [
     },
     {
         href: 'http://text.yunser.com/rich',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-weibo.svg',
         name: '长微博生成器',
         description: '文字转图片',
         tags: ['生活']
@@ -647,14 +647,14 @@ let textTools = [
     },
     {
         href: 'http://text.yunser.com/fullAndHalf',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-full-half.svg',
         name: '全角半角转换',
         description: '',
         tags: ['生活']
     },
     {
         href: 'http://tool2.yunser.com/textdiff',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-text-diff.png',
         name: '文本比较工具',
         description: '',
         tags: ['生活']
