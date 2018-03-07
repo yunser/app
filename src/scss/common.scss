@@ -18,6 +18,9 @@ body {
 .ui-page-header {
     z-index: 100;
 }
+.mu-drawer {
+    box-shadow: 0 1px 6px rgba(0,0,0,.117647), 0 1px 4px rgba(0,0,0,.117647) !important;
+}
 /**/
 .link-box {
     margin: 16px 0;
@@ -53,7 +56,8 @@ body {
         background-color: #fff;
         //border: 1px solid #ccc;
         &:hover {
-            box-shadow: 0 3px 10px rgba(0,0,0,.156863), 0 3px 10px rgba(0,0,0,.227451);
+            background-color: #f9f9f9;
+            // box-shadow: 0 3px 10px rgba(0,0,0,.156863), 0 3px 10px rgba(0,0,0,.227451);
             //border-color: #09c;
             .icon {
                 display: block;

@@ -3,6 +3,9 @@
         <h2 class="big-title">便民</h2>
         <ui-tool-list :data="liveTools"></ui-tool-list>
 
+        <h2 class="big-title">娱乐</h2>
+        <ui-tool-list :data="entTools"></ui-tool-list>
+
         <h2 class="big-title">时间</h2>
         <ui-tool-list :data="timeTools"></ui-tool-list>
 
@@ -18,12 +21,13 @@
 </template>
 
 <script>
-    import {liveTools, timeTools, healthTools, moneyTools, queryTools} from '@/data/data'
+    import {liveTools, entTools, timeTools, healthTools, moneyTools, queryTools} from '@/data/data'
 
     export default {
         data () {
             return {
                 liveTools: liveTools,
+                entTools: entTools,
                 timeTools: timeTools,
                 healthTools: healthTools,
                 moneyTools: moneyTools,

@@ -375,6 +375,13 @@ let encodeTools = [
 
 let liveTools = [
     {
+        href: 'http://weather.yunser.com/',
+        icon: '/static/img/app-weather.svg',
+        name: '天气',
+        description: '',
+        tags: ['生活']
+    },
+    {
         href: 'http://math.yunser.com/dice',
         icon: '/static/img/app-rand.png',
         name: '骰子',
@@ -465,6 +472,16 @@ let liveTools = [
     //     description: '',
     //     tags: ['生活']
     // },
+]
+
+let entTools = [
+    {
+        href: 'http://tu.yunser.com/',
+        icon: '/static/img/app-tu.svg',
+        name: '斗图神器',
+        description: '表情包制作',
+        tags: ['生活']
+    }
 ]
 
 let timeTools = [
@@ -768,6 +785,13 @@ let queryTools = [
         icon: '/static/img/app-translate.svg',
         name: '翻译',
         description: '仅支持英译汉',
+        tags: ['生活']
+    },
+    {
+        href: 'http://express.yunser.com/',
+        icon: '/static/img/app-express.svg',
+        name: '快递查询',
+        description: '',
         tags: ['生活']
     },
     {
@@ -1103,6 +1127,7 @@ allTools = allTools.concat(codeTools)
 allTools = allTools.concat(frontEndTools)
 allTools = allTools.concat(encodeTools)
 allTools = allTools.concat(liveTools)
+allTools = allTools.concat(entTools)
 allTools = allTools.concat(timeTools)
 allTools = allTools.concat(healthTools)
 
@@ -1118,5 +1143,5 @@ allTools = allTools.concat(colorTools)
 allTools = allTools.concat(englishTools)
 
 export {historyTools, chemistryTools, chineseTools, studOtherTools, devTools, operationTools, networkTools, codeTools, frontEndTools,
-    encodeTools, liveTools, timeTools, healthTools, moneyTools, textTools, imageTools, queryTools, makeTools,
+    encodeTools, entTools, liveTools, timeTools, healthTools, moneyTools, textTools, imageTools, queryTools, makeTools,
     otherTools, recommendTools, mathTools, allTools, colorTools, siteTools, englishTools}
