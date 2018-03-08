@@ -16,6 +16,9 @@
 
         <h2 class="big-title">推荐</h2>
         <ui-tool-list :data="recommendTools"></ui-tool-list>
+
+        <h2 class="big-title">系统</h2>
+        <ui-tool-list :data="moreTools"></ui-tool-list>
         <!--<div class="my-container">-->
             <!---->
         <!--</div>-->
@@ -23,12 +26,13 @@
 </template>
 
 <script>
-    import {recommendTools, allTools} from '@/data/data'
+    import {recommendTools, allTools, moreTools} from '@/data/data'
     import recent from '@/util/recent'
 
     export default {
         data () {
             return {
+                moreTools: moreTools,
                 recommendTools: recommendTools,
                 recentUseTools: [],
                 keyword: '',

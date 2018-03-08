@@ -168,7 +168,7 @@ let operationTools = [
 let networkTools = [
     {
         href: 'http://network.yunser.com/userAgent',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-dns.svg',
         name: '站长工具',
         description: 'DNS 查询、Whois 查询、备案查询',
         tags: ['开发']
@@ -230,6 +230,13 @@ let codeTools = [
         icon: '/static/img/app-html.jpg',
         name: 'HTML 工具',
         description: '',
+        tags: ['开发']
+    },
+    {
+        href: 'http://css.yunser.com/',
+        icon: '/static/img/app-css3.png',
+        name: 'CSS 工具',
+        description: 'CSS3 代码生成工具',
         tags: ['开发']
     },
     {
@@ -480,6 +487,13 @@ let entTools = [
         icon: '/static/img/app-tu.svg',
         name: '斗图神器',
         description: '表情包制作',
+        tags: ['生活']
+    },
+    {
+        href: 'http://bigger.yunser.com/drunbility/',
+        icon: '/static/img/app-tu.svg',
+        name: '装逼神器',
+        description: '恶搞图片制作',
         tags: ['生活']
     }
 ]
@@ -841,7 +855,7 @@ let queryTools = [
 let makeTools = [
     {
         href: 'http://doc.yunser.com/',
-        icon: '/static/img/app-doc.png',
+        icon: '/static/img/app-doc.svg',
         name: '文档',
         description: '',
         tags: ['办公']
@@ -927,6 +941,13 @@ let otherTools = [
         tags: ['生活']
     },
     {
+        href: 'http://generator.icon.yunser.com/',
+        icon: '/static/img/app-icon.svg',
+        name: '图标制作',
+        description: '',
+        tags: ['生活']
+    },
+    {
         href: 'http://font.yunser.com/seal',
         icon: '/static/img/app-seal.png',
         name: '印章生成',
@@ -957,6 +978,16 @@ let recommendTools = [
     //     description: '',
     //     tags: ['生活']
     // }
+]
+
+let moreTools = [
+    {
+        href: 'http://feedback.yunser.com/',
+        icon: '/static/img/app-feedback.svg',
+        name: '意见反馈',
+        description: '对云设工具有什么意见，在这里留言',
+        tags: ['生活']
+    }
 ]
 
 let mathTools = [
@@ -1137,6 +1168,7 @@ allTools = allTools.concat(imageTools)
 allTools = allTools.concat(queryTools)
 allTools = allTools.concat(makeTools)
 allTools = allTools.concat(otherTools)
+allTools = allTools.concat(moreTools)
 // allTools = allTools.concat(recommendTools)
 allTools = allTools.concat(mathTools)
 allTools = allTools.concat(colorTools)
@@ -1144,4 +1176,4 @@ allTools = allTools.concat(englishTools)
 
 export {historyTools, chemistryTools, chineseTools, studOtherTools, devTools, operationTools, networkTools, codeTools, frontEndTools,
     encodeTools, entTools, liveTools, timeTools, healthTools, moneyTools, textTools, imageTools, queryTools, makeTools,
-    otherTools, recommendTools, mathTools, allTools, colorTools, siteTools, englishTools}
+    otherTools, recommendTools, moreTools, mathTools, allTools, colorTools, siteTools, englishTools}

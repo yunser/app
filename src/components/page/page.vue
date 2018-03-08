@@ -1,7 +1,11 @@
 <template>
     <ui-page :title="title || page.title" ref="page" :containerMaxWidth="containerMaxWidth">
         <div slot="drawer">
-            <ui-appbar title=""></ui-appbar>
+            <ui-appbar class="side-appbar" title="">
+            </ui-appbar>
+            <!--<ui-appbar class="side-appbar" title="云设工具">-->
+                <!--<ui-icon value="build" slot="left" />-->
+            <!--</ui-appbar>-->
             <ui-list @itemClick="toggle()">
                 <ui-list-item title="首页" to="/">
                     <ui-icon value="home" slot="left" />
