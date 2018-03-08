@@ -706,7 +706,7 @@ let textTools = [
     },
     {
         href: 'http://text.yunser.com/letter',
-        icon: '/static/img/app-letter.png',
+        icon: '/static/img/app-letter.svg',
         name: '大小写转换',
         description: '',
         tags: ['生活']
@@ -913,6 +913,20 @@ let makeTools = [
         href: 'http://bar.yunser.com/',
         icon: '/static/img/app-bar-chart.svg',
         name: '条形图制作',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://file.yunser.com/temp/',
+        icon: '/static/img/app-file.svg',
+        name: '临时网盘',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://converter.yunser.com/',
+        icon: '/static/img/app-file.svg',
+        name: '格式转换',
         description: '',
         tags: ['生活']
     }
