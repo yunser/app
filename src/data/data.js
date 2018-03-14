@@ -206,7 +206,7 @@ let networkTools = [
 let codeTools = [
     {
         href: 'http://tool2.yunser.com/highlight',
-        icon: '/static/img/app-tool.png',
+        icon: '/static/img/app-code.svg',
         name: '代码着色',
         description: '代码高亮',
         tags: ['开发']
@@ -657,7 +657,7 @@ let moneyTools = [
 let textTools = [
     {
         href: 'http://ace.yunser.com',
-        icon: '/static/img/app-text-editor.png',
+        icon: '/static/img/app-file-edit.svg',
         name: '文本编辑器',
         description: '',
         tags: ['生活']
@@ -699,7 +699,7 @@ let textTools = [
     },
     {
         href: 'http://tool2.yunser.com/tongji',
-        icon: '/static/img/app-word.png',
+        icon: '/static/img/app-file-build.svg',
         name: '文字简单处理',
         description: '字数统计、去重复、排序',
         tags: ['生活']
@@ -713,7 +713,7 @@ let textTools = [
     },
     {
         href: 'http://text.yunser.com/letter',
-        icon: '/static/img/app-letter.svg',
+        icon: '/static/img/app-letter-convert.svg',
         name: '大小写转换',
         description: '',
         tags: ['生活']
@@ -734,14 +734,14 @@ let textTools = [
     },
     {
         href: 'http://tool2.yunser.com/type',
-        icon: '/static/img/app-type.png',
+        icon: '/static/img/app-keyboard.svg',
         name: '打字练习工具',
         description: '',
         tags: ['生活']
     },
     {
         href: 'http://tool2.yunser.com/type/keyboard',
-        icon: '/static/img/app-type.png',
+        icon: '/static/img/app-keyboard.svg',
         name: '键盘指法练习',
         description: '',
         tags: ['生活']
@@ -876,7 +876,7 @@ let makeTools = [
     },
     {
         href: 'http://page.yunser.com',
-        icon: '/static/img/app-slides.png',
+        icon: '/static/img/app-display.svg',
         name: '演示',
         description: '',
         tags: ['办公']
@@ -936,13 +936,27 @@ let makeTools = [
         name: '格式转换',
         description: '',
         tags: ['生活']
+    },
+    {
+        href: 'http://asd.yunser.com/',
+        icon: '/static/img/app-topology.svg',
+        name: '拓扑图制作',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'http://builder.yunser.com/',
+        icon: '/static/img/app-component.png',
+        name: '原型图制作',
+        description: '用图片制作原型图',
+        tags: ['生活']
     }
 ]
 
 let otherTools = [
     {
         href: 'http://download.yunser.com/',
-        icon: '/static/img/app-download.png',
+        icon: '/static/img/app-download.svg',
         name: '图片批量下载',
         description: '图片批量下载器',
         tags: ['开发']
@@ -1097,7 +1111,7 @@ let colorTools = [
     },
     {
         href: 'http://color.yunser.com/',
-        icon: '/static/img/app-color.png',
+        icon: '/static/img/app-palette.svg',
         name: '调色板',
         description: '',
         tags: ['颜色', '开发']
