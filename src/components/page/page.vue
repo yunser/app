@@ -1,5 +1,5 @@
 <template>
-    <ui-page :title="title || page.title" ref="page" :containerMaxWidth="containerMaxWidth">
+    <ui-page :title="title || page.title" :page="page" :backable="backable" ref="page" :containerMaxWidth="containerMaxWidth">
         <div slot="drawer">
             <ui-appbar class="side-appbar" title="">
             </ui-appbar>
@@ -58,7 +58,14 @@
                 type: Object,
                 default: function () {
                     return {
-                        title: '云设'
+                        title: '云设',
+                        menu: [
+                            {
+                                type: 'icon',
+                                icon: 'search',
+                                to: '/search'
+                            }
+                        ]
                     }
                 }
             },

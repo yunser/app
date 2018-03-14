@@ -258,3 +258,35 @@ body {
     background-color: #fff;
     border: 1px solid #eee;
 }
+
+/**/
+.search-box {
+    padding: 16px 0;
+    text-align: center;
+}
+.ui-page-common .ui-page-body {
+}
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 2px;
+    right: 0;
+    z-index: 1000000000000;
+    height: 64px;
+    background-color: #fff;
+    border-bottom: 1px solid $divider;
+    .input {
+        flex-grow: 1;
+        height: 100%;
+        padding: 0 16px;
+        line-height: 64px;
+        border: none;
+        outline: none;
+    }
+}
+.search-result {
+    padding-top: 64px;
+}

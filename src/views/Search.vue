@@ -1,24 +1,19 @@
 <template>
-    <tool-page title="云设工具">
-        <div class="search-box">
-            <ui-text-field v-model="keyword" hintText="输入名称、分类快速搜索工具"/>
+    <tool-page title="搜索">
+        <div class="search-bar">
+            <input class="input" v-model="keyword" placeholder="输入名称、分类快速搜索工具" />
+            <ui-icon-button icon="close" color="#999" v-if="keyword.length" @click="keyword = ''" />
         </div>
-        <div v-if="keyword.length">
+        <!--<div class="search-box">-->
+            <!--<ui-text-field v-model="keyword" hintText="输入名称、分类快速搜索工具"/>-->
+        <!--</div>-->
+        <div class="search-result" v-if="keyword.length">
             <h2 class="big-title">搜索结果</h2>
             <ui-tool-list :data="resultTools"></ui-tool-list>
             <div v-if="!resultTools.length">
                 <p>找不到你想要的工具，换个关键词试试？</p>
             </div>
         </div>
-
-        <h2 class="big-title" v-if="recentUseTools.length">最近使用</h2>
-        <ui-tool-list :data="recentUseTools" :onRemove="onRemove" v-if="recentUseTools.length"></ui-tool-list>
-
-        <h2 class="big-title">推荐</h2>
-        <ui-tool-list :data="recommendTools"></ui-tool-list>
-        <!--<div class="my-container">-->
-            <!---->
-        <!--</div>-->
     </tool-page>
 </template>
 
@@ -75,8 +70,5 @@
 </script>
 
 <style scoped>
-    .search-box {
-        padding: 16px 0;
-        text-align: center;
-    }
+
 </style>

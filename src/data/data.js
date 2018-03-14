@@ -382,6 +382,13 @@ let encodeTools = [
 
 let liveTools = [
     {
+        href: 'http://nav.yunser.com/',
+        icon: '/static/img/app-nav.svg',
+        name: '网址导航',
+        description: '',
+        tags: ['生活']
+    },
+    {
         href: 'http://weather.yunser.com/',
         icon: '/static/img/app-weather.svg',
         name: '天气',
@@ -918,14 +925,14 @@ let makeTools = [
     },
     {
         href: 'http://file.yunser.com/temp/',
-        icon: '/static/img/app-file.svg',
+        icon: '/static/img/app-file-temp.svg',
         name: '临时网盘',
         description: '',
         tags: ['生活']
     },
     {
         href: 'http://converter.yunser.com/',
-        icon: '/static/img/app-file.svg',
+        icon: '/static/img/app-convert.svg',
         name: '格式转换',
         description: '',
         tags: ['生活']
@@ -1074,7 +1081,7 @@ let mathTools = [
     },
     {
         href: 'http://math.yunser.com/number',
-        icon: '/static/img/app-number.png',
+        icon: '/static/img/app-number-split.svg',
         name: '数字的分解',
         description: ''
     }
