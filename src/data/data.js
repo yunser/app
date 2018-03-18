@@ -460,7 +460,7 @@ let liveTools = [
     },
     {
         href: 'http://seo.yunser.com/',
-        icon: '/static/img/app-download.png',
+        icon: '/static/img/app-download.svg',
         name: '下载地址转换',
         description: '迅雷、快车等地址转换',
         tags: ['生活']
@@ -949,6 +949,13 @@ let makeTools = [
         icon: '/static/img/app-component.png',
         name: '原型图制作',
         description: '用图片制作原型图',
+        tags: ['生活']
+    },
+    {
+        href: 'http://link.yunser.com/',
+        icon: '/static/img/app-tool.png',
+        name: 'Link',
+        description: '快速定制属于自己的工具',
         tags: ['生活']
     }
 ]

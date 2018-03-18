@@ -11,7 +11,12 @@
             <h2 class="big-title">搜索结果</h2>
             <ui-tool-list :data="resultTools"></ui-tool-list>
             <div v-if="!resultTools.length">
-                <p>找不到你想要的工具，换个关键词试试？</p>
+                <p>找不到你想要的工具，你可以：</p>
+                <ol class="subject-list">
+                    <li>换个关键词试试。</li>
+                    <li>在线 <a href="http://link.yunser.com/" target="_blank">定制</a> 属于自己的工具</li>
+                    <li>给我们 <a href="http://feedback.yunser.com/" target="_blank">留言</a>。</li>
+                </ol>
             </div>
         </div>
     </tool-page>
@@ -69,6 +74,12 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    .subject-list {
+        padding-left: 16px;
+        li {
+            margin-bottom: 8px;
+            list-style: decimal;
+        }
+    }
 </style>
