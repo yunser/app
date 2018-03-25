@@ -55,6 +55,13 @@ let chineseTools = [
         name: '字帖生成',
         description: '',
         tags: ['语文']
+    },
+    {
+        href: 'http://copybook.yunser.com/',
+        icon: '/static/img/app-copybook.png',
+        name: '字帖生成',
+        description: '另一个字帖制作应用',
+        tags: ['语文']
     }
 ]
 
@@ -502,6 +509,13 @@ let entTools = [
         name: '装逼神器',
         description: '恶搞图片制作',
         tags: ['生活']
+    },
+    {
+        href: 'http://up.yunser.com/',
+        icon: '/static/img/app-tu.svg',
+        name: '举牌小人图片生成',
+        description: '',
+        tags: ['生活']
     }
 ]
 
@@ -861,6 +875,13 @@ let queryTools = [
 
 let makeTools = [
     {
+        href: 'http://link.yunser.com/',
+        icon: '/static/img/app-tool.png',
+        name: 'Link',
+        description: '快速定制属于自己的工具',
+        tags: ['生活']
+    },
+    {
         href: 'http://doc.yunser.com/',
         icon: '/static/img/app-doc.svg',
         name: '文档',
@@ -917,6 +938,13 @@ let makeTools = [
         tags: ['生活']
     },
     {
+        href: 'http://chart.yunser.com/chart/',
+        icon: '/static/img/app-bar-chart.svg',
+        name: '图表制作',
+        description: '',
+        tags: ['生活']
+    },
+    {
         href: 'http://bar.yunser.com/',
         icon: '/static/img/app-bar-chart.svg',
         name: '条形图制作',
@@ -949,13 +977,6 @@ let makeTools = [
         icon: '/static/img/app-component.png',
         name: '原型图制作',
         description: '用图片制作原型图',
-        tags: ['生活']
-    },
-    {
-        href: 'http://link.yunser.com/',
-        icon: '/static/img/app-tool.png',
-        name: 'Link',
-        description: '快速定制属于自己的工具',
         tags: ['生活']
     }
 ]
