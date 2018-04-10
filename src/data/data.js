@@ -516,6 +516,13 @@ let entTools = [
         name: '举牌小人图片生成',
         description: '',
         tags: ['生活']
+    },
+    {
+        href: 'https://emotion.yunser.com/',
+        icon: '/static/img/app-tu.svg',
+        name: 'gif 搞笑图制作',
+        description: '',
+        tags: ['生活']
     }
 ]
 
@@ -580,6 +587,13 @@ let timeTools = [
         href: 'http://tool2.yunser.com/solarterms',
         icon: '/static/img/app-solarterms.png',
         name: '24节气',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://worldtime.yunser.com/',
+        icon: '/static/img/app-date-calculator.svg',
+        name: '世界时间',
         description: '',
         tags: ['生活']
     }
@@ -669,6 +683,20 @@ let moneyTools = [
 ]
 
 let textTools = [
+    {
+        href: 'https://reader.yunser.com/',
+        icon: '/static/img/app-doc.svg',
+        name: '文本阅读器',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://epub.yunser.com/',
+        icon: '/static/img/app-doc.svg',
+        name: 'epub 阅读器',
+        description: '',
+        tags: ['生活']
+    },
     {
         href: 'http://ace.yunser.com',
         icon: '/static/img/app-file-edit.svg',
@@ -809,6 +837,16 @@ let imageTools = [
         href: 'http://favicon.yunser.com/',
         icon: '/static/img/app-favicon.svg',
         name: 'facicon 图标制作',
+        description: '',
+        tags: ['生活']
+    }
+]
+
+let audioTools = [
+    {
+        href: 'https://audio.yunser.com/text2audio',
+        icon: '/static/img/app-tool.png',
+        name: '文字转语音',
         description: '',
         tags: ['生活']
     }
@@ -1236,7 +1274,8 @@ allTools = allTools.concat(moreTools)
 allTools = allTools.concat(mathTools)
 allTools = allTools.concat(colorTools)
 allTools = allTools.concat(englishTools)
+allTools = allTools.concat(audioTools)
 
 export {historyTools, chemistryTools, chineseTools, studOtherTools, devTools, operationTools, networkTools, codeTools, frontEndTools,
-    encodeTools, entTools, liveTools, timeTools, healthTools, moneyTools, textTools, imageTools, queryTools, makeTools,
+    encodeTools, entTools, liveTools, timeTools, healthTools, moneyTools, textTools, imageTools, audioTools, queryTools, makeTools,
     otherTools, recommendTools, moreTools, mathTools, allTools, colorTools, siteTools, englishTools}
