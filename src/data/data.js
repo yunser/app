@@ -687,6 +687,13 @@ let textTools = [
         href: 'https://reader.yunser.com/',
         icon: '/static/img/app-doc.svg',
         name: '文本阅读器',
+        description: '支持 TXT、Markdown 等文本文件',
+        tags: ['生活']
+    },
+    {
+        href: 'https://text.yunser.com/editor',
+        icon: '/static/img/app-file-edit.svg',
+        name: '文本编辑器',
         description: '',
         tags: ['生活']
     },
@@ -698,14 +705,7 @@ let textTools = [
         tags: ['生活']
     },
     {
-        href: 'http://ace.yunser.com',
-        icon: '/static/img/app-file-edit.svg',
-        name: '文本编辑器',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/md/public/editor.html',
+        href: 'https://mdeditor.yunser.com/',
         icon: '/static/img/app-markdown.svg',
         name: 'Markdown 编辑器',
         description: '',
@@ -733,17 +733,17 @@ let textTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/textdiff',
+        href: 'http://diff.text.yunser.com/',
         icon: '/static/img/app-text-diff.png',
         name: '文本比较工具',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/tongji',
+        href: 'https://text.yunser.com/tool',
         icon: '/static/img/app-file-build.svg',
-        name: '文字简单处理',
-        description: '字数统计、去重复、排序',
+        name: '文本处理',
+        description: '字数统计、去重复、排序等',
         tags: ['生活']
     },
     {
@@ -1016,6 +1016,13 @@ let makeTools = [
         name: '原型图制作',
         description: '用图片制作原型图',
         tags: ['生活']
+    },
+    {
+        href: 'https://d3.yunser.com/',
+        icon: '/static/img/app-topology.svg',
+        name: 'UML 图制作',
+        description: '功能结构图、用例图快速制作',
+        tags: ['生活']
     }
 ]
 
@@ -1066,7 +1073,7 @@ let recommendTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/face',
+        href: 'http://face.yunser.com/',
         icon: '/static/img/app-face.png',
         name: '脸萌',
         description: '脸萌网页版',
@@ -1169,7 +1176,7 @@ let mathTools = [
 
 let colorTools = [
     {
-        href: 'http://tool2.yunser.com/color',
+        href: 'http://color.yunser.com/colorScheme',
         icon: '/static/img/app-color.png',
         name: '色彩搭配',
         description: '网页设计常用色彩搭配表',
@@ -1211,7 +1218,7 @@ let colorTools = [
         tags: ['颜色', '开发']
     },
     {
-        href: 'http://tool2.yunser.com/color/md',
+        href: 'http://color.yunser.com/color/materialDesign',
         icon: '/static/img/app-color.png',
         name: 'Material design',
         description: 'Material Design 色彩大全',
