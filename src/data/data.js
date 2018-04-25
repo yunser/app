@@ -3,7 +3,7 @@
 let historyTools = [
     {
         href: 'http://history.yunser.com/',
-        icon: '/static/img/app-history.png',
+        icon: '/static/img/app_history.svg',
         name: '历史朝代表',
         description: '',
         tags: ['历史']
@@ -17,7 +17,7 @@ let historyTools = [
     // },
     {
         href: 'http://map.yunser.com',
-        icon: '/static/img/app-map.png',
+        icon: '/static/img/app_map.svg',
         name: '云设地图',
         description: '为地图爱好者而准备',
         tags: ['历史']
@@ -92,7 +92,7 @@ let devTools = [
     },
     {
         href: 'http://tool2.yunser.com/animation',
-        icon: '/static/img/app-css3.png',
+        icon: '/static/img/app_css3.svg',
         name: 'CSS3动画',
         description: 'CSS3动画代码生成',
         tags: ['开发']
@@ -106,14 +106,14 @@ let devTools = [
     },
     {
         href: 'http://tool2.yunser.com/interfaces',
-        icon: '/static/img/app-api.png',
+        icon: '/static/img/app_api.svg',
         name: '接口测试工具',
         description: '',
         tags: ['开发']
     },
     {
         href: 'http://tool2.yunser.com/plugin/api',
-        icon: '/static/img/app-api.png',
+        icon: '/static/img/app_api.svg',
         name: '接口测试插件',
         description: '浏览器插件',
         tags: ['开发']
@@ -182,14 +182,14 @@ let networkTools = [
     },
     {
         href: 'http://network.yunser.com/',
-        icon: '/static/img/app-ip.png',
+        icon: '/static/img/app_ip.svg',
         name: '本机 IP 查询',
         description: '',
         tags: ['开发']
     },
     {
         href: 'http://tool2.yunser.com/network',
-        icon: '/static/img/app-network.png',
+        icon: '/static/img/app_network.svg',
         name: '网络计算器',
         description: '',
         tags: ['开发']
@@ -241,7 +241,7 @@ let codeTools = [
     },
     {
         href: 'http://css.yunser.com/',
-        icon: '/static/img/app-css3.png',
+        icon: '/static/img/app_css3.svg',
         name: 'CSS 工具',
         description: 'CSS3 代码生成工具',
         tags: ['开发']
@@ -279,35 +279,35 @@ let frontEndTools = [
     },
     {
         href: 'http://runcode.yunser.com/editor',
-        icon: '/static/img/app-runcode.png',
+        icon: '/static/img/app_runcode.svg',
         name: 'RunCode',
         description: '调试 Javascript',
         tags: ['开发']
     },
     {
         href: 'http://bezier.yunser.com/',
-        icon: '/static/img/app-bezier.png',
+        icon: '/static/img/app_bezier.svg',
         name: '贝塞尔曲线',
         description: 'canvas 贝塞尔曲代码生成',
         tags: ['开发']
     },
     {
         href: 'http://tool2.yunser.com/bezier/anim',
-        icon: '/static/img/app-bezier.png',
+        icon: '/static/img/app_bezier.svg',
         name: '贝塞尔曲线动画',
         description: '贝塞尔曲线形成过程动画',
         tags: ['开发']
     },
     {
         href: 'http://tool2.yunser.com/css3/bezier',
-        icon: '/static/img/app-bezier.png',
+        icon: '/static/img/app_bezier.svg',
         name: 'CSS3贝塞尔曲线',
         description: '',
         tags: ['开发']
     },
     {
         href: 'http://tool2.yunser.com/svg/converter',
-        icon: '/static/img/app-svg.png',
+        icon: '/static/img/app_svg.svg',
         name: 'SVG 转 Canvas',
         description: '',
         tags: ['开发']
@@ -418,7 +418,7 @@ let liveTools = [
     },
     {
         href: 'http://calculator.yunser.com/',
-        icon: '/static/img/app-calculator.png',
+        icon: '/static/img/app_calculator.svg',
         name: '计算器',
         description: '功能渣渣的科学计算器',
         tags: ['生活']
@@ -439,7 +439,7 @@ let liveTools = [
     },
     {
         href: 'http://counter.yunser.com',
-        icon: '/static/img/app-counter.png',
+        icon: '/static/img/app_counter.svg',
         name: '计数器',
         description: '',
         tags: ['生活']
@@ -616,7 +616,7 @@ let healthTools = [
     },
     {
         href: 'http://tool2.yunser.com/heartrate',
-        icon: '/static/img/app-heart.png',
+        icon: '/static/img/app_heart.svg',
         name: '最大心率计算器',
         description: '',
         tags: ['生活']
@@ -956,7 +956,7 @@ let makeTools = [
     },
     {
         href: 'http://tool2.yunser.com/barcode',
-        icon: '/static/img/app-barcode.png',
+        icon: '/static/img/app_barcode.svg',
         name: '条形码制作',
         description: '',
         tags: ['生活']
@@ -1067,7 +1067,7 @@ let otherTools = [
 let recommendTools = [
     {
         href: 'http://tool2.yunser.com/weapp',
-        icon: '/static/weapp/app-weapp.png',
+        icon: '/static/weapp/app_weapp.svg',
         name: '小程序',
         description: '官方微信小程序',
         tags: ['生活']
@@ -1111,13 +1111,6 @@ let mathTools = [
         name: 'LaTex 解析器',
         description: 'LaTex 生成图片'
     },
-    // TODO
-    {
-        href: 'http://calculator.yunser.com',
-        icon: '/static/img/app-calculator.png',
-        name: '计算器',
-        description: '功能渣渣的科学计算器'
-    },
     {
         href: 'http://calculator.yunser.com/equation',
         icon: '/static/img/app-equation.png',
@@ -1156,7 +1149,7 @@ let mathTools = [
     },
     {
         href: 'http://history.yunser.com/pi',
-        icon: '/static/img/app-pi.png',
+        icon: '/static/img/app_pi.svg',
         name: '圆周率',
         description: '圆周率表'
     },
