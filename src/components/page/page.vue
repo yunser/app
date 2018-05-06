@@ -10,11 +10,6 @@
                 <ui-list-item title="首页" to="/">
                     <ui-icon value="home" slot="left" />
                 </ui-list-item>
-                <!--<ui-list-item title="所有工具" to="/all" />-->
-                <ui-list-item title="收藏" to="/like">
-                    <ui-icon value="star" slot="left" />
-                </ui-list-item>
-                <ui-divider />
                 <ui-list-item title="办公" to="/work">
                     <ui-icon class="ic" value="folder" slot="left" />
                 </ui-list-item>
