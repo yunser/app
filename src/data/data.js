@@ -9,7 +9,7 @@ let historyTools = [
         tags: ['历史']
     },
     // {
-    //     href: 'https://tool2.yunser.com/history/today',
+    //     href: 'http://tool2.yunser.com/history/today',
     //     icon: '/static/img/app-history.jpg',
     //     name: '历史上的今天',
     //     description: '',
@@ -36,7 +36,7 @@ let chemistryTools = [
 
 let chineseTools = [
     // {
-    //     href: 'https://tool2.yunser.com/dictionary',
+    //     href: 'http://tool2.yunser.com/dictionary',
     //     icon: '/static/img/app-word.png',
     //     name: '中文字典',
     //     description: '',
@@ -67,7 +67,7 @@ let chineseTools = [
 
 let studOtherTools = [
     {
-        href: 'https://tool2.yunser.com/draw/chalk',
+        href: 'http://tool2.yunser.com/draw/chalk',
         icon: '/static/img/app-black-board.png',
         name: '黑板',
         description: '',
@@ -91,7 +91,7 @@ let devTools = [
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/animation',
+        href: 'http://tool2.yunser.com/animation',
         icon: '/static/img/app_css3.svg',
         name: 'CSS3动画',
         description: 'CSS3动画代码生成',
@@ -105,14 +105,14 @@ let devTools = [
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/interfaces',
+        href: 'http://tool2.yunser.com/interfaces',
         icon: '/static/img/app_api.svg',
         name: '接口测试工具',
         description: '',
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/plugin/api',
+        href: 'http://tool2.yunser.com/plugin/api',
         icon: '/static/img/app_api.svg',
         name: '接口测试插件',
         description: '浏览器插件',
@@ -136,7 +136,7 @@ let devTools = [
 
 let operationTools = [
     {
-        href: 'https://tool2.yunser.com/cron',
+        href: 'http://tool2.yunser.com/cron',
         icon: '/static/img/app-crontab.png',
         name: 'Cron表达式生成器',
         description: '',
@@ -157,14 +157,14 @@ let operationTools = [
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/htpasswd',
+        href: 'http://tool2.yunser.com/htpasswd',
         icon: '/static/img/app-htpasswd.png',
         name: 'htpasswd 生成器',
         description: '',
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/pv',
+        href: 'http://tool2.yunser.com/pv',
         icon: '/static/img/app-tool.png',
         name: '批量刷网站 PV',
         description: '',
@@ -188,14 +188,14 @@ let networkTools = [
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/network',
+        href: 'http://tool2.yunser.com/network',
         icon: '/static/img/app_network.svg',
         name: '网络计算器',
         description: '',
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/port',
+        href: 'http://tool2.yunser.com/port',
         icon: '/static/img/app-port.png',
         name: '端口扫描器',
         description: '',
@@ -212,7 +212,7 @@ let networkTools = [
 
 let codeTools = [
     {
-        href: 'https://tool2.yunser.com/highlight',
+        href: 'http://tool2.yunser.com/highlight',
         icon: '/static/img/app-code.svg',
         name: '代码着色',
         description: '代码高亮',
@@ -257,21 +257,21 @@ let codeTools = [
 
 let frontEndTools = [
     {
-        href: 'https://tool2.yunser.com/css/sprite',
+        href: 'http://tool2.yunser.com/css/sprite',
         icon: '/static/img/app-tool.png',
         name: '雪碧图生成工具',
         description: '',
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/px2em',
+        href: 'http://tool2.yunser.com/px2em',
         icon: '/static/img/app-tool.png',
         name: 'px 转 em',
         description: '',
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/clippath',
+        href: 'http://tool2.yunser.com/clippath',
         icon: '/static/img/app-tool.png',
         name: 'clip-path 生成器',
         description: '',
@@ -292,21 +292,21 @@ let frontEndTools = [
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/bezier/anim',
+        href: 'http://tool2.yunser.com/bezier/anim',
         icon: '/static/img/app_bezier.svg',
         name: '贝塞尔曲线动画',
         description: '贝塞尔曲线形成过程动画',
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/css3/bezier',
+        href: 'http://tool2.yunser.com/css3/bezier',
         icon: '/static/img/app_bezier.svg',
         name: 'CSS3贝塞尔曲线',
         description: '',
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/svg/converter',
+        href: 'http://tool2.yunser.com/svg/converter',
         icon: '/static/img/app_svg.svg',
         name: 'SVG 转 Canvas',
         description: '',
@@ -337,7 +337,7 @@ let frontEndTools = [
 
 let encodeTools = [
     {
-        href: 'https://tool2.yunser.com/url/encode',
+        href: 'http://tool2.yunser.com/url/encode',
         icon: '/static/img/app-tool.png',
         name: 'URL编码解码',
         description: '',
@@ -351,14 +351,14 @@ let encodeTools = [
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/base64',
+        href: 'http://tool2.yunser.com/base64',
         icon: '/static/img/app-base64.png',
         name: 'Base64编码解码',
         description: '',
         tags: ['开发']
     },
     {
-        href: 'https://tool2.yunser.com/base64/image',
+        href: 'http://tool2.yunser.com/base64/image',
         icon: '/static/img/app-base64.png',
         name: '图片⇆Base64',
         description: 'Base64图片编码解码',
@@ -431,7 +431,7 @@ let liveTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/relationship',
+        href: 'http://tool2.yunser.com/relationship',
         icon: '/static/img/app-relationship.png',
         name: '三姑六婆计算器',
         description: '',
@@ -459,7 +459,7 @@ let liveTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/ai/qiqiao.html',
+        href: 'http://tool2.yunser.com/ai/qiqiao.html',
         icon: '/static/img/app-qiqiao.jpg',
         name: '七巧板',
         description: '',
@@ -535,7 +535,7 @@ let timeTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/lunar',
+        href: 'http://tool2.yunser.com/lunar',
         icon: '/static/img/app-date-calculator.svg',
         name: '公历农历互转',
         description: '',
@@ -563,28 +563,28 @@ let timeTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/age',
+        href: 'http://tool2.yunser.com/age',
         icon: '/static/img/app-date-calculator.svg',
         name: '年龄计算器',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/zodiac',
+        href: 'http://tool2.yunser.com/zodiac',
         icon: '/static/img/app-date-calculator.svg',
         name: '生肖计算器',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/death',
+        href: 'http://tool2.yunser.com/death',
         icon: '/static/img/app-date-calculator.svg',
         name: '活着天数计算器',
         description: '算一算自己还能活几天',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/solarterms',
+        href: 'http://tool2.yunser.com/solarterms',
         icon: '/static/img/app-solarterms.png',
         name: '24节气',
         description: '',
@@ -608,21 +608,21 @@ let healthTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/bwh',
+        href: 'http://tool2.yunser.com/bwh',
         icon: '/static/img/app-bwh.png',
         name: '标准三围计算器',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/heartrate',
+        href: 'http://tool2.yunser.com/heartrate',
         icon: '/static/img/app_heart.svg',
         name: '最大心率计算器',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/birth',
+        href: 'http://tool2.yunser.com/birth',
         icon: '/static/img/app-birth.png',
         name: '预产期计算器',
         description: '',
@@ -646,28 +646,28 @@ let moneyTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/loan/credit',
+        href: 'http://tool2.yunser.com/loan/credit',
         icon: '/static/img/app-loan.png',
         name: '信用卡分期计算器',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/loan/ability',
+        href: 'http://tool2.yunser.com/loan/ability',
         icon: '/static/img/app-loan.png',
         name: '购房能力评估',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/deposit',
+        href: 'http://tool2.yunser.com/deposit',
         icon: '/static/img/app-loan.png',
         name: '存款计算器',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/loan',
+        href: 'http://tool2.yunser.com/loan',
         icon: '/static/img/app-loan.png',
         name: '贷款计算器',
         description: '',
@@ -747,7 +747,7 @@ let textTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/textcol',
+        href: 'http://tool2.yunser.com/textcol',
         icon: '/static/img/app-text-col.png',
         name: '文字竖排工具',
         description: '',
@@ -768,21 +768,21 @@ let textTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/asc',
+        href: 'http://tool2.yunser.com/asc',
         icon: '/static/img/app-asc.png',
         name: '字符画制作',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/type',
+        href: 'http://tool2.yunser.com/type',
         icon: '/static/img/app-keyboard.svg',
         name: '打字练习工具',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/type/keyboard',
+        href: 'http://tool2.yunser.com/type/keyboard',
         icon: '/static/img/app-keyboard.svg',
         name: '键盘指法练习',
         description: '',
@@ -827,7 +827,7 @@ let imageTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/sandphoto',
+        href: 'http://tool2.yunser.com/sandphoto',
         icon: '/static/img/app-photo.jpg',
         name: '证件照',
         description: '证件照片排版生成',
@@ -896,14 +896,14 @@ let queryTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/blind',
+        href: 'http://tool2.yunser.com/blind',
         icon: '/static/img/app-blind.png',
         name: '色盲测试',
         description: '色盲色弱图片测试',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/point24',
+        href: 'http://tool2.yunser.com/point24',
         icon: '/static/img/app-24.jpg',
         name: '24 点游戏答案',
         description: '',
@@ -948,21 +948,21 @@ let makeTools = [
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/qrcode/mobile',
+        href: 'http://tool2.yunser.com/qrcode/mobile',
         icon: '/static/img/app-qrcode.png',
         name: '二维码（手机版）',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/barcode',
+        href: 'http://tool2.yunser.com/barcode',
         icon: '/static/img/app_barcode.svg',
         name: '条形码制作',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'https://tool2.yunser.com/wordcloud',
+        href: 'http://tool2.yunser.com/wordcloud',
         icon: '/static/img/app-word-cloud.png',
         name: '文字云',
         description: '词云生成',
@@ -1066,7 +1066,7 @@ let otherTools = [
 
 let recommendTools = [
     {
-        href: 'https://tool2.yunser.com/weapp',
+        href: 'http://tool2.yunser.com/weapp',
         icon: '/static/img/app_weapp.svg',
         name: '小程序',
         description: '官方微信小程序',
@@ -1080,7 +1080,7 @@ let recommendTools = [
         tags: ['生活']
     }
     // {
-    //     href: 'https://tool2.yunser.com/h5',
+    //     href: 'http://tool2.yunser.com/h5',
     //     icon: '/static/img/app-h5.jpg',
     //     name: 'H5 制作',
     //     description: '',
@@ -1183,7 +1183,7 @@ let colorTools = [
         tags: ['颜色', '开发']
     },
     {
-        href: 'https://tool2.yunser.com/color/colors',
+        href: 'http://tool2.yunser.com/color/colors',
         icon: '/static/img/app-color.png',
         name: '颜色名称大全',
         description: '',
@@ -1218,7 +1218,7 @@ let colorTools = [
         tags: ['颜色', '开发']
     },
     {
-        href: 'https://tool2.yunser.com/color/cmyk',
+        href: 'http://tool2.yunser.com/color/cmyk',
         icon: '/static/img/app-cmyk.png',
         name: 'CMYK',
         description: 'CMYK 颜色表',
