@@ -12,8 +12,6 @@ const Site = resolve => require(['@/views/Site'], resolve)
 const Lab = resolve => require(['@/views/Lab'], resolve)
 const Search = resolve => require(['@/views/Search'], resolve)
 
-const Collection = resolve => require(['@/views/Collection'], resolve)
-
 const Error404 = resolve => require(['@/views/error/Error404'], resolve)
 
 Vue.use(Router)
@@ -22,10 +20,6 @@ let routes = [
     {
         path: '/',
         component: Home
-    },
-    {
-        path: '/like',
-        component: Collection
     },
     {
         path: '/about',

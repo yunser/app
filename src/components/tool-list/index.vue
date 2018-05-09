@@ -15,7 +15,6 @@
 </template>
 
 <script>
-    import collection from '@/util/collection'
     import recent from '@/util/recent'
 
     export default {
@@ -51,7 +50,12 @@
                 recent.add(item)
             },
             collection(item) {
-                collection.add(item)
+                console.log(location)
+                console.log(item)
+                // collection.add(item)
+                let icon = location.origin + item.icon
+                window.open('http://nav.yunser.com?add=true&title=' + item.name +
+                    '&url=' + item.href + '&icon=' + icon)
             },
             removeCollection(item) {
                 console.log(this.onRemove)
