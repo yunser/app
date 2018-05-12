@@ -8,13 +8,6 @@ let historyTools = [
         description: '',
         tags: ['历史']
     },
-    // {
-    //     href: 'http://tool2.yunser.com/history/today',
-    //     icon: '/static/img/app-history.jpg',
-    //     name: '历史上的今天',
-    //     description: '',
-    //     tags: ['历史']
-    // },
     {
         href: 'https://map.yunser.com',
         icon: '/static/img/app_map.svg',
@@ -35,13 +28,6 @@ let chemistryTools = [
 ]
 
 let chineseTools = [
-    // {
-    //     href: 'http://tool2.yunser.com/dictionary',
-    //     icon: '/static/img/app-word.png',
-    //     name: '中文字典',
-    //     description: '',
-    //     tags: ['语文']
-    // },
     {
         href: 'https://chinese.yunser.com/',
         icon: '/static/img/app-pinyin.png',
@@ -67,10 +53,10 @@ let chineseTools = [
 
 let studOtherTools = [
     {
-        href: 'http://tool2.yunser.com/draw/chalk',
+        href: 'https://chalk.yunser.com/',
         icon: '/static/img/app-black-board.png',
         name: '黑板',
-        description: '',
+        description: '鼠标右键可以擦除',
         tags: ['学习']
     }
 ]
@@ -91,7 +77,7 @@ let devTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/animation',
+        href: 'https://animation.yunser.com/',
         icon: '/static/img/app_css3.svg',
         name: 'CSS3动画',
         description: 'CSS3动画代码生成',
@@ -195,7 +181,7 @@ let networkTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/port',
+        href: 'https://network.yunser.com/port',
         icon: '/static/img/app-port.png',
         name: '端口扫描器',
         description: '',
@@ -264,14 +250,7 @@ let frontEndTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/px2em',
-        icon: '/static/img/app-tool.png',
-        name: 'px 转 em',
-        description: '',
-        tags: ['开发']
-    },
-    {
-        href: 'http://tool2.yunser.com/clippath',
+        href: 'https://clippath.yunser.com/',
         icon: '/static/img/app-tool.png',
         name: 'clip-path 生成器',
         description: '',
@@ -306,7 +285,7 @@ let frontEndTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/svg/converter',
+        href: 'https://svgtool.yunser.com/',
         icon: '/static/img/app_svg.svg',
         name: 'SVG 转 Canvas',
         description: '',
@@ -337,7 +316,7 @@ let frontEndTools = [
 
 let encodeTools = [
     {
-        href: 'http://tool2.yunser.com/url/encode',
+        href: 'https://url.yunser.com/',
         icon: '/static/img/app-tool.png',
         name: 'URL编码解码',
         description: '',
@@ -351,14 +330,14 @@ let encodeTools = [
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/base64',
+        href: 'https://base64.yunser.com/',
         icon: '/static/img/app-base64.png',
         name: 'Base64编码解码',
         description: '',
         tags: ['开发']
     },
     {
-        href: 'http://tool2.yunser.com/base64/image',
+        href: 'https://imagetool.yunser.com/base64',
         icon: '/static/img/app-base64.png',
         name: '图片⇆Base64',
         description: 'Base64图片编码解码',
@@ -427,13 +406,6 @@ let liveTools = [
         href: 'https://calculator.yunser.com/unit',
         icon: '/static/img/app-unit.jpg',
         name: '单位转换',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/relationship',
-        icon: '/static/img/app-relationship.png',
-        name: '三姑六婆计算器',
         description: '',
         tags: ['生活']
     },
@@ -768,7 +740,7 @@ let textTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/asc',
+        href: 'https://asc.yunser.com/',
         icon: '/static/img/app-asc.png',
         name: '字符画制作',
         description: '',
@@ -1065,13 +1037,6 @@ let otherTools = [
 ]
 
 let recommendTools = [
-    {
-        href: 'http://tool2.yunser.com/weapp',
-        icon: '/static/img/app_weapp.svg',
-        name: '小程序',
-        description: '官方微信小程序',
-        tags: ['生活']
-    },
     {
         href: 'https://face.yunser.com/',
         icon: '/static/img/app_face.svg',
