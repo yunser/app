@@ -1052,6 +1052,13 @@ let otherTools = [
 
 let recommendTools = [
     {
+        href: 'http://www.nicetool.net/',
+        icon: '/static/img/app_build.svg',
+        name: 'NiceTool',
+        description: '强烈推荐，最全的工具网站！',
+        tags: ['生活']
+    },
+    {
         href: 'https://face.yunser.com/',
         icon: '/static/img/app_face.svg',
         name: '脸萌',

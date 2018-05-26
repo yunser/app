@@ -56,6 +56,12 @@
                         title: '云设',
                         menu: [
                             {
+                                type: 'text',
+                                text: 'NiceTool',
+                                href: 'http://www.nicetool.net/',
+                                target: '_blank'
+                            },
+                            {
                                 type: 'icon',
                                 icon: 'search',
                                 to: '/search'
