@@ -122,7 +122,7 @@ let devTools = [
 
 let operationTools = [
     {
-        href: 'http://tool2.yunser.com/cron',
+        href: 'https://crontab.yunser.com/',
         icon: '/static/img/app-crontab.png',
         name: 'Cron表达式生成器',
         description: '',
@@ -457,6 +457,13 @@ let liveTools = [
         name: '随机密码生成',
         description: '随机字符/密码生成',
         tags: ['生活']
+    },
+    {
+        href: 'https://contacts.yunser.com/',
+        icon: '/static/img/app-encrypt.svg',
+        name: '通讯录',
+        description: '',
+        tags: ['生活']
     }
     // {
     //     href: 'https://zip.yunser.com/',
@@ -618,7 +625,7 @@ let moneyTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/loan/credit',
+        href: 'https://finance.yunser.com/credit',
         icon: '/static/img/app-loan.png',
         name: '信用卡分期计算器',
         description: '',
@@ -632,7 +639,7 @@ let moneyTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/deposit',
+        href: 'https://finance.yunser.com/deposit',
         icon: '/static/img/app-loan.png',
         name: '存款计算器',
         description: '',
@@ -806,7 +813,7 @@ let imageTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/sandphoto',
+        href: 'https://photo.yunser.com/',
         icon: '/static/img/app-photo.jpg',
         name: '证件照',
         description: '证件照片排版生成',
@@ -934,7 +941,7 @@ let makeTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/barcode',
+        href: 'https://barcode.yunser.com/',
         icon: '/static/img/app_barcode.svg',
         name: '条形码制作',
         description: '',
@@ -1134,7 +1141,7 @@ let mathTools = [
         description: ''
     },
     {
-        href: 'https://history.yunser.com/pi',
+        href: 'https://pi.yunser.com/',
         icon: '/static/img/app_pi.svg',
         name: '圆周率',
         description: '圆周率表'
