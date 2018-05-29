@@ -123,14 +123,14 @@ let devTools = [
 let operationTools = [
     {
         href: 'https://crontab.yunser.com/',
-        icon: '/static/img/app-crontab.png',
+        icon: '/static/img/crontab.svg',
         name: 'Cron表达式生成器',
         description: '',
         tags: ['开发']
     },
     {
         href: 'https://network.yunser.com/cron/verification',
-        icon: '/static/img/app-crontab.png',
+        icon: '/static/img/crontab.svg',
         name: 'Cron表达式验证',
         description: '',
         tags: ['开发']
@@ -144,7 +144,7 @@ let operationTools = [
     },
     {
         href: 'http://tool2.yunser.com/htpasswd',
-        icon: '/static/img/app-htpasswd.png',
+        icon: '/static/img/htpasswd.svg',
         name: 'htpasswd 生成器',
         description: '',
         tags: ['开发']
@@ -446,7 +446,7 @@ let liveTools = [
     },
     {
         href: 'https://clipboard.yunser.com/',
-        icon: '/static/img/app-clipboard.svg',
+        icon: '/static/img/clipboard.svg',
         name: '剪切板',
         description: '剪切板小工具、支持跨设备',
         tags: ['生活']
@@ -460,7 +460,7 @@ let liveTools = [
     },
     {
         href: 'https://contacts.yunser.com/',
-        icon: '/static/img/app-encrypt.svg',
+        icon: '/static/img/contacts.svg',
         name: '通讯录',
         description: '',
         tags: ['生活']
@@ -831,7 +831,7 @@ let imageTools = [
 let audioTools = [
     {
         href: 'https://audio.yunser.com/text2audio',
-        icon: '/static/img/app_build.svg',
+        icon: '/static/img/audio.svg',
         name: '文字转语音',
         description: '',
         tags: ['生活']
@@ -876,7 +876,7 @@ let queryTools = [
     },
     {
         href: 'https://unicode.yunser.com/emoticons',
-        icon: '/static/img/app-textemoji.jpg',
+        icon: '/static/img/textemoji.svg',
         name: '颜文字',
         description: '颜文字大全',
         tags: ['生活']
@@ -949,7 +949,7 @@ let makeTools = [
     },
     {
         href: 'http://tool2.yunser.com/wordcloud',
-        icon: '/static/img/app-word-cloud.png',
+        icon: '/static/img/word_cloud.svg',
         name: '文字云',
         description: '词云生成',
         tags: ['生活']
@@ -1050,7 +1050,7 @@ let otherTools = [
     },
     {
         href: 'https://seal.yunser.com/',
-        icon: '/static/img/app-seal.png',
+        icon: '/static/img/seal.svg',
         name: '印章制作',
         description: '',
         tags: ['生活']
