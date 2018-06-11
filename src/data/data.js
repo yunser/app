@@ -182,7 +182,7 @@ let networkTools = [
     },
     {
         href: 'https://network.yunser.com/port',
-        icon: '/static/img/app-port.png',
+        icon: '/static/img/port.svg',
         name: '端口扫描器',
         description: '',
         tags: ['开发']
@@ -345,14 +345,14 @@ let encodeTools = [
     },
     {
         href: 'https://encrypt.yunser.com/',
-        icon: '/static/img/app-md5.png',
+        icon: '/static/img/md5.svg',
         name: '哈希算法',
         description: '支持 MD5、SHA1 等散哈希算法',
         tags: ['开发']
     },
     {
         href: 'https://encrypt.yunser.com/hash/file',
-        icon: '/static/img/app-md5.png',
+        icon: '/static/img/md5.svg',
         name: '文件MD5查询',
         description: '',
         tags: ['开发']
@@ -594,14 +594,14 @@ let healthTools = [
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/heartrate',
+        href: 'https://health.yunser.com/heartRate',
         icon: '/static/img/app_heart.svg',
         name: '最大心率计算器',
         description: '',
         tags: ['生活']
     },
     {
-        href: 'http://tool2.yunser.com/birth',
+        href: 'https://health.yunser.com/birth',
         icon: '/static/img/app-birth.png',
         name: '预产期计算器',
         description: '',
@@ -933,13 +933,13 @@ let makeTools = [
         description: '二维码制作、二维码识别',
         tags: ['生活']
     },
-    {
-        href: 'http://tool2.yunser.com/qrcode/mobile',
-        icon: '/static/img/app-qrcode.png',
-        name: '二维码（手机版）',
-        description: '',
-        tags: ['生活']
-    },
+    // {
+    //     href: 'http://tool2.yunser.com/qrcode/mobile',
+    //     icon: '/static/img/app-qrcode.png',
+    //     name: '二维码（手机版）',
+    //     description: '',
+    //     tags: ['生活']
+    // },
     {
         href: 'https://barcode.yunser.com/',
         icon: '/static/img/app_barcode.svg',
