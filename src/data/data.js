@@ -1,20 +1,7 @@
 // export default
-
+/* eslint-disable */
 let historyTools = [
-    {
-        href: 'https://history.yunser.com/',
-        icon: '/static/img/history.svg',
-        name: '历史朝代表',
-        description: '',
-        tags: ['历史']
-    },
-    {
-        href: 'https://map.yunser.com',
-        icon: '/static/img/map.svg',
-        name: '云设地图',
-        description: '为地图爱好者而准备',
-        tags: ['历史']
-    }
+    
 ]
 
 let chemistryTools = [
@@ -158,43 +145,7 @@ let operationTools = [
     }
 ]
 
-let networkTools = [
-    {
-        href: 'https://network.yunser.com/userAgent',
-        icon: '/static/img/dns.svg',
-        name: '站长工具',
-        description: 'DNS 查询、Whois 查询、备案查询',
-        tags: ['开发']
-    },
-    {
-        href: 'https://network.yunser.com/',
-        icon: '/static/img/ip.svg',
-        name: '本机 IP 查询',
-        description: '',
-        tags: ['开发']
-    },
-    {
-        href: 'http://tool2.yunser.com/network',
-        icon: '/static/img/network.svg',
-        name: '网络计算器',
-        description: '',
-        tags: ['开发']
-    },
-    {
-        href: 'https://network.yunser.com/port',
-        icon: '/static/img/port.svg',
-        name: '端口扫描器',
-        description: '',
-        tags: ['开发']
-    },
-    {
-        href: 'https://network.yunser.com/userAgent',
-        icon: '/static/img/ua.svg',
-        name: 'UserAgent分析',
-        description: '',
-        tags: ['开发']
-    }
-]
+let networkTools = []
 
 let codeTools = [
     {
@@ -368,69 +319,6 @@ let encodeTools = [
 
 let liveTools = [
     {
-        href: 'https://nav.yunser.com/',
-        icon: '/static/img/nav.svg',
-        name: '网址导航',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://weather.yunser.com/',
-        icon: '/static/img/weather.svg',
-        name: '天气',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://math.yunser.com/dice',
-        icon: '/static/img/rand.svg',
-        name: '骰子',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://cloth.yunser.com/',
-        icon: '/static/img/cloth.svg',
-        name: '标准尺码对照表',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://calculator.yunser.com/',
-        icon: '/static/img/calculator.svg',
-        name: '计算器',
-        description: '功能渣渣的科学计算器',
-        tags: ['生活']
-    },
-    {
-        href: 'https://calculator.yunser.com/unit',
-        icon: '/static/img/unit.jpg',
-        name: '单位转换',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://counter.yunser.com',
-        icon: '/static/img/counter.svg',
-        name: '计数器',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://note.yunser.com',
-        icon: '/static/img/note.svg',
-        name: '便签',
-        description: '',
-        tags: ['笔记', 'note', '生活']
-    },
-    {
-        href: 'https://todo.yunser.com',
-        icon: '/static/img/todo.jpg',
-        name: '待办事项',
-        description: '番茄钟 + todo list',
-        tags: ['生活']
-    },
-    {
         href: 'http://tool2.yunser.com/ai/qiqiao.html',
         icon: '/static/img/qiqiao.jpg',
         name: '七巧板',
@@ -442,20 +330,6 @@ let liveTools = [
         icon: '/static/img/download.svg',
         name: '下载地址转换',
         description: '迅雷、快车等地址转换',
-        tags: ['生活']
-    },
-    {
-        href: 'https://clipboard.yunser.com/',
-        icon: '/static/img/clipboard.svg',
-        name: '剪切板',
-        description: '剪切板小工具、支持跨设备',
-        tags: ['生活']
-    },
-    {
-        href: 'https://password.yunser.com/tool/',
-        icon: '/static/img/encrypt.svg',
-        name: '随机密码生成',
-        description: '随机字符/密码生成',
         tags: ['生活']
     },
     {
@@ -611,37 +485,9 @@ let healthTools = [
 
 let moneyTools = [
     {
-        href: 'https://finance.yunser.com/',
-        icon: '/static/img/loan.svg',
-        name: '个人所得税计算器',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://finance.yunser.com/exchangeRate',
-        icon: '/static/img/exchange_rate.svg',
-        name: '汇率查询',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://finance.yunser.com/credit',
-        icon: '/static/img/loan.svg',
-        name: '信用卡分期计算器',
-        description: '',
-        tags: ['生活']
-    },
-    {
         href: 'http://tool2.yunser.com/loan/ability',
         icon: '/static/img/loan.svg',
         name: '购房能力评估',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://finance.yunser.com/deposit',
-        icon: '/static/img/loan.svg',
-        name: '存款计算器',
         description: '',
         tags: ['生活']
     },
@@ -652,13 +498,6 @@ let moneyTools = [
         description: '',
         tags: ['生活']
     },
-    {
-        href: 'https://calculator.yunser.com/rmb',
-        icon: '/static/img/rmb.jpg',
-        name: '人民币大小写转换',
-        description: '',
-        tags: ['生活']
-    }
 ]
 
 let textTools = [
@@ -840,34 +679,6 @@ let audioTools = [
 
 let queryTools = [
     {
-        href: 'https://translation.yunser.com/',
-        icon: '/static/img/translate.svg',
-        name: '翻译',
-        description: '仅支持英译汉',
-        tags: ['生活']
-    },
-    {
-        href: 'https://express.yunser.com/',
-        icon: '/static/img/express.svg',
-        name: '快递查询',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://phone.yunser.com/',
-        icon: '/static/img/phone.svg',
-        name: '手机归属地查询',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://idcard.yunser.com/',
-        icon: '/static/img/id_card.svg',
-        name: '身份证查询',
-        description: '身份证号码查询/验证',
-        tags: ['生活']
-    },
-    {
         href: 'https://unicode.yunser.com/common',
         icon: '/static/img/fuhao.jpg',
         name: '特殊符号',
@@ -881,142 +692,9 @@ let queryTools = [
         description: '颜文字大全',
         tags: ['生活']
     },
-    {
-        href: 'http://tool2.yunser.com/blind',
-        icon: '/static/img/blind.png',
-        name: '色盲测试',
-        description: '色盲色弱图片测试',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/point24',
-        icon: '/static/img/24.jpg',
-        name: '24 点游戏答案',
-        description: '',
-        tags: ['生活']
-    }
 ]
 
 let makeTools = [
-    {
-        href: 'https://link.yunser.com/',
-        icon: '/static/img/link.svg',
-        name: 'Link',
-        description: '快速定制属于自己的工具',
-        tags: ['生活']
-    },
-    {
-        href: 'http://doc.yunser.com/',
-        icon: '/static/img/doc.svg',
-        name: '文档',
-        description: '',
-        tags: ['办公']
-    },
-    {
-        href: 'https://table.yunser.com/',
-        icon: '/static/img/table.svg',
-        name: '表格',
-        description: '',
-        tags: ['办公']
-    },
-    {
-        href: 'https://page.yunser.com',
-        icon: '/static/img/display.svg',
-        name: '演示',
-        description: '',
-        tags: ['办公']
-    },
-    {
-        href: 'https://qrcode.yunser.com/',
-        icon: '/static/img/qrcode.svg',
-        name: '二维码',
-        description: '二维码制作、二维码识别',
-        tags: ['生活']
-    },
-    // {
-    //     href: 'http://tool2.yunser.com/qrcode/mobile',
-    //     icon: '/static/img/qrcode.png',
-    //     name: '二维码（手机版）',
-    //     description: '',
-    //     tags: ['生活']
-    // },
-    {
-        href: 'https://barcode.yunser.com/',
-        icon: '/static/img/barcode.svg',
-        name: '条形码制作',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://tool2.yunser.com/wordcloud',
-        icon: '/static/img/word_cloud.svg',
-        name: '文字云',
-        description: '词云生成',
-        tags: ['生活']
-    },
-    {
-        href: 'https://svg.yunser.com/',
-        icon: '/static/img/shape.svg',
-        name: '图形制作',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://chart.yunser.com/chart/',
-        icon: '/static/img/bar_chart.svg',
-        name: '图表制作',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://bar.yunser.com/',
-        icon: '/static/img/bar_chart.svg',
-        name: '条形图制作',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'http://file.yunser.com/',
-        icon: '/static/img/doc.svg',
-        name: '云盘',
-        description: '',
-        tags: ['办公']
-    },
-    {
-        href: 'https://file.yunser.com/temp/',
-        icon: '/static/img/file_temp.svg',
-        name: '临时网盘',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://converter.yunser.com/',
-        icon: '/static/img/convert.svg',
-        name: '格式转换',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://topo.yunser.com/',
-        icon: '/static/img/topology.svg',
-        name: '拓扑图制作',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://builder.yunser.com/',
-        icon: '/static/img/component.png',
-        name: '原型图制作',
-        description: '用图片制作原型图',
-        tags: ['生活']
-    },
-    {
-        href: 'https://d3.yunser.com/',
-        icon: '/static/img/topology.svg',
-        name: 'UML 图制作',
-        description: '功能结构图、用例图快速制作',
-        tags: ['生活']
-    }
 ]
 
 let otherTools = [
@@ -1034,44 +712,51 @@ let otherTools = [
         description: '',
         tags: ['生活']
     },
-    {
-        href: 'https://icon.yunser.com/',
-        icon: '/static/img/icon.svg',
-        name: '图标下载',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://icongenerator.yunser.com/',
-        icon: '/static/img/icon.svg',
-        name: '图标制作',
-        description: '',
-        tags: ['生活']
-    },
-    {
-        href: 'https://seal.yunser.com/',
-        icon: '/static/img/seal.svg',
-        name: '印章制作',
-        description: '',
-        tags: ['生活']
-    }
 ]
 
 let recommendTools = [
     {
         href: 'http://www.nicetool.net/',
-        icon: '/static/img/build.svg',
+        icon: '/static/img/nicetool.png',
         name: 'NiceTool',
-        description: '强烈推荐，最全的工具网站！',
+        description: '在线工具大全',
         tags: ['生活']
     },
     {
-        href: 'https://face.yunser.com/',
-        icon: '/static/img/face.svg',
-        name: '脸萌',
-        description: '脸萌网页版',
+        href: 'https://work.yunser.com/',
+        icon: '/static/img/work.svg',
+        name: '办公',
+        description: '',
         tags: ['生活']
-    }
+    },
+    {
+        href: 'https://life.yunser.com/',
+        icon: '/static/img/life.svg',
+        name: '生活',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://edu.yunser.com/',
+        icon: '/static/img/edu.svg',
+        name: '学习',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://dev.yunser.com/',
+        icon: '/static/img/code.svg',
+        name: '开发',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://extension.yunser.com/',
+        icon: '/static/img/extension.svg',
+        name: '超级拓展',
+        description: '',
+        tags: ['生活']
+    },
     // {
     //     href: 'http://tool2.yunser.com/h5',
     //     icon: '/static/img/h5.jpg',
@@ -1087,6 +772,111 @@ let moreTools = [
         icon: '/static/img/feedback.svg',
         name: '意见反馈',
         description: '对云设工具有什么意见，在这里留言',
+        tags: ['生活']
+    },
+    {
+        href: 'https://wallpaper.yunser.com/',
+        icon: '/static/img2/wallpaper.svg',
+        name: '壁纸',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://server.yunser.com/',
+        icon: '/static/img2/camera2.svg',
+        name: '监控',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://search.yunser.com',
+        icon: '/static/img2/search.svg',
+        name: '搜索',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://wiki.yunser.com/',
+        icon: '/static/img2/wiki.svg',
+        name: '百科',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://news.yunser.com/',
+        icon: 'https://news.yunser.com/static/img/news.svg',
+        name: '资讯',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://stat.yunser.com/',
+        icon: '/static/img2/camera2.svg',
+        name: '统计',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://ad.yunser.com/',
+        icon: '/static/img2/ad.svg',
+        name: '广告',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://deer.yunser.com/',
+        icon: '/static/img2/deer.svg',
+        name: '鹿头像制作',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://data.yunser.com/',
+        icon: '/static/img2/data.svg',
+        name: '数据',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://blog.yunser.com/',
+        icon: '/static/img2/blog.svg',
+        name: '博客',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://project.yunser.com/',
+        icon: '/static/img2/project.svg',
+        name: '项目',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://ask.yunser.com/',
+        icon: '/static/img2/ask.svg',
+        name: '问答',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://hub.yunser.com/',
+        icon: '/static/img2/hub.svg',
+        name: '社区',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://shop.yunser.com/',
+        icon: '/static/img2/shop.svg',
+        name: '商城',
+        description: '',
+        tags: ['生活']
+    },
+    {
+        href: 'https://poetry.yunser.com/',
+        icon: '/static/img2/poetry.svg',
+        name: '诗词',
+        description: '',
         tags: ['生活']
     }
 ]
@@ -1104,60 +894,6 @@ let mathTools = [
         name: 'LaTex 解析器',
         description: 'LaTex 生成图片'
     },
-    {
-        href: 'https://calculator.yunser.com/equation',
-        icon: '/static/img/equation.svg',
-        name: '方程求解',
-        description: ''
-    },
-    {
-        href: 'https://math.yunser.com/',
-        icon: '/static/img/rand.svg',
-        name: '随机数生成器',
-        description: ''
-    },
-    {
-        href: 'https://math.yunser.com/prime2',
-        icon: '/static/img/math.svg',
-        name: '公约数公倍数',
-        description: '最大公约数、公倍数'
-    },
-    {
-        href: 'https://math.yunser.com/number/property',
-        icon: '/static/img/math.svg',
-        name: '数的性质',
-        description: '数论、科学计数法、分解质因数等'
-    },
-    {
-        href: 'https://math.yunser.com/statistics',
-        icon: '/static/img/statistics.svg',
-        name: '数学统计',
-        description: ''
-    },
-    {
-        href: 'https://math.yunser.com/compare',
-        icon: '/static/img/math.svg',
-        name: '数值大小比较',
-        description: ''
-    },
-    {
-        href: 'https://pi.yunser.com/',
-        icon: '/static/img/pi.svg',
-        name: '圆周率',
-        description: '圆周率表'
-    },
-    {
-        href: 'https://history.yunser.com/prime',
-        icon: '/static/img/frame.png',
-        name: '质数',
-        description: '质数表'
-    },
-    {
-        href: 'https://math.yunser.com/number',
-        icon: '/static/img/number_split.svg',
-        name: '数字的分解',
-        description: ''
-    }
 ]
 
 let colorTools = [
@@ -1196,13 +932,7 @@ let colorTools = [
         description: '',
         tags: ['颜色', '开发']
     },
-    {
-        href: 'https://color.yunser.com/gradient',
-        icon: '/static/img/gradient.svg',
-        name: 'CSS3渐变',
-        description: 'CSS3渐变代码生成',
-        tags: ['颜色', '开发']
-    },
+    
     {
         href: 'https://color.yunser.com/color/materialDesign',
         icon: '/static/img/color.svg',

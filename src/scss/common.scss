@@ -1,5 +1,7 @@
 @import "var";
-
+.ui-page-body {
+    -webkit-overflow-scrolling : touch;
+}
 body {
     background-color: #fcfcfc !important;
 }

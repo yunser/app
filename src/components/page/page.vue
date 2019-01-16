@@ -1,8 +1,9 @@
 <template>
     <ui-page :title="title || page.title" :page="page" :backable="backable" ref="page" :containerMaxWidth="containerMaxWidth">
         <div slot="drawer">
-            <ui-appbar class="side-appbar" title="">
-            </ui-appbar>
+            <div class="header">
+                <img class="logo" src="/static/img/build.svg">
+            </div>
             <!--<ui-appbar class="side-appbar" title="云设工具">-->
                 <!--<ui-icon value="build" slot="left" />-->
             <!--</ui-appbar>-->
@@ -10,28 +11,22 @@
                 <ui-list-item title="首页" to="/">
                     <ui-icon value="home" slot="left" />
                 </ui-list-item>
-                <ui-list-item title="办公" to="/work">
+                <!-- <ui-list-item title="便民" to="/live">
                     <ui-icon class="ic" value="folder" slot="left" />
-                </ui-list-item>
-                <ui-list-item title="便民" to="/live">
+                </ui-list-item> -->
+                <!-- <ui-list-item title="开发" to="/develop">
                     <ui-icon class="ic" value="folder" slot="left" />
-                </ui-list-item>
-                <ui-list-item title="学习" to="/study">
-                    <ui-icon class="ic" value="folder" slot="left" />
-                </ui-list-item>
-                <ui-list-item title="开发" to="/develop">
-                    <ui-icon class="ic" value="folder" slot="left" />
-                </ui-list-item>
-                <ui-list-item title="站外" to="/site">
-                    <ui-icon class="ic" value="folder" slot="left" />
-                </ui-list-item>
+                </ui-list-item> -->
                 <!--<ui-list-item title="实验室" to="/lab" />-->
             </ui-list>
             <ui-list class="ui-position-bottom" @itemClick="toggle()">
                 <ui-list-item title="友情链接" to="/links">
                     <ui-icon value="link" slot="left" />
                 </ui-list-item>
-                <ui-list-item title="关于" to="/about">
+                <ui-list-item title="关于/帮助" href="https://project.yunser.com/products/c4ac25905cf111e89644ffa213749598" target="_blank">
+                    <ui-icon value="info" slot="left" />
+                </ui-list-item>
+                <ui-list-item title="联系我们" to="/contact">
                     <ui-icon value="info" slot="left" />
                 </ui-list-item>
             </ui-list>
@@ -58,13 +53,15 @@
                             {
                                 type: 'text',
                                 text: 'NiceTool',
-                                href: 'http://www.nicetool.net/',
+                                href: 'http://www.nicetool.net?utm_source=yunser',
                                 target: '_blank'
                             },
                             {
                                 type: 'icon',
                                 icon: 'search',
-                                to: '/search'
+                                href: 'https://search.yunser.com?utm_source=app',
+                                target: '_blank',
+                                title: '搜索'
                             }
                         ]
                     }
@@ -98,7 +95,16 @@
 </script>
 
 <style lang="scss" scoped>
-    .ic {
-        color: #009688;
-    }
+.ic {
+    color: #009688;
+}
+.header {
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.logo {
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+}
 </style>

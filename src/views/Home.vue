@@ -1,5 +1,5 @@
 <template>
-    <tool-page title="云设工具">
+    <tool-page title="应用">
         <h2 class="big-title" v-if="recentUseTools.length">最近使用</h2>
         <ui-tool-list :data="recentUseTools" :onRemove="onRemove" v-if="recentUseTools.length"></ui-tool-list>
 
@@ -11,6 +11,8 @@
         <!--<div class="my-container">-->
             <!---->
         <!--</div>-->
+        <div class="link-box">友情链接：<a href="https://www.toolfk.com/lang-zh-CN" target="_blank">在线工具箱</a></div>
+        <div><router-link to="/link/apply">申请友链</router-link></div>
     </tool-page>
 </template>
 
@@ -47,5 +49,8 @@
     .search-box {
         padding: 16px 0;
         text-align: center;
+    }
+    .link-box {
+        margin-top: 16px;
     }
 </style>

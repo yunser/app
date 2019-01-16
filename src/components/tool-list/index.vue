@@ -1,14 +1,14 @@
 <template>
-    <div class="tool-list">
-        <ui-paper class="list-item" v-for="item in data" :key="item.id" :zDepth="1">
-            <a class="link" :href="item.href" target="_blank" @click="addToRecent(item)">
-                <img class="img" :src="item.icon">
+    <div class="tool-list" v-if="displayData">
+        <ui-paper class="list-item" v-for="item in displayData" :key="item.id" :zDepth="1">
+            <a class="link" :href="item.href || item.url" target="_blank" @click="addToRecent(item)">
+                <img class="img" :src="getIcon(item)">
                 <div class="info">
                     <h3 class="text">{{ item.name }}</h3>
                     <div class="desc">{{ item.description }}</div>
                 </div>
-                <i class="icon" :class="classes" @click.prevent="collection(item)"></i>
-                <i class="icon icon-close" @click.prevent="removeCollection(item)" v-if="removeable"></i>
+                <!-- <i class="icon" :class="classes" @click.prevent="collection(item)"></i> -->
+                <!-- <i class="icon icon-close" @click.prevent="removeCollection(item)" v-if="removeable"></i> -->
             </a>
         </ui-paper>
     </div>
@@ -20,6 +20,7 @@
     export default {
         data() {
             return {
+                displayData: []
             }
         },
         computed: {
@@ -34,6 +35,10 @@
                     return []
                 }
             },
+            type: {
+                type: String,
+                require: false
+            },
             onRemove: {
                 type: Function,
                 require: false
@@ -44,8 +49,32 @@
             }
         },
         mounted() {
+            if (this.data.length) {
+                this.displayData = this.data
+            }
+            if (this.type) {
+                this.$http.get(`/tools?type=${this.type}`).then(
+                    response => {
+                        let data = response.data
+                        console.log(data)
+                        this.displayData = data
+                        this.loading = false
+                    },
+                    response => {
+                        console.log('错误')
+                        this.error = '没有相关记录!'
+                        console.log(response)
+                        this.loading = false
+                    })
+            }
         },
         methods: {
+            getIcon(item) {
+                if (this.type) {
+                    return 'https://img1.yunser.com' + item.icon
+                }
+                return item.icon
+            },
             addToRecent(item) {
                 recent.add(item)
             },

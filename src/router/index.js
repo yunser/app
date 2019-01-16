@@ -3,13 +3,12 @@ import Router from 'vue-router'
 
 const Home = resolve => require(['@/views/Home'], resolve)
 const Link = resolve => require(['@/views/Link'], resolve)
-const About = resolve => require(['@/views/About'], resolve)
+const LinkApply = resolve => require(['@/views/LinkApply'], resolve)
+const AdminLinkApply = resolve => require(['@/views/AdminLinkApply'], resolve)
+const Contact = resolve => require(['@/views/Contact'], resolve)
 const Live = resolve => require(['@/views/Live'], resolve)
 const Work = resolve => require(['@/views/Work'], resolve)
 const Study = resolve => require(['@/views/Study'], resolve)
-const Develop = resolve => require(['@/views/Develop'], resolve)
-const Site = resolve => require(['@/views/Site'], resolve)
-const Lab = resolve => require(['@/views/Lab'], resolve)
 const Search = resolve => require(['@/views/Search'], resolve)
 
 const Error404 = resolve => require(['@/views/error/Error404'], resolve)
@@ -22,12 +21,24 @@ let routes = [
         component: Home
     },
     {
-        path: '/about',
-        component: About
+        path: '/contact',
+        component: Contact
     },
     {
         path: '/links',
         component: Link
+    },
+    {
+        path: '/link',
+        component: Link
+    },
+    {
+        path: '/link/apply',
+        component: LinkApply
+    },
+    {
+        path: '/admin/applies',
+        component: AdminLinkApply
     },
     {
         path: '/live',
@@ -44,18 +55,6 @@ let routes = [
     {
         path: '/work',
         component: Work
-    },
-    {
-        path: '/develop',
-        component: Develop
-    },
-    {
-        path: '/lab',
-        component: Lab
-    },
-    {
-        path: '/site',
-        component: Site
     },
     {
         path: '*',

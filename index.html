@@ -41,6 +41,7 @@
 <script src="https://cdn.bootcss.com/vue/2.5.13/vue.min.js"></script>
 <script src="https://cdn.bootcss.com/vue-router/3.0.1/vue-router.min.js"></script>
 <script src="https://cdn.yunser.com/libs/yunser-ui-vue/0.1.25/yunser-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
 <!--<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>-->
 <!--<script src="http://tool2.yunser.com/asset/lib/eui/16.11/ui.min.js"></script>-->
 <!--<script src="http://tool2.yunser.com/asset/js/index.js"></script>-->
@@ -56,6 +57,14 @@
             s.parentNode.insertBefore(hm, s);
         })();
     }, 1000);
+</script>
+<script src="https://nodeapi.yunser.com/js/stat.js"></script>
+<script>
+    _stat.uid = '4'
+    _stat.push({
+        type: 'pageview',
+        path: location.href.replace(location.origin, '')
+    })
 </script>
 <!-- built files will be auto injected -->
 </body>
