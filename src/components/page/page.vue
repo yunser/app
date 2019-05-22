@@ -18,18 +18,18 @@
                     <ui-icon class="ic" value="folder" slot="left" />
                 </ui-list-item> -->
                 <!--<ui-list-item title="实验室" to="/lab" />-->
-            </ui-list>
-            <ui-list class="ui-position-bottom" @itemClick="toggle()">
                 <ui-list-item title="友情链接" to="/links">
                     <ui-icon value="link" slot="left" />
                 </ui-list-item>
                 <ui-list-item title="关于/帮助" href="https://project.yunser.com/products/c4ac25905cf111e89644ffa213749598" target="_blank">
-                    <ui-icon value="info" slot="left" />
+                    <ui-icon value="help" slot="left" />
                 </ui-list-item>
                 <ui-list-item title="联系我们" to="/contact">
                     <ui-icon value="info" slot="left" />
                 </ui-list-item>
             </ui-list>
+            <!-- <ui-list class="ui-position-bottom" @itemClick="toggle()">
+            </ui-list> -->
         </div>
         <slot></slot>
     </ui-page>
@@ -50,12 +50,12 @@
                     return {
                         title: '云设',
                         menu: [
-                            {
-                                type: 'text',
-                                text: 'NiceTool',
-                                href: 'http://www.nicetool.net?utm_source=yunser',
-                                target: '_blank'
-                            },
+                            // {
+                            //     type: 'text',
+                            //     text: 'NiceTool',
+                            //     href: 'http://www.nicetool.net?utm_source=yunser',
+                            //     target: '_blank'
+                            // },
                             {
                                 type: 'icon',
                                 icon: 'search',

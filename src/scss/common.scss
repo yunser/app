@@ -1,9 +1,13 @@
 @import "var";
-.ui-page-body {
-    -webkit-overflow-scrolling : touch;
-}
+
 body {
     background-color: #fcfcfc !important;
+}
+.common-container {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px 16px 80px 16px;
 }
 //.side-appbar {
 //    background-color: #fff !important;

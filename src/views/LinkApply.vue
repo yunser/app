@@ -1,14 +1,16 @@
 <template>
     <tool-page title="友链申请">
-        <ui-text-field v-model="form.url" label="网站链接" />
-        <br>
-        <ui-text-field v-model="form.text" label="链接文本" />
-        <br>
-        <ui-text-field v-model="form.email" label="联系邮箱（可选）" />
-        <br>
-        <ui-text-field v-model="form.note" multiLine :rows="3" :rowsMax="6" label="备注（可选），比如申请理由、网站权重、联系方式等等" />
-        <br>
-        <ui-raised-button primary label="申请" @click="apply" />
+        <div class="common-container container-home">
+            <ui-text-field v-model="form.url" label="网站链接" />
+            <br>
+            <ui-text-field v-model="form.text" label="链接文本" />
+            <br>
+            <ui-text-field v-model="form.email" label="联系邮箱（可选）" />
+            <br>
+            <ui-text-field v-model="form.note" multiLine :rows="3" :rowsMax="6" label="备注（可选），比如申请理由、网站权重、联系方式等等" />
+            <br>
+            <ui-raised-button primary label="申请" @click="apply" />
+        </div>
     </tool-page>
 </template>
 
