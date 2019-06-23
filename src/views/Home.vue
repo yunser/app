@@ -1,17 +1,22 @@
 <template>
     <tool-page title="应用">
         <div class="common-container container-home">
-            <h2 class="big-title" v-if="recentUseTools.length">最近使用</h2>
-            <ui-tool-list :data="recentUseTools" :onRemove="onRemove" v-if="recentUseTools.length"></ui-tool-list>
+            <img class="festival" src="/static/festival/duanwu.jpg" @click="hello" v-if="isDuanwu">
+            <!-- <a href="#">
+            </a> -->
+            <app-list :data="groups" />
 
-            <h2 class="big-title">推荐</h2>
-            <ui-tool-list :data="recommendTools"></ui-tool-list>
+            <!-- <h2 class="big-title" v-if="recentUseTools.length">最近使用</h2>
+            <ui-tool-list :data="recentUseTools" :onRemove="onRemove" v-if="recentUseTools.length"></ui-tool-list> -->
 
-            <h2 class="big-title">系统</h2>
-            <ui-tool-list :data="moreTools"></ui-tool-list>
+            <!-- <h2 class="big-title">推荐</h2>
+            <ui-tool-list :data="recommendTools"></ui-tool-list> -->
 
-            <h2 class="big-title">其他</h2>
-            <ui-tool-list :data="otherTools"></ui-tool-list>
+            <!-- <h2 class="big-title">系统</h2>
+            <ui-tool-list :data="moreTools"></ui-tool-list> -->
+
+            <!-- <h2 class="big-title">其他</h2>
+            <ui-tool-list :data="otherTools"></ui-tool-list> -->
             <!--<div class="my-container">-->
                 <!---->
             <!--</div>-->
@@ -22,82 +27,224 @@
 </template>
 
 <script>
-    import {recommendTools, moreTools} from '@/data/data'
-    import recent from '@/util/recent'
-
     export default {
         data () {
             return {
-                moreTools: moreTools,
-                recommendTools: recommendTools,
-                recentUseTools: [],
+                isDuanwu: false,
+                groups: [
+                    {
+                        name: '推荐',
+                        apps: [
+                            {
+                                icon: 'https://icons.yunser.com/icons/nicetool.svg',
+                                name: 'NiceTool',
+                                description: '在线工具大全',
+                                to: 'xxx',
+                                href: 'http://www.nicetool.net/',
+                                target: '_blank',
+                                tags: ['生活']
+                            },
+                            {
+                                href: 'https://work.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/work.svg',
+                                name: '办公',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                href: 'https://life.yunser.com/',
+                                target: '_blank',
+                                to: 'xxx',
+                                icon: 'https://icons.yunser.com/icons/life.svg',
+                                name: '生活',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                to: 'xxx',
+                                href: 'https://edu.yunser.com/',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/edu.svg',
+                                name: '学习',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                to: 'xxx',
+                                href: 'https://dev.yunser.com/',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/code.svg',
+                                name: '开发',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                to: 'xxx',
+                                href: 'https://ai.yunser.com/',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/ai.svg',
+                                name: '智能工具',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                to: 'xxx',
+                                href: 'https://me.yunser.com/',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/contacts.svg',
+                                name: '个人助理',
+                                description: '',
+                                tags: ['生活']
+                            },
+                        ]
+                    },
+                    {
+                        name: '系统',
+                        apps: [
+                            {
+                                href: 'https://search.yunser.com',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/search.svg',
+                                name: '搜索',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                href: 'https://blog.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/blog.svg',
+                                name: '博客',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                href: 'https://wiki.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/wiki.svg',
+                                name: '百科',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                href: 'https://news.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/news.svg',
+                                name: '资讯',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                href: 'https://ask.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/ask.svg',
+                                name: '问答',
+                                description: '',
+                                tags: ['生活']
+                            },
+                            {
+                                href: 'https://hub.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/hub.svg',
+                                name: '社区',
+                                description: '',
+                            },
+                            {
+                                href: 'https://group.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/team.svg',
+                                name: '小组',
+                                description: '',
+                            },
+                            {
+                                href: 'https://home.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/home.svg',
+                                name: '主页',
+                                description: '',
+                            },
+                                                        {
+                                href: 'https://message.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/hub.svg',
+                                name: '消息',
+                                description: '',
+                            },
+                            {
+                                href: 'https://shop.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/shop.svg',
+                                name: '购物',
+                                description: '',
+                            },
+
+                        ]
+                    },
+                    {
+                        name: '其他',
+                        apps: [
+                            {
+                                href: 'https://www.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/tool.svg',
+                                name: '云设',
+                                description: '',
+                            },
+                            {
+                                href: 'https://wallpaper.yunser.com/',
+                                to: 'xxx',
+                                target: '_blank',
+                                icon: 'https://icons.yunser.com/icons/wallpaper.svg',
+                                name: '壁纸',
+                                description: '',
+                                tags: ['生活']
+                            },
+                        ]
+                    },
+                ],
                 keyword: '',
-                resultTools: [],
-                otherTools: [
-                    {
-                        href: 'https://www.yunser.com/',
-                        icon: '/static/img/build.svg',
-                        name: '云设',
-                        description: '',
-                    },
-                    {
-                        href: 'https://about.yunser.com/',
-                        icon: 'https://about.yunser.com/static/img/about.svg',
-                        name: '关于',
-                        description: '',
-                    },
-                    {
-                        href: 'https://donation.yunser.com/',
-                        icon: 'https://donation.yunser.com/static/img/donate.svg',
-                        name: '捐赠',
-                        description: '',
-                    },
-                    {
-                        href: 'https://feedback.yunser.com/',
-                        icon: '/static/img/feedback.svg',
-                        name: '意见反馈',
-                        description: '对云设工具有什么意见，在这里留言',
-                    },
-                    {
-                        href: 'https://open.yunser.com/',
-                        icon: '/static/img/build.svg',
-                        name: '开放平台',
-                        description: '',
-                    },
-                    {
-                        href: 'https://lab.yunser.com/',
-                        icon: 'https://lab.yunser.com/static/img/edu.svg',
-                        name: '实验室',
-                        description: '',
-                    },
-                    {
-                        href: 'https://wallpaper.yunser.com/',
-                        icon: '/static/img2/wallpaper.svg',
-                        name: '壁纸',
-                        description: '',
-                        tags: ['生活']
-                    },
-                ]
             }
         },
         mounted() {
             this.init()
+            let today = new Date()
+            console.log('today', today.getMonth(), today.getDate())
+            this.isDuanwu = (today.getMonth() + 1) === 6 && today.getDate() === 7
         },
         methods: {
             init() {
-                this.recentUseTools = recent.getAll()
             },
-            onRemove(item) {
-                recent.remove(item)
-                this.recentUseTools = recent.getAll()
+            hello() {
+                this.$message({
+                    type: 'info',
+                    text: '端午节快乐！'
+                })
             }
         }
     }
 </script>
 
 <style scoped>
+    .festival {
+        display: block;
+        max-width: 160px;
+        margin: 0 auto;
+    }
     .container-home {
-        width: 1000px;
+        /* max-width: 960px; */
+        /* width: 1000px; */
     }
     .search-box {
         padding: 16px 0;

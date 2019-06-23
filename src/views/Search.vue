@@ -23,13 +23,13 @@
 </template>
 
 <script>
-    import {recommendTools, allTools} from '@/data/data'
+    /* eslint-disable */
+    import { allTools} from '@/data/data'
     import recent from '@/util/recent'
 
     export default {
         data () {
             return {
-                recommendTools: recommendTools,
                 recentUseTools: [],
                 keyword: '',
                 resultTools: []

@@ -55,15 +55,15 @@
 }
 
 .container {
-    max-width: 840px;
-    margin: 0 auto;
+    // max-width: 840px;
+    // margin: 0 auto;
 }
 .section-title {
     font-size: 24px;
     margin: 16px 0;
 }
 .tool-list {
-    max-width: 840px;
+    // max-width: 840px;
     margin: 0 auto;
     @include clearfix;
     .list-item {
@@ -71,7 +71,6 @@
         float: left;
         width: 260px;
         height: 96px;
-        padding: 8px;
         margin: 2px 16px 16px 2px;
         background-color: #fff;
         cursor: pointer;
@@ -84,8 +83,15 @@
                 display: block;
             }
         }
-        &.active {
-            border: 1px solid #f00;
+        &:active {
+            // border: 1px solid #f00;
+        }
+        .link {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 8px;
+            cursor: pointer;
         }
     }
     a {
