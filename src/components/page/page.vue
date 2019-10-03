@@ -18,6 +18,9 @@
                     <ui-icon class="ic" value="folder" slot="left" />
                 </ui-list-item> -->
                 <!--<ui-list-item title="实验室" to="/lab" />-->
+                <ui-list-item title="云设" href="https://www.yunser.com/" target="_blank">
+                    <ui-icon value="help" slot="left" />
+                </ui-list-item>
                 <ui-list-item title="友情链接" to="/links">
                     <ui-icon value="link" slot="left" />
                 </ui-list-item>

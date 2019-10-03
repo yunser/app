@@ -21,7 +21,6 @@
                 <!---->
             <!--</div>-->
             <div class="link-box">友情链接：<a href="https://www.toolfk.com/lang-zh-CN" target="_blank">在线工具箱</a></div>
-            <div><router-link to="/link/apply">申请友链</router-link></div>
         </div>
     </tool-page>
 </template>
@@ -37,10 +36,10 @@
                         apps: [
                             {
                                 icon: 'https://icons.yunser.com/icons/nicetool.svg',
-                                name: 'NiceTool',
+                                name: '好工具',
                                 description: '在线工具大全',
                                 to: 'xxx',
-                                href: 'http://www.nicetool.net/',
+                                href: 'http://www.nicetool.net?from=yunser',
                                 target: '_blank',
                                 tags: ['生活']
                             },
@@ -103,30 +102,13 @@
                     {
                         name: '系统',
                         apps: [
-                            {
-                                href: 'https://search.yunser.com',
-                                to: 'xxx',
-                                target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/search.svg',
-                                name: '搜索',
-                                description: '',
-                                tags: ['生活']
-                            },
+
                             {
                                 href: 'https://blog.yunser.com/',
                                 to: 'xxx',
                                 target: '_blank',
                                 icon: 'https://icons.yunser.com/icons/blog.svg',
                                 name: '博客',
-                                description: '',
-                                tags: ['生活']
-                            },
-                            {
-                                href: 'https://wiki.yunser.com/',
-                                to: 'xxx',
-                                target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/wiki.svg',
-                                name: '百科',
                                 description: '',
                                 tags: ['生活']
                             },
@@ -172,47 +154,22 @@
                                 name: '主页',
                                 description: '',
                             },
-                                                        {
-                                href: 'https://message.yunser.com/',
-                                to: 'xxx',
-                                target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/hub.svg',
-                                name: '消息',
-                                description: '',
-                            },
-                            {
-                                href: 'https://shop.yunser.com/',
-                                to: 'xxx',
-                                target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/shop.svg',
-                                name: '购物',
-                                description: '',
-                            },
-
                         ]
                     },
                     {
                         name: '其他',
                         apps: [
                             {
-                                href: 'https://www.yunser.com/',
+                                href: 'https://wiki.yunser.com/',
                                 to: 'xxx',
                                 target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/tool.svg',
-                                name: '云设',
-                                description: '',
-                            },
-                            {
-                                href: 'https://wallpaper.yunser.com/',
-                                to: 'xxx',
-                                target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/wallpaper.svg',
-                                name: '壁纸',
+                                icon: 'https://icons.yunser.com/icons/wiki.svg',
+                                name: '百科',
                                 description: '',
                                 tags: ['生活']
                             },
                         ]
-                    },
+                    }
                 ],
                 keyword: '',
             }

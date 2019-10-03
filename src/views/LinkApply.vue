@@ -11,6 +11,7 @@
             <br>
             <ui-raised-button primary label="申请" @click="apply" />
         </div>
+
     </tool-page>
 </template>
 
