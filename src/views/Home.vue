@@ -43,6 +43,11 @@
                                 target: '_blank',
                                 tags: ['生活']
                             },
+                        ]
+                    },
+                    {
+                        name: '分类',
+                        apps: [
                             {
                                 href: 'https://work.yunser.com/',
                                 to: 'xxx',
@@ -81,15 +86,6 @@
                             },
                             {
                                 to: 'xxx',
-                                href: 'https://ai.yunser.com/',
-                                target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/ai.svg',
-                                name: '智能工具',
-                                description: '',
-                                tags: ['生活']
-                            },
-                            {
-                                to: 'xxx',
                                 href: 'https://me.yunser.com/',
                                 target: '_blank',
                                 icon: 'https://icons.yunser.com/icons/contacts.svg',
@@ -100,7 +96,7 @@
                         ]
                     },
                     {
-                        name: '系统',
+                        name: '内容',
                         apps: [
 
                             {
