@@ -21,14 +21,14 @@
                 <ui-list-item title="云设" href="https://www.yunser.com/" target="_blank">
                     <ui-icon value="start" slot="left" />
                 </ui-list-item>
-                <ui-list-item title="友情链接" to="/links">
-                    <ui-icon value="link" slot="left" />
-                </ui-list-item>
-                <ui-list-item title="关于" href="https://project.yunser.com/products/c4ac25905cf111e89644ffa213749598" target="_blank">
-                    <ui-icon value="help" slot="left" />
-                </ui-list-item>
-                <ui-list-item title="联系我们" to="/contact">
+                <!-- <ui-list-item title="联系我们" to="/contact">
                     <ui-icon value="info" slot="left" />
+                </ui-list-item> -->
+                <!-- <ui-list-item title="友情链接" to="/links">
+                    <ui-icon value="link" slot="left" />
+                </ui-list-item> -->
+                <ui-list-item title="帮助" href="https://project.yunser.com/products/c4ac25905cf111e89644ffa213749598" target="_blank">
+                    <ui-icon value="help" slot="left" />
                 </ui-list-item>
             </ui-list>
             <!-- <ui-list class="ui-position-bottom" @itemClick="toggle()">

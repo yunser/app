@@ -31,20 +31,20 @@
             return {
                 isDuanwu: false,
                 groups: [
-                    {
-                        name: '推荐',
-                        apps: [
-                            {
-                                icon: 'https://icons.yunser.com/icons/nicetool.svg',
-                                name: '好工具',
-                                description: '在线工具大全',
-                                to: 'xxx',
-                                href: 'http://www.nicetool.net?from=yunser',
-                                target: '_blank',
-                                tags: ['生活']
-                            },
-                        ]
-                    },
+                    // {
+                    //     name: '推荐',
+                    //     apps: [
+                    //         {
+                    //             icon: 'https://icons.yunser.com/icons/nicetool.svg',
+                    //             name: '好工具',
+                    //             description: '在线工具大全',
+                    //             to: 'xxx',
+                    //             href: 'http://www.nicetool.net?from=yunser',
+                    //             target: '_blank',
+                    //             tags: ['生活']
+                    //         },
+                    //     ]
+                    // },
                     {
                         name: '分类',
                         apps: [
