@@ -20,7 +20,7 @@
             <!--<div class="my-container">-->
                 <!---->
             <!--</div>-->
-            <div class="link-box">友情链接：<a href="https://www.toolfk.com/lang-zh-CN" target="_blank">在线工具箱</a></div>
+            <!-- <div class="link-box">友情链接：<a href="https://www.toolfk.com/lang-zh-CN" target="_blank">在线工具箱</a></div> -->
         </div>
     </tool-page>
 </template>
