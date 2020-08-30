@@ -2,7 +2,7 @@
     <ui-page :title="title || page.title" :page="page" :backable="backable" ref="page" :containerMaxWidth="containerMaxWidth">
         <div slot="drawer">
             <div class="header">
-                <img class="logo" src="https://icons.yunser.com/icons/app.svg">
+                <img class="logo" src="https://icons.yunser.com/icons/app.png">
             </div>
             <!--<ui-appbar class="side-appbar" title="云设工具">-->
                 <!--<ui-icon value="build" slot="left" />-->

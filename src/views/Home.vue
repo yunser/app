@@ -52,7 +52,7 @@
                                 href: 'https://work.yunser.com/',
                                 to: 'xxx',
                                 target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/work.svg',
+                                icon: 'https://icons.yunser.com/icons/work.png',
                                 name: '办公',
                                 description: '',
                                 tags: ['生活']
@@ -61,7 +61,7 @@
                                 href: 'https://life.yunser.com/',
                                 target: '_blank',
                                 to: 'xxx',
-                                icon: 'https://icons.yunser.com/icons/life.svg',
+                                icon: 'https://icons.yunser.com/icons/life.png',
                                 name: '生活',
                                 description: '',
                                 tags: ['生活']
@@ -79,7 +79,7 @@
                                 to: 'xxx',
                                 href: 'https://dev.yunser.com/',
                                 target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/code.svg',
+                                icon: 'https://icons.yunser.com/icons/dev.png',
                                 name: '开发',
                                 description: '',
                                 tags: ['生活']
@@ -146,7 +146,7 @@
                                 href: 'https://home.yunser.com/',
                                 to: 'xxx',
                                 target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/home.svg',
+                                icon: 'https://icons.yunser.com/icons/home-page.png',
                                 name: '主页',
                                 description: '',
                             },
